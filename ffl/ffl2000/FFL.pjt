@@ -1,0 +1,87 @@
+;Codewright Project File (do not remove or modify this line)
+[ProjInit]
+ConfigSetExtMode=2
+ProjSetConfigFlags=0x04110940
+ProjCheckPath='H:\Misc\html\ffl\ffl2000\\'
+
+[State]
+SysSetCwd='H:\Misc\html\pdl\pdl2000'
+SrchSetFlags=0x041228ba
+SrchSetAgainFlags=0x041228ba,0
+SrchSetAgainFlags=0x020220b6,1
+FileSortMode=0x0
+_StateView='H:\Misc\html\index.html',88,88,639,488,-1,-1,18,25,11,1,1,'',0x0010001c,0,80,0,0,''
+_StateBuffer='H:\Misc\html\index.html',0x0400048e,18,25,25,'5 9','',0x0,'',1,72,1
+_StateHistory=FILELIST,'C:\Program Files\fb30\Reports\0013_FFL2000_Schedules_by_Week.htm','H:\Misc\html\ffl\ffl2000\schedule.html','C:\Program Files\fb30\Reports\0013_FFL2000_Top_Performers.htm','H:\Misc\html\ffl\ffl2000\comments.html','H:\Misc\html\ffl\ffl2000\top_per.html','C:\Program Files\fb30\Reports\0017_FFL2000_Top_Performers.htm','H:\Misc\html\index.html','H:\Misc\html\pdl\pdl2000\top_per.html','C:\Program Files\fb30\Reports\0017_PDL2000_Top_Performers.htm'
+_StateHistory=SEARCH,'  <U>#</U>    <U>Team</U>    <U>Transaction</U>            <U>Player</U>',' Color=#000000','<H3>','</H3>','Color=#FFFFFF ','Reset','Color=#000000 ','macros','at','Color=#000000'
+_StateHistory=REPLACE,'<H2>','</H2>','','vs','Color=#FFFFFF'
+_StateHistory=EDITFILE,'H:\Misc\html\ffl\ffl2000\test_bank.html','ptuintfc.h','H:\Misc\html\pdl\pdl2000\PDL 2000','H:\Misc\html\ffl\ffl2000\box\wk01box.html'
+_StateHistory=DIRECTORY,'H:\Misc\html\ffl\ffl2000'
+
+[Editor]
+_RestoreSysFlags=0x526d37fc, 0xfffffffc, 0
+_RestoreSysFlags=0x00011001, 0xffffffff, 1
+CollapseMode=0`x13080610
+VCSProject=''
+VCSProjectPath=''
+VCSProjectLocalPath=''
+ScrapSetCount=1
+ClipboardSetCount=1
+ClipboardEnableSepStr=1
+ClipboardSetSepStr='\r\n',0
+ClipboardEnableTermStr=1
+ClipboardSetTermStr='\r\n',0
+
+[Tools]
+ToolDeleteList 
+ToolAddCmd='$_custom_tool_$_1','API Database Editor',1342177312,'cwtedit.exe',0,'',0,'',0,'',0,'',0,'','','','',''
+ToolAddCmd='$_custom_tool_$_2','Paint',1342177312,'pbrush.exe',0,'',0,'',0,'',0,'',0,'','','','',''
+
+[Compiler]
+CompilerNewExt=.htm
+CompilerNewExt=.pas
+CompilerNewExt=.ini
+CompilerNewExt=.html
+CompilerNewExt=.txt
+CompilerNewExt=.java
+TagSetCmd='"${HOME}${WTAGS}" -oc -d -t"${TAGFILE}.tag" -p"${TAGFILE}.ptg"',0x8000060
+BrowseSetFile='C:\PROGRAM FILES\CW32\tagfile.ptg'
+TagSetFile='C:\Program Files\CW32\tagfile.tag'
+CompilerAddCmdEx='$_cw_proj_hash_$','',1073741824,'',0,'C:\Program Files\Internet Explorer\IEXPLORE.EXE %x%f',32,'${FTEE} nmake',176,'${FTEE} nmake',176,'${FTEE} nmake',176,'',0,'C:\Progra~1\Netscape\Communicator\Program\netscape.exe file:///%f',32,'_ErrorInfoDefault','','','proj.err','H:\Misc\html\ffl\ffl2000'
+CompilerAddResponse='$_cw_proj_hash_$',
+
+[VersionControl:PVCS]
+VCSSetCmd=VCS_CHECKIN_ID,'put -n -T@"%Q" -M@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKINLOCK_ID,'put -n -T@"%Q" -M@"%Q" -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUT_ID,'get -y "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKOUTLOCK_ID,'get -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOCK_ID,'vcs -y -l "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKUNLOCK_ID,'vcs -y -u "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLABEL_ID,'vcs -y -v"${VCSLABEL}" "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKLOG_ID,'vlog "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKPROP_ID,'vlog -b "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKDIFF_ID,'vdiff -r "%b%e"',0x8000040
+VCSSetCmd=VCS_CHECKMENU_ID,'pvcsvmwn',0x8000000
+VCSSetCmd=VCS_ADD_ID,'vcs -i -t@"%Q" "%b%e"',0x8000040
+VCSSetCmd=VCS_REMOVE_ID,'del /f "%b%{??v|___}e"',0x8000040
+
+[Project]
+ConfigSetLinkDBFilename='C:\Program Files\CW32\cwright.ldb'
+ConfigSetMarkDBFilename='C:\Program Files\CW32\cwright.mrk'
+ConfigSetSymbolDBFilename='H:\Misc\html\ffl\ffl2000\ffl.sbl'
+EditSetPath=''
+
+[Files]
+..\..\index.html
+.\bank.html
+.\box\box.html
+.\waivers.html
+.\trans.html
+.\comments.html
+C:\Program Files\fb30\Reports\00_FFL2000_Bank_Transaction_Summary.htm
+.\lineups.html
+.\top_per.html
+.\standings.html
+.\misc.html
+.\schedule.html
+

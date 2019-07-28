@@ -1,0 +1,1332 @@
+<HTML>
+<HEAD><TITLE>PDL 2009 Annual Draft Results.</TITLE></HEAD>
+<!-- <body bgcolor="#000000" text="#FFFFFF" link="#99FFFF" vlink="#339999" alink="#CCFFFF"> -->
+
+
+<center>
+<H3>PDL 2009 Annual Draft Results -- By Round</H3>
+</center>
+
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+<title>Fantasy Football: PDL 2009 Draft</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"  /> 
+<meta name="keywords" content="Draft, fantasy football, MyFantasyLeague, MFL, ffl, league management"  /> 
+<meta name="description" content="The most customizable way to run your fantasy football league on the web today, MyFantasyLeague.com was voted 'Best Fantasy Commissioner Product' by the Fantasy Sports Trade Association.  Our 16 years of experience means we do fantasy football right."  /> 
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"  /> 
+<link rel="stylesheet" href="http://www6.myfantasyleague.com/fflnetdynamic2009/39444.css" type="text/css"  /> 
+<link rel="stylesheet" id="skin_stylesheet" href="http://www6.myfantasyleague.com/skins/statsworld/statsworld.css" type="text/css"  /> 
+<link rel="shortcut icon" href="http://www6.myfantasyleague.com/favicon.ico"  /> 
+<script type="text/javascript" src="http://www6.myfantasyleague.com/mfl_common.js"></script> 
+<script type="text/javascript"> 
+<!--
+ 
+var franchise_id = '0000';
+var league_id = '39444';
+var year = 2009;
+var xmlBaseURL = 'http://www6.myfantasyleague.com/fflnetdynamic2009/';
+var baseURLStatic = 'http://www6.myfantasyleague.com';
+var baseURLDynamic = 'http://football6.myfantasyleague.com';
+var currentServerTime = 1283780084;
+var completedWeek = 21;
+var liveScoringWeek = 21;
+ 
+function Franchise (id, name, division, icon, logo, abbrev) {
+   this.id = id;
+   this.name = name;
+   this.division = division;
+   this.icon = icon;
+   this.logo = logo;
+   this.abbrev = abbrev;
+}
+ 
+var franchiseDatabase = new Array();
+franchiseDatabase['fid_0000'] = new Franchise('0000', 'Commissioner');
+franchiseDatabase['fid_0001'] = new Franchise('0001', 'Manic Moose', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_681_66.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_681_66.gif' ,'');
+franchiseDatabase['fid_0002'] = new Franchise('0002', 'Scooter\'s Boozers', '02' ,'http://www6.myfantasyleague.com/fflnetdynamic2008/71127_franchise_icon0002.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_682_813.jpg' ,'');
+franchiseDatabase['fid_0003'] = new Franchise('0003', 'Dunbar Dogs', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'');
+franchiseDatabase['fid_0004'] = new Franchise('0004', 'F-Jackie', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'');
+franchiseDatabase['fid_0005'] = new Franchise('0005', 'Ho Train', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'');
+franchiseDatabase['fid_0006'] = new Franchise('0006', 'Otters', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'');
+franchiseDatabase['fid_0007'] = new Franchise('0007', 'Da Funk', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'');
+franchiseDatabase['fid_0008'] = new Franchise('0008', 'Beers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'');
+franchiseDatabase['fid_0009'] = new Franchise('0009', 'OakalDoakals', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'');
+franchiseDatabase['fid_0010'] = new Franchise('0010', 'Bunchalosers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'');
+franchiseDatabase['fid_0011'] = new Franchise('0011', 'Karpet Munchers', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'');
+franchiseDatabase['fid_0012'] = new Franchise('0012', 'Carter\'s Commandos', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'');
+franchiseDatabase['fid_0013'] = new Franchise('0013', 'Blitzkrieg', '01' ,'http://www6.myfantasyleague.com/fflnetdynamic2008/71127_franchise_icon0013.jpg' ,'http://www6.myfantasyleague.com/fflnetdynamic2008/71127_franchise_icon0013.jpg' ,'');
+franchiseDatabase['fid_0014'] = new Franchise('0014', 'Iron City Pounders', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'');
+franchiseDatabase['fid_0015'] = new Franchise('0015', 'Texas Nashvillians', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'');
+franchiseDatabase['fid_0016'] = new Franchise('0016', 'Tally Wackers', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'');
+var leagueAttributes = new Object();
+leagueAttributes['Draft'] = true;
+leagueAttributes['MinStarters'] = 9;
+leagueAttributes['MaxStarters'] = 9;
+leagueAttributes['Divisions'] = new Array('AFC East', 'AFC West', 'NFC East', 'NFC West');
+ 
+function chat_window (url) {
+    var chatWindow = window.open(url,"chat_window","height=600,width=450,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    chatWindow.focus();
+}
+ 
+function live_draft_window (url) {
+    var liveDraftWindow = window.open(url,"live_draft_window","height=700,width=900,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    liveDraftWindow.focus();
+}
+ 
+function facebook_share (url) {
+   var facebookShare = window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(url), "sharer", "toolbar=0,status=0,width=626,height=436");
+   facebookShare.focus();
+}
+ 
+//-->
+</script> 
+</head> 
+<body id="body_options_17"><script src="http://www6.myfantasyleague.com/menu5.830/milonic_src.js" type="text/javascript"></script> 
+<script type="text/javascript"> 
+<!--
+if(ns4)_d.write("<"+"scr"+"ipt src=http://www6.myfantasyleague.com/menu5.830/mmenuns4.js></"+"scr"+"ipt>");
+   else _d.write("<"+"scr"+"ipt src=http://www6.myfantasyleague.com/menu5.830/mmenudom.js></"+"scr"+"ipt>");
+//-->
+</script> 
+<script type="text/javascript"> 
+<!--
+_menuCloseDelay=500;
+_menuOpenDelay=150;
+_subOffsetTop=1;
+_subOffsetLeft=1;
+ 
+ 
+with(menuVerticalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="2";
+subimage="http://www6.myfantasyleague.com/menu5.830/black_10x9_whiteblackbox.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+ 
+}
+ 
+with(menuHorizontalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="2";
+subimage="http://www6.myfantasyleague.com/menu5.830/black_10x9_whiteblackboxdown.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+ 
+}
+ 
+with(milonic=new menuname("Main Menu")){
+style=menuHorizontalStyle;
+top="10";
+alwaysvisible="1";
+followscroll=0;
+orientation="horizontal";
+screenposition="center";
+aI("text=My Leagues;showmenu=MYLEAGUES;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=MYLEAGUES;");
+aI("text=Reports;showmenu=REPORTS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS;");
+aI("text=For Owners;showmenu=FOROWNERS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=FOROWNERS;");
+aI("text=For Commissioners;showmenu=FORCOMMISSIONERS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=FORCOMMISSIONERS;");
+aI("text=Communications;showmenu=COMMUNICATIONS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=COMMUNICATIONS;");
+aI("text=This Page;showmenu=THISPAGE;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=THISPAGE;");
+aI("text=Links;showmenu=LINKS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=LINKS;");
+aI("text=Help;showmenu=HELP;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=HELP;");
+}
+with(milonic=new menuname("MYLEAGUES")){
+style=menuVerticalStyle;
+aI("text=PDL 2009;url=http://football6.myfantasyleague.com/2009/home/39444;");
+aI("text=2008 League Home;url=http://football6.myfantasyleague.com/2008/home/71127;");
+aI("text=2007 League Home;url=http://football6.myfantasyleague.com/2007/home/61839;");
+aI("text=2006 League Home;url=http://football99.myfantasyleague.com/2006/home/61505;");
+aI("text=2005 League Home;url=http://football99.myfantasyleague.com/2005/home/64832;");
+aI("text=2004 League Home;url=http://football99.myfantasyleague.com/2004/home/53450;");
+aI("text=2003 League Home;url=http://football99.myfantasyleague.com/2003/home/65775;");
+aI("text=2002 League Home;url=http://pdlreport.webatu.com/pdl/pdl2002/pdl2002.html;");
+aI("text=2001 League Home;url=http://pdlreport.webatu.com/pdl/pdl2001/pdl2001.html;");
+aI("text=2000 League Home;url=http://pdlreport.webatu.com/pdl/pdl2000/pdl2000.html;");
+aI("text=All My Leagues;url=http://football.myfantasyleague.com/2010/myleagues;");
+aI("text=Find A League;url=http://football.myfantasyleague.com/2010/index;");
+aI("text=Join A Mock Draft;url=http://www2.myfantasyleague.com/mockdrafts/public.php;");
+aI("text=Set Up A Free Draft-Only League;url=http://www.myfantasyleague.com/fantasy-football-get-started/free-draft-only-leagues.php;");
+aI("text=Set Up A New League;url=http://football6.myfantasyleague.com/2010/league_setup1;");
+}
+with(milonic=new menuname("REPORTS")){
+style=menuVerticalStyle;
+aI("text=Franchise;showmenu=FRANCHISE;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_FRANCHISE;");
+aI("text=Player;showmenu=PLAYER;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_PLAYER;");
+aI("text=Standings;showmenu=STANDINGSREPORTS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_STANDINGSREPORTS;");
+aI("text=Rules;showmenu=RULESREPORTS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_RULESREPORTS;");
+aI("text=Wireless;showmenu=WIRELESS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_WIRELESS;");
+aI("text=League;showmenu=LEAGUE;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_LEAGUE;");
+aI("text=Records;showmenu=RECORDS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_RECORDS;");
+aI("text=NFL;showmenu=NFLREPORTS;url=http://football6.myfantasyleague.com/2009/menu_page?L=39444&NAME=REPORTS_NFLREPORTS;");
+aI("text=<form method='get' action='http://football6.myfantasyleague.com/2009/player_search'>Player:<input type='text' size='8' class='reallysmall' name='NAME'><input type='hidden' name='L' value='39444'><\/form>;type=form;;");
+}
+with(milonic=new menuname("FRANCHISE")){
+style=menuVerticalStyle;
+aI("text=Rosters;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=07;");
+aI("text=Transactions;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=03;");
+aI("text=Starting Lineups;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=06;");
+aI("text=Weekly Results;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=22;");
+aI("text=Fantasy Previews;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=207;");
+aI("text=Fantasy Recaps;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=177;");
+aI("text=Franchise Information;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=01;");
+aI("text=Accounting;url=http://football6.myfantasyleague.com/2009/accounting_report?L=39444;");
+aI("text=Scoring History;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=118;");
+}
+with(milonic=new menuname("PLAYER")){
+style=menuVerticalStyle;
+aI("text=Top Performers/Player Stats;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=08;");
+aI("text=Top Passers;url=http://football6.myfantasyleague.com/2009/options?O=08&SEARCHTYPE=ADVANCED&POSITION=QB&DISPLAY=Passers&L=39444;");
+aI("text=Top Rushers;url=http://football6.myfantasyleague.com/2009/options?O=08&SEARCHTYPE=ADVANCED&POSITION=RB&DISPLAY=Rushers&L=39444;");
+aI("text=Top Receivers;url=http://football6.myfantasyleague.com/2009/options?O=08&SEARCHTYPE=ADVANCED&POSITION=WR%2BTE&DISPLAY=Receivers&L=39444;");
+aI("text=Top Kickers;url=http://football6.myfantasyleague.com/2009/options?O=08&SEARCHTYPE=ADVANCED&POSITION=PK&DISPLAY=Kickers&L=39444;");
+aI("text=Top Defenses;url=http://football6.myfantasyleague.com/2009/options?O=08&SEARCHTYPE=ADVANCED&POSITION=Def&DISPLAY=Defenses&L=39444;");
+aI("text=Top Free Agents;url=http://football6.myfantasyleague.com/2009/options?O=08&CATEGORY=freeagent&L=39444;");
+aI("text=Full Free Agent Listing;url=http://football6.myfantasyleague.com/2009/free_agents?L=39444;");
+aI("text=Starter Pts - Player;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=37;");
+aI("text=Top Adds/Drops/Starters;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=117;");
+aI("text=Player Search;url=http://football6.myfantasyleague.com/2009/player_search?L=39444;");
+aI("text=Locked Players;url=http://football6.myfantasyleague.com/2009/locked_players?L=39444;");
+}
+with(milonic=new menuname("STANDINGSREPORTS")){
+style=menuVerticalStyle;
+aI("text=Standings;url=http://football6.myfantasyleague.com/2009/standings?L=39444;");
+aI("text=Weekly Summary;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=31;");
+aI("text=Power Rank;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=101;");
+aI("text=Bar Chart;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=20;");
+aI("text=Tiebreakers;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=119;");
+aI("text=Victory Points Summary;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=153;");
+}
+with(milonic=new menuname("RULESREPORTS")){
+style=menuVerticalStyle;
+aI("text=League Scoring;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=09;");
+aI("text=League Bylaws;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=26;");
+aI("text=History;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=112;");
+}
+with(milonic=new menuname("WIRELESS")){
+style=menuVerticalStyle;
+aI("text=Send Me My Wireless Home Page;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=191;");
+aI("text=Home;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=159;");
+aI("text=Login;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=160;");
+aI("text=Live Scoring;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=155;");
+aI("text=Standings;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=154;");
+aI("text=Submit Lineup;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=163;");
+aI("text=My Player News;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=188;");
+}
+with(milonic=new menuname("LEAGUE")){
+style=menuVerticalStyle;
+aI("text=Live Scoring Summary;url=http://football6.myfantasyleague.com/2009/live_scoring_summary?L=39444&W=16;");
+aI("text=Monthly League Calendar;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=123;");
+aI("text=Playoff Brackets;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=79;");
+aI("text=Starter Pts - Position;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=23;");
+aI("text=Points Allowed - By Position;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=81;");
+aI("text=Fantasy Schedule By Week;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=15;");
+aI("text=Draft;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=17;");
+aI("text=Future Draft Picks;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=100;");
+aI("text=RSS Feed;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=152;");
+aI("text=MFL Widgets;url=http://football6.myfantasyleague.com/2009/generate_embed?L=39444;");
+}
+with(milonic=new menuname("RECORDS")){
+style=menuVerticalStyle;
+aI("text=Franchise Records;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=156;");
+aI("text=Player Records;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=157;");
+aI("text=Matchup Records;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=158;");
+aI("text=All-Time Series Records;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=171;");
+aI("text=Season Records;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=204;");
+aI("text=Career Records;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=208;");
+aI("text=League Champions;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=194;");
+aI("text=League Awards;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=202;");
+}
+with(milonic=new menuname("NFLREPORTS")){
+style=menuVerticalStyle;
+aI("text=Injury Report;url=http://football6.myfantasyleague.com/2009/injury?L=39444;");
+aI("text=NFL Schedule;url=http://football6.myfantasyleague.com/2009/pro_schedule?L=39444;");
+aI("text=NFL Team Stats;url=http://football6.myfantasyleague.com/2009/nfl_team_stats?L=39444;");
+aI("text=NFL Draft;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=215;");
+aI("text=News Articles;url=http://football6.myfantasyleague.com/2009/news_articles?L=39444;");
+}
+with(milonic=new menuname("FOROWNERS")){
+style=menuVerticalStyle;
+aI("text=Submit Lineup;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=02;");
+aI("text=Change Password;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=70;");
+aI("text=Franchise Setup;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=50;");
+aI("text=Trades;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=05;");
+aI("text=Waivers;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=46;");
+aI("text=NFL Pool Picks;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=121;");
+aI("text=Survivor Pool;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=120;");
+aI("text=My Watch List;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=178;");
+aI("text=My Player News;url=http://football6.myfantasyleague.com/2009/news_articles?MYNEWS=1&L=39444;");
+aI("text=Premium Products;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=216;");
+}
+with(milonic=new menuname("FORCOMMISSIONERS")){
+style=menuVerticalStyle;
+aI("text=Setup;url=http://football6.myfantasyleague.com/2009/commissioner_setup?L=39444;");
+aI("text=Statistics Changes;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=80;");
+aI("text=Process Waivers;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=47;");
+aI("text=Previously Processed Waivers;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=76;");
+aI("text=Recalculate Standings;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=24;");
+aI("text=Edit Accounting Records;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=49;");
+aI("text=Edit Weekly Newsletter;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=66;");
+aI("text=Delete Transactions;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=67;");
+aI("text=Commissioner News;url=http://football6.myfantasyleague.com/2009/site_news?CATEGORY=Commissioner+News&L=39444;");
+aI("text=Email Log;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=172;");
+aI("text=League Invoice;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=148;");
+}
+with(milonic=new menuname("COMMUNICATIONS")){
+style=menuVerticalStyle;
+aI("text=Email to Commissioner;url=mailto:matt.spinola@gmail.com?Subject=PDL%202009%20%2839444%29;");
+aI("text=Email to Entire League;url=mailto:matt.spinola@gmail.com,scotty36@comcast.net,bigdogg27f@aol.com,eaverdream@hotmail.com,verdream@yahoo.com,jonathan_kraus@hotmail.com,rraida@gmail.com,mostahlsmith@switch.com,spankymjs00@yahoo.com,alan.hatok@emerson.com,arrigop98@verizon.net,jkeenan42@yahoo.com,tezzie888@yahoo.com,sberecek@gmail.com,briansmcintyre@verizon.net,randyfolks@verizon.net,mtemme27@hotmail.com?subject=PDL%202009%20%2839444%29;");
+aI("text=Text Message to Entire League;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=218;");
+aI("text=Message Board;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=29;");
+aI("text=League Polls;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=69;");
+aI("text=League Chat;url=javascript:chat_window('http://www6.myfantasyleague.com/2009/chat?L=39444&COUNT=25');;");
+}
+with(milonic=new menuname("THISPAGE")){
+style=menuVerticalStyle;
+aI("text=Mail This Page;url=mailto:?subject=PDL%202009%20Web%20Page&body=Check%20out%20this%20web%20page%3A%20http%3A%2F%2Ffootball6.myfantasyleague.com%2F2009%2Foptions%3FL%3D39444%26O%3D17;");
+aI("text=Printer Friendly Page;url=http://football6.myfantasyleague.com/2009/options?L=39444&O=17&PRINTER=1;");
+aI("text=Add To My Links;url=javascript:add_my_links();;");
+aI("text=Share This Page On Facebook;url=javascript:facebook_share('http://football6.myfantasyleague.com/2009/options?L=39444&O=17');;");
+aI("text=Share This Page On Twitter;url=http://twitter.com/home?status=http%3A%2F%2Ffootball6.myfantasyleague.com%2F2009%2Foptions%3FL%3D39444%26O%3D17;");
+}
+with(milonic=new menuname("MYLINKS")){
+style=menuVerticalStyle;
+aI("text=Edit My Links;url=http://football6.myfantasyleague.com/2009/edit_my_links?L=39444;");
+}
+with(milonic=new menuname("LEAGUELINKS")){
+style=menuVerticalStyle;
+aI("text=StatsWorld Message Board;url=http://www99.myfantasyleague.com/fflnetdynamic2007/61839_board.htm;");
+aI("text=Edit League Links;url=http://football6.myfantasyleague.com/2009/edit_my_links?L=39444&TYPE=L;");
+}
+with(milonic=new menuname("FANTASYLINKS")){
+style=menuVerticalStyle;
+aI("text=ADP;url=http://football6.myfantasyleague.com/2009/adp?L=39444;");
+aI("text=Average Auction Values;url=http://football6.myfantasyleague.com/2009/aav?L=39444;");
+aI("text=Fantasysharks.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.fantasysharks.com/&L=39444;");
+aI("text=thehuddle.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.thehuddle.com/&L=39444;");
+aI("text=KFFL;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.kffl.com/fantasy/&L=39444;");
+aI("text=Footballguys.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.footballguys.com/&L=39444;");
+aI("text=Rotoworld.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://rotoworld.com/content/Home_NFL.aspx&L=39444;");
+aI("text=FantasyGuru.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.fantasyguru.com/&L=39444;");
+aI("text=fftoday.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.fftoday.com/&L=39444;");
+aI("text=FF Toolbox;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.fftoolbox.com/&L=39444;");
+aI("text=LeagueSafe.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.leaguesafe.com/&L=39444;");
+aI("text=IDPGuru.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.idpguru.com/&L=39444;");
+}
+with(milonic=new menuname("NFLLINKS")){
+style=menuVerticalStyle;
+aI("text=NFL.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.nfl.com/&L=39444;");
+aI("text=USA Today;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://www.usatoday.com/sports/football/default.htm&L=39444;");
+aI("text=Fox Sports;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://msn.foxsports.com/nfl&L=39444;");
+aI("text=SI.com;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://sportsillustrated.cnn.com/football/nfl/&L=39444;");
+aI("text=ESPN;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://sports.espn.go.com/nfl/index&L=39444;");
+}
+with(milonic=new menuname("HELP")){
+style=menuVerticalStyle;
+aI("text=Help Center;url=http://football6.myfantasyleague.com/2009/support?L=39444;target=_blank;");
+aI("text=My Support Tickets;url=http://football6.myfantasyleague.com/2009/my_tickets?L=39444;");
+aI("text=What's New? (Updated Sep&nbsp;1);url=http://football6.myfantasyleague.com/2009/site_news?CATEGORY=Site+Upgrades&L=39444;");
+aI("text=MFL Blog;url=http://www.myfantasyleague.com/blog/;");
+aI("text=MFL Community Forums;url=http://football6.myfantasyleague.com/2009/mfl_redirect?TRACK=1&LOCATION=http://forums.myfantasyleague.com/forums/index.php?showforum=19&L=39444;");
+aI("text=Strange Plays;url=http://football6.myfantasyleague.com/2009/site_news?CATEGORY=Strange+Plays&L=39444;");
+aI("text=Follow Us On Twitter;url=http://twitter.com/MyFantasyLeague;");
+aI("text=Become Our Fan On Facebook;url=http://www.facebook.com/MyFantasyLeague;");
+aI("text=Developer's Program;url=http://football.myfantasyleague.com/2010/export;");
+}
+with(milonic=new menuname("LINKS")){
+style=menuVerticalStyle;
+aI("text=My Links;showmenu=MYLINKS;");
+aI("text=League Links;showmenu=LEAGUELINKS;");
+aI("text=Fantasy Links;showmenu=FANTASYLINKS;");
+aI("text=NFL Links;showmenu=NFLLINKS;");
+}
+//-->
+</script> 
+<noscript> 
+<h2><a href="http://football6.myfantasyleague.com/2009/home/39444">PDL 2009</a></h2> 
+</noscript> 
+<table align="center" cellspacing="1" class="report"><tbody><tr><th>Pick</th><th class="rank">Ovr</th><th class="franchisename">Franchise</th><th class="player">Selection</th><th class="timestamp">Date/Time</th><th>Pts</th><th>Comments</th></tr> 
+<tr class="oddtablerow"><td class="rank">1.01</td> 
+<td class="rank">1.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9437"  title="Week 16: at Eagles Sun 4:15 p.m. ET" class="position_rb">Moreno, Knowshon DEN RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9437">96</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.02</td> 
+<td class="rank">2.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9440"  title="Week 16: vs Rams Sun 4:05 p.m. ET" class="position_rb">Wells, Chris ARI RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9440">89</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">1.03</td> 
+<td class="rank">3.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9448"  title="Week 16: vs Broncos Sun 4:15 p.m. ET" class="position_rb">McCoy, LeSean PHI RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9448">63</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.04</td> 
+<td class="rank">4.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9456"  title="Week 16: vs Jets Sun 4:15 p.m. ET" class="position_rb">Brown, Donald IND RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9456">33</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">1.05</td> 
+<td class="rank">5.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9429"  title="Week 16: at Colts Sun 4:15 p.m. ET" class="position_qb">Sanchez, Mark NYJ QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9429">106</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.06</td> 
+<td class="rank">6.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9515"  title="Week 16: vs Lions Sun 4:05 p.m. ET" class="position_rb">Coffee, Glen SFO RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9515">16</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">1.07</td> 
+<td class="rank">7.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8286"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_rb">White, LenDale TEN RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8286">14</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.08</td> 
+<td class="rank">8.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9441"  title="Week 16: at Bears Mon 8:30 p.m. ET" class="position_wr">Harvin, Percy MIN WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9441">115</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">1.09</td> 
+<td class="rank">9.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9458"  title="Week 16: at Colts Sun 4:15 p.m. ET" class="position_rb">Greene, Shonn NYJ RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9458">30</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.10</td> 
+<td class="rank">10.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8822"  title="Week 16: vs Rams Sun 4:05 p.m. ET" class="position_wr">Breaston, Steve ARI WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8822">61</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">1.11</td> 
+<td class="rank">11.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3367"  title="Week 16: vs Ravens Sun 1:00 p.m. ET" class="position_wr">Ward, Hines PIT WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3367">125</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.12</td> 
+<td class="rank">12.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9431"  title="Week 16: at 49ers Sun 4:05 p.m. ET" class="position_qb">Stafford, Matthew DET QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9431">134</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">1.13</td> 
+<td class="rank">13.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9427"  title="Week 16: vs Lions Sun 4:05 p.m. ET" class="position_wr">Crabtree, Michael SFO WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9427">50</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.14</td> 
+<td class="rank">14.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6616"  title="Week 16: at Patriots Sun 1:00 p.m. ET" class="position_qb">Garrard, David JAC QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6616">200</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">1.15</td> 
+<td class="rank">15.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=2918"  title="Week 16: vs Bills Sun 1:00 p.m. ET" class="position_te">Gonzalez, Tony ATL TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=2918">114</a></td></tr> 
+<tr class="eventablerow"><td class="rank">1.16</td> 
+<td class="rank">16.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9468"  title="Week 16: vs Raiders Sun 1:00 p.m. ET" class="position_rb">Davis, James CLE RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9468">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.01</td> 
+<td class="rank">17.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9436"  title="Week 16: vs Broncos Sun 4:15 p.m. ET" class="position_wr">Maclin, Jeremy PHI WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9436">83</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.02</td> 
+<td class="rank">18.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7895"  title="Week 16: vs Chiefs Sun 1:00 p.m. ET" class="position_wr">Henry, Chris CIN WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7895">17</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.03</td> 
+<td class="rank">19.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9450"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_wr">Nicks, Hakeem NYG WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9450">112</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.04</td> 
+<td class="rank">20.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6571"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_wr">Bryant, Antonio TBB WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6571">58</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.05</td> 
+<td class="rank">21.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9467"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_wr">Britt, Kenny TEN WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9467">63</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.06</td> 
+<td class="rank">22.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9489"  title="Week 16: vs Raiders Sun 1:00 p.m. ET" class="position_wr">Robiskie, Brian CLE WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9489">5</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.07</td> 
+<td class="rank">23.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9221"  title="Week 16: vs Lions Sun 4:05 p.m. ET" class="position_wr">Morgan, Josh SFO WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9221">47</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.08</td> 
+<td class="rank">24.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8687"  title="Week 16: vs Vikings Mon 8:30 p.m. ET" class="position_te">Olsen, Greg CHI TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8687">67</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.09</td> 
+<td class="rank">25.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8817"  title="Week 16: at Steelers Sun 1:00 p.m. ET" class="position_rb">McClain, Le'Ron BAL RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8817">12</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.10</td> 
+<td class="rank">26.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8320"  title="Week 16: vs Bills Sun 1:00 p.m. ET" class="position_rb">Norwood, Jerious ATL RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8320">20</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.11</td> 
+<td class="rank">27.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5654"  title="Week 16: vs Raiders Sun 1:00 p.m. ET" class="position_rb">Lewis, Jamal CLE RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5654">28</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.12</td> 
+<td class="rank">28.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8673"  title="Week 16: vs Texans Sun 1:00 p.m. ET" class="position_wr">Ginn Jr., Ted MIA WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8673">56</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.13</td> 
+<td class="rank">29.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8702"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_wr">Smith, Steve NYG WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8702">135</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.14</td> 
+<td class="rank">30.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7419"  title="Week 16: vs Bills Sun 1:00 p.m. ET" class="position_wr">Jenkins, Michael ATL WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7419">37</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">2.15</td> 
+<td class="rank">31.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7740"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_rb">Graham, Earnest TBB RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7740">0</a></td></tr> 
+<tr class="eventablerow"><td class="rank">2.16</td> 
+<td class="rank">32.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0510"  title="Week 16: vs Ravens Sun 1:00 p.m. ET" class="position_def">Steelers, Pittsburgh PIT Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0510">112</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.01</td> 
+<td class="rank">33.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9452"  title="Week 16: at Browns Sun 1:00 p.m. ET" class="position_wr">Heyward-Bey, Darrius OAK WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9452">6</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.02</td> 
+<td class="rank">34.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8680"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_wr">Meachem, Robert NOS WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8680">149</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.03</td> 
+<td class="rank">35.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7606"  title="Week 16: at Redskins Sun 8:20 p.m. ET" class="position_wr">Crayton, Patrick DAL WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7606">77</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.04</td> 
+<td class="rank">36.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8117"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_wr">Washington, Nate TEN WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8117">60</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.05</td> 
+<td class="rank">37.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7837"  title="Week 16: vs Cowboys Sun 8:20 p.m. ET" class="position_qb">Campbell, Jason WAS QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7837">182</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.06</td> 
+<td class="rank">38.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9563"  title="Week 16: vs Jets Sun 4:15 p.m. ET" class="position_wr">Collie, Austin IND WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9563">76</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.07</td> 
+<td class="rank">39.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6715"  title="Week 16: at Bears Mon 8:30 p.m. ET" class="position_rb">Taylor, Chester MIN RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6715">41</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.08</td> 
+<td class="rank">40.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9460"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_qb">Freeman, Josh TBB QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9460">68</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.09</td> 
+<td class="rank">41.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9560"  title="Week 16: at Browns Sun 1:00 p.m. ET" class="position_wr">Murphy, Louis OAK WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9560">64</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.10</td> 
+<td class="rank">42.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9054"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_rb">Charles, Jamaal KCC RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9054">139</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.11</td> 
+<td class="rank">43.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8776"  title="Week 16: vs Seahawks Sun 1:00 p.m. ET" class="position_wr">Jones, James GBP WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8776">63</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.12</td> 
+<td class="rank">44.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9523"  title="Week 16: at 49ers Sun 4:05 p.m. ET" class="position_wr">Williams, Derrick DET WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9523">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.13</td> 
+<td class="rank">45.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9526"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_wr">Barden, Ramses NYG WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9526">0</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.14</td> 
+<td class="rank">46.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9639"  title="Week 16: vs Chiefs Sun 1:00 p.m. ET" class="position_rb">Scott, Bernard CIN RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9639">28</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">3.15</td> 
+<td class="rank">47.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9680"  title="Week 16: at Patriots Sun 1:00 p.m. ET" class="position_rb">Jennings, Rashad JAC RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9680">14</a></td></tr> 
+<tr class="eventablerow"><td class="rank">3.16</td> 
+<td class="rank">48.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5805"  title="Week 16: vs Jaguars Sun 1:00 p.m. ET" class="position_rb">Morris, Sammy NEP RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5805">22</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">4.01</td> 
+<td class="rank">49.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7471"  title="Week 16: vs Cowboys Sun 8:20 p.m. ET" class="position_te">Cooley, Chris WAS TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7471">43</a></td></tr> 
+<tr class="eventablerow"><td class="rank">4.02</td> 
+<td class="rank">50.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9690"  title="Week 16: at Dolphins Sun 1:00 p.m. ET" class="position_rb">Foster, Arian HOU RB</a></td><td class="timestamp">Mon Aug 31 6:39:23 p.m. ET 2009</td> 
+<td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9690">16</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">4.03</td> 
+<td class="rank">51.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9604"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_rb">Ringer, Javon TEN RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9604">0</a></td></tr> 
+<tr class="eventablerow"><td class="rank">4.04</td> 
+<td class="rank">52.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9537"  title="Week 16: vs Vikings Mon 8:30 p.m. ET" class="position_wr">Iglesias, Juaquin CHI WR</a></td><td class="points">-</td></tr> 
+<tr class="oddtablerow"><td class="rank">4.05</td> 
+<td class="rank">53.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5027"  title="Week 16: at Eagles Sun 4:15 p.m. ET" class="position_rb">Buckhalter, Correll DEN RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5027">42</a></td></tr> 
+<tr class="eventablerow"><td class="rank">4.06</td> 
+<td class="rank">54.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9570"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_rb">Johnson, Gartrell NYG RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9570">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">4.07</td> 
+<td class="rank">55.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7918"  title="Week 16: at Eagles Sun 4:15 p.m. ET" class="position_qb">Orton, Kyle DEN QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7918">207</a></td></tr> 
+<tr class="eventablerow"><td class="rank">4.08</td> 
+<td class="rank">56.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9052"  title="Week 16: at Packers Sun 1:00 p.m. ET" class="position_te">Carlson, John SEA TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9052">70</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">4.09</td> 
+<td class="rank">57.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0508"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_def">Titans, Tennessee TEN Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0508">90</a></td></tr> 
+<tr class="eventablerow"><td class="rank">4.10</td> 
+<td class="rank">58.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8500"  title="Week 16: at Redskins Sun 8:20 p.m. ET" class="position_wr">Hurd, Sam DAL WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8500">14</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">4.11</td> 
+<td class="rank">59.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7396"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_te">Winslow, Kellen TBB TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7396">100</a></td></tr> 
+<tr class="eventablerow"><td class="rank">4.12</td> 
+<td class="rank">60.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3869"  title="Week 16: vs Texans Sun 1:00 p.m. ET" class="position_rb">Williams, Ricky MIA RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3869">194</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">4.13</td> 
+<td class="rank">61.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7420"  title="Week 16: vs Vikings Mon 8:30 p.m. ET" class="position_rb">Jones, Kevin CHI RB</a></td><td class="points">-</td></tr> 
+<tr class="eventablerow"><td class="rank">4.14</td> 
+<td class="rank">62.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=4891"  title="Week 16: vs Broncos Sun 4:15 p.m. ET" class="position_qb">Vick, Michael PHI QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=4891">30</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">4.15</td> 
+<td class="rank">63.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9301"  title="Week 16: vs Texans Sun 1:00 p.m. ET" class="position_wr">Bess, Davone MIA WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9301">41</a></td></tr> 
+<tr class="eventablerow"><td class="rank">4.16</td> 
+<td class="rank">64.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8339"  title="Week 16: at Dolphins Sun 1:00 p.m. ET" class="position_te">Daniels, Owen HOU TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8339">74</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.01</td> 
+<td class="rank">65.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6935"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_qb">Leftwich, Byron TBB QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6935">47</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.02</td> 
+<td class="rank">66.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8683"  title="Week 16: at Browns Sun 1:00 p.m. ET" class="position_te">Miller, Zach OAK TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8683">78</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.03</td> 
+<td class="rank">67.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7842"  title="Week 16: vs Ravens Sun 1:00 p.m. ET" class="position_te">Miller, Heath PIT TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7842">87</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.04</td> 
+<td class="rank">68.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9493"  title="Week 16: vs Texans Sun 1:00 p.m. ET" class="position_qb">White, Pat MIA QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9493">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.05</td> 
+<td class="rank">69.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6564"  title="Week 16: vs Cowboys Sun 8:20 p.m. ET" class="position_rb">Betts, Ladell WAS RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6564">28</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.06</td> 
+<td class="rank">70.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8706"  title="Week 16: at Browns Sun 1:00 p.m. ET" class="position_wr">Higgins, Johnnie Lee OAK WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8706">2</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.07</td> 
+<td class="rank">71.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9150"  title="Week 16: vs Seahawks Sun 1:00 p.m. ET" class="position_te">Finley, Jermichael GBP TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9150">89</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.08</td> 
+<td class="rank">72.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0531"  title="Week 16: at Steelers Sun 1:00 p.m. ET" class="position_def">Ravens, Baltimore BAL Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0531">130</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.09</td> 
+<td class="rank">73.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6522"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_te">Shockey, Jeremy NOS TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6522">38</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.10</td> 
+<td class="rank">74.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7019"  title="Week 16: at Bears Mon 8:30 p.m. ET" class="position_te">Shiancoe, Visanthe MIN TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7019">81</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.11</td> 
+<td class="rank">75.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6570"  title="Week 16: vs Cowboys Sun 8:20 p.m. ET" class="position_wr">Randle El, Antwaan WAS WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6570">4</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.12</td> 
+<td class="rank">76.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7834"  title="Week 16: at Steelers Sun 1:00 p.m. ET" class="position_wr">Clayton, Mark BAL WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7834">37</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.13</td> 
+<td class="rank">77.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0517"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_def">Giants, New York NYG Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0517">94</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.14</td> 
+<td class="rank">78.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7084"  title="Week 16: vs Seahawks Sun 1:00 p.m. ET" class="position_te">Lee, Donald GBP TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7084">6</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">5.15</td> 
+<td class="rank">79.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0521"  title="Week 16: vs Vikings Mon 8:30 p.m. ET" class="position_def">Bears, Chicago CHI Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0521">99</a></td></tr> 
+<tr class="eventablerow"><td class="rank">5.16</td> 
+<td class="rank">80.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7851"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_wr">Bradley, Mark TBB WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7851">28</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.01</td> 
+<td class="rank">81.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8359"  title="Week 16: vs Jaguars Sun 1:00 p.m. ET" class="position_pk">Gostkowski, Stephen NEP PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8359">131</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.02</td> 
+<td class="rank">82.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0524"  title="Week 16: at Bears Mon 8:30 p.m. ET" class="position_def">Vikings, Minnesota MIN Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0524">119</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.03</td> 
+<td class="rank">83.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0516"  title="Week 16: at Redskins Sun 8:20 p.m. ET" class="position_def">Cowboys, Dallas DAL Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0516">112</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.04</td> 
+<td class="rank">84.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3143"  title="Week 16: at Bears Mon 8:30 p.m. ET" class="position_pk">Longwell, Ryan MIN PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3143">148</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.05</td> 
+<td class="rank">85.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0505"  title="Week 16: at Colts Sun 4:15 p.m. ET" class="position_def">Jets, New York NYJ Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0505">147</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.06</td> 
+<td class="rank">86.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9250"  title="Week 16: vs Jets Sun 4:15 p.m. ET" class="position_wr">Garcon, Pierre IND WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9250">92</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.07</td> 
+<td class="rank">87.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7819"  title="Week 16: at Patriots Sun 1:00 p.m. ET" class="position_wr">Williamson, Troy JAC WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7819">-3</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.08</td> 
+<td class="rank">88.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9498"  title="Week 16: vs Raiders Sun 1:00 p.m. ET" class="position_wr">Massaquoi, Mohamed CLE WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9498">62</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.09</td> 
+<td class="rank">89.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8742"  title="Week 16: vs Seahawks Sun 1:00 p.m. ET" class="position_pk">Crosby, Mason GBP PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8742">144</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.10</td> 
+<td class="rank">90.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0518"  title="Week 16: vs Broncos Sun 4:15 p.m. ET" class="position_def">Eagles, Philadelphia PHI Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0518">166</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.11</td> 
+<td class="rank">91.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3910"  title="Week 16: vs Jaguars Sun 1:00 p.m. ET" class="position_rb">Faulk, Kevin NEP RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3910">55</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.12</td> 
+<td class="rank">92.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7289"  title="Week 16: vs Raiders Sun 1:00 p.m. ET" class="position_wr">Furrey, Mike CLE WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7289">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.13</td> 
+<td class="rank">93.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8074"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_pk">Bironas, Rob TEN PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8074">166</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.14</td> 
+<td class="rank">94.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5818"  title="Week 16: vs Rams Sun 4:05 p.m. ET" class="position_pk">Rackers, Neil ARI PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5818">96</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">6.15</td> 
+<td class="rank">95.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8774"  title="Week 16: at Cardinals Sun 4:05 p.m. ET" class="position_wr">Robinson, Laurent STL WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8774">16</a></td></tr> 
+<tr class="eventablerow"><td class="rank">6.16</td> 
+<td class="rank">96.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=4092"  title="Week 16: at Dolphins Sun 1:00 p.m. ET" class="position_pk">Brown, Kris HOU PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=4092">120</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">7.01</td> 
+<td class="rank">97.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0523"  title="Week 16: vs Seahawks Sun 1:00 p.m. ET" class="position_def">Packers, Green Bay GBP Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0523">144</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.02</td> 
+<td class="rank">98.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8247"  title="Week 16: vs Lions Sun 4:05 p.m. ET" class="position_te">Davis, Vernon SFO TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8247">153</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">7.03</td> 
+<td class="rank">99.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7455"  title="Week 16: at Titans Fri 7:30 p.m. ET" class="position_pk">Kaeding, Nate SDC PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7455">164</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.04</td> 
+<td class="rank">100.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9548"  title="Week 16: at Giants Sun 1:00 p.m. ET" class="position_rb">Goodson, Mike CAR RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9548">-3</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">7.05</td> 
+<td class="rank">101.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8767"  title="Week 16: vs Seahawks Sun 1:00 p.m. ET" class="position_rb">Jackson, Brandon GBP RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8767">38</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.06</td> 
+<td class="rank">102.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9662"  title="Week 16: vs Jaguars Sun 1:00 p.m. ET" class="position_wr">Edelman, Julian NEP WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9662">11</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">7.07</td> 
+<td class="rank">103.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7021"  title="Week 16: at Dolphins Sun 1:00 p.m. ET" class="position_rb">Brown, Chris HOU RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7021">20</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.08</td> 
+<td class="rank">104.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3579"  title="Week 16: vs Broncos Sun 4:15 p.m. ET" class="position_pk">Akers, David PHI PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3579">168</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">7.09</td> 
+<td class="rank">105.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0504"  title="Week 16: vs Jaguars Sun 1:00 p.m. ET" class="position_def">Patriots, New England NEP Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0504">117</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.10</td> 
+<td class="rank">106.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9565"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_rb">Brown, Andre NYG RB</a></td><td class="points">-</td></tr> 
+<tr class="oddtablerow"><td class="rank">7.11</td> 
+<td class="rank">107.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6999"  title="Week 16: at Packers Sun 1:00 p.m. ET" class="position_wr">Burleson, Nate SEA WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6999">71</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.12</td> 
+<td class="rank">108.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=2649"  title="Week 16: Bye" class="position_wr">Harrison, Marvin FA* WR</a></td><td class="points">-</td></tr> 
+<tr class="oddtablerow"><td class="rank">7.13</td> 
+<td class="rank">109.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=1095"  title="Week 16: vs Lions Sun 4:05 p.m. ET" class="position_wr">Bruce, Isaac SFO WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=1095">10</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.14</td> 
+<td class="rank">110.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9524"  title="Week 16: vs Jaguars Sun 1:00 p.m. ET" class="position_wr">Tate, Brandon NEP WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9524">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">7.15</td> 
+<td class="rank">111.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=1197"  title="Week 16: Bye" class="position_pk">Elam, Jason FA PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=1197">81</a></td></tr> 
+<tr class="eventablerow"><td class="rank">7.16</td> 
+<td class="rank">112.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5681"  title="Week 16: at 49ers Sun 4:05 p.m. ET" class="position_wr">Northcutt, Dennis DET WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5681">16</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">8.01</td> 
+<td class="rank">113.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9080"  title="Week 16: at Colts Sun 4:15 p.m. ET" class="position_te">Keller, Dustin NYJ TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9080">41</a></td></tr> 
+<tr class="eventablerow"><td class="rank">8.02</td> 
+<td class="rank">114.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9015"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_rb">Ware, Danny NYG RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9015">-3</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">8.03</td> 
+<td class="rank">115.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9444"  title="Week 16: at 49ers Sun 4:05 p.m. ET" class="position_te">Pettigrew, Brandon DET TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9444">32</a></td></tr> 
+<tr class="eventablerow"><td class="rank">8.04</td> 
+<td class="rank">116.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0503"  title="Week 16: vs Texans Sun 1:00 p.m. ET" class="position_def">Dolphins, Miami MIA Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0503">84</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">8.05</td> 
+<td class="rank">117.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9525"  title="Week 16: vs Ravens Sun 1:00 p.m. ET" class="position_wr">Wallace, Mike PIT WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9525">91</a></td></tr> 
+<tr class="eventablerow"><td class="rank">8.06</td> 
+<td class="rank">118.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9474"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_te">Cook, Jared TEN TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9474">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">8.07</td> 
+<td class="rank">119.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=4943"  title="Week 16: at Eagles Sun 4:15 p.m. ET" class="position_rb">Jordan, Lamont DEN RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=4943">0</a></td></tr> 
+<tr class="eventablerow"><td class="rank">8.08</td> 
+<td class="rank">120.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8851"  title="Week 16: Bye" class="position_pk">Folk, Nick FA* PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8851">107</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">8.09</td> 
+<td class="rank">121.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7150"  title="Week 16: at Cardinals Sun 4:05 p.m. ET" class="position_pk">Brown, Josh STL PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7150">110</a></td></tr> 
+<tr class="eventablerow"><td class="rank">8.10</td> 
+<td class="rank">122.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8671"  title="Week 16: at Giants Sun 1:00 p.m. ET" class="position_wr">Jarrett, Dwayne CAR WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8671">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">8.11</td> 
+<td class="rank">123.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5172"  title="Week 16: Bye" class="position_rb">Rhodes, Dominic FA* RB</a></td><td class="points">-</td></tr> 
+<tr class="eventablerow"><td class="rank">8.12</td> 
+<td class="rank">124.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td colspan="3"><b>Waiting On <a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a> For The Next Pick</b></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">8.13</td> 
+<td class="rank">125.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8777"  title="Week 16: at Patriots Sun 1:00 p.m. ET" class="position_wr">Sims-Walker, Mike JAC WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8777">113</a></td></tr> 
+<tr class="eventablerow"><td class="rank">8.14</td> 
+<td class="rank">126.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3875"  title="Week 16: at 49ers Sun 4:05 p.m. ET" class="position_qb">Culpepper, Daunte DET QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3875">7</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">8.15</td> 
+<td class="rank">127.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6541"  title="Week 16: at Eagles Sun 4:15 p.m. ET" class="position_wr">Gaffney, Jabar DEN WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6541">35</a></td></tr> 
+<tr class="eventablerow"><td class="rank">8.16</td> 
+<td class="rank">128.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9177"  title="Week 16: at Cardinals Sun 4:05 p.m. ET" class="position_wr">Burton, Keenan STL WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9177">5</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.01</td> 
+<td class="rank">129.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">9.02</td> 
+<td class="rank">130.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6945"  title="Week 16: at 49ers Sun 4:05 p.m. ET" class="position_wr">Johnson, Bryant DET WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6945">23</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.03</td> 
+<td class="rank">131.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">9.04</td> 
+<td class="rank">132.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8498"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_rb">Bell, Mike NOS RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8498">58</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.05</td> 
+<td class="rank">133.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5168"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_pk">Tynes, Lawrence NYG PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5168">142</a></td></tr> 
+<tr class="eventablerow"><td class="rank">9.06</td> 
+<td class="rank">134.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9477"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_te">Beckum, Travis NYG TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9477">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.07</td> 
+<td class="rank">135.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8352"  title="Week 16: at Steelers Sun 1:00 p.m. ET" class="position_wr">Williams, Demetrius BAL WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8352">14</a></td></tr> 
+<tr class="eventablerow"><td class="rank">9.08</td> 
+<td class="rank">136.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9085"  title="Week 16: vs Panthers Sun 1:00 p.m. ET" class="position_wr">Manningham, Mario NYG WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9085">94</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.09</td> 
+<td class="rank">137.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9454"  title="Week 16: vs Chiefs Sun 1:00 p.m. ET" class="position_te">Coffman, Chase CIN TE</a></td><td class="points">-</td></tr> 
+<tr class="eventablerow"><td class="rank">9.10</td> 
+<td class="rank">138.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8153"  title="Week 16: vs Vikings Mon 8:30 p.m. ET" class="position_pk">Gould, Robbie CHI PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8153">118</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.11</td> 
+<td class="rank">139.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=1383"  title="Week 16: at Giants Sun 1:00 p.m. ET" class="position_pk">Kasay, John CAR PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=1383">101</a></td></tr> 
+<tr class="eventablerow"><td class="rank">9.12</td> 
+<td class="rank">140.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=2842"  title="Week 16: vs Jets Sun 4:15 p.m. ET" class="position_pk">Vinatieri, Adam IND PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=2842">42</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.13</td> 
+<td class="rank">141.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5919"  title="Week 16: at Falcons Sun 1:00 p.m. ET" class="position_pk">Lindell, Rian BUF PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5919">115</a></td></tr> 
+<tr class="eventablerow"><td class="rank">9.14</td> 
+<td class="rank">142.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=2673"  title="Week 16: Bye" class="position_wr">Engram, Bobby FA* WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=2673">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">9.15</td> 
+<td class="rank">143.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8838"  title="Week 16: vs Broncos Sun 4:15 p.m. ET" class="position_te">Celek, Brent PHI TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8838">126</a></td></tr> 
+<tr class="eventablerow"><td class="rank">9.16</td> 
+<td class="rank">144.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6528"  title="Week 16: at Browns Sun 1:00 p.m. ET" class="position_wr">Walker, Javon OAK WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6528">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">10.01</td> 
+<td class="rank">145.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">10.02</td> 
+<td class="rank">146.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">10.03</td> 
+<td class="rank">147.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">10.04</td> 
+<td class="rank">148.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">10.05</td> 
+<td class="rank">149.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6668"  title="Week 16: vs Raiders Sun 1:00 p.m. ET" class="position_te">Royal, Robert CLE TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6668">15</a></td></tr> 
+<tr class="eventablerow"><td class="rank">10.06</td> 
+<td class="rank">150.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=5666"  title="Week 16: at Browns Sun 1:00 p.m. ET" class="position_pk">Janikowski, Sebastian OAK PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=5666">148</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">10.07</td> 
+<td class="rank">151.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=1111"  title="Week 16: Bye" class="position_pk">Carney, John FA* PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=1111">93</a></td></tr> 
+<tr class="eventablerow"><td class="rank">10.08</td> 
+<td class="rank">152.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7445"  title="Week 16: at Patriots Sun 1:00 p.m. ET" class="position_rb">Jones, Greg JAC RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7445">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">10.09</td> 
+<td class="rank">153.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9319"  title="Week 16: vs Bills Sun 1:00 p.m. ET" class="position_pk">Hauschka, Steven ATL PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9319">60</a></td></tr> 
+<tr class="eventablerow"><td class="rank">10.10</td> 
+<td class="rank">154.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">10.11</td> 
+<td class="rank">155.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0502"  title="Week 16: vs Jets Sun 4:15 p.m. ET" class="position_def">Colts, Indianapolis IND Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0502">113</a></td></tr> 
+<tr class="eventablerow"><td class="rank">10.12</td> 
+<td class="rank">156.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8331"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_wr">Stovall, Maurice TBB WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8331">19</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">10.13</td> 
+<td class="rank">157.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7991"  title="Week 16: vs Chargers Fri 7:30 p.m. ET" class="position_te">Scaife, Bo TEN TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7991">17</a></td></tr> 
+<tr class="eventablerow"><td class="rank">10.14</td> 
+<td class="rank">158.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8025"  title="Week 16: vs Raiders Sun 1:00 p.m. ET" class="position_qb">Anderson, Derek CLE QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8025">20</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">10.15</td> 
+<td class="rank">159.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9050"  title="Week 16: vs Chiefs Sun 1:00 p.m. ET" class="position_wr">Caldwell, Andre CIN WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9050">30</a></td></tr> 
+<tr class="eventablerow"><td class="rank">10.16</td> 
+<td class="rank">160.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8711"  title="Week 16: Bye" class="position_rb">Pittman, Antonio FA RB</a></td><td class="points">-</td></tr> 
+<tr class="oddtablerow"><td class="rank">11.01</td> 
+<td class="rank">161.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">11.02</td> 
+<td class="rank">162.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">11.03</td> 
+<td class="rank">163.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">11.04</td> 
+<td class="rank">164.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">11.05</td> 
+<td class="rank">165.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7509"  title="Week 16: vs Ravens Sun 1:00 p.m. ET" class="position_rb">Moore, Mewelde PIT RB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7509">48</a></td></tr> 
+<tr class="eventablerow"><td class="rank">11.06</td> 
+<td class="rank">166.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0529"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_def">Saints, New Orleans NOS Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0529">163</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">11.07</td> 
+<td class="rank">167.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0527"  title="Week 16: at Giants Sun 1:00 p.m. ET" class="position_def">Panthers, Carolina CAR Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0527">132</a></td></tr> 
+<tr class="eventablerow"><td class="rank">11.08</td> 
+<td class="rank">168.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0519"  title="Week 16: vs Rams Sun 4:05 p.m. ET" class="position_def">Cardinals, Arizona ARI Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0519">119</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">11.09</td> 
+<td class="rank">169.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0526"  title="Week 16: vs Bills Sun 1:00 p.m. ET" class="position_def">Falcons, Atlanta ATL Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0526">91</a></td></tr> 
+<tr class="eventablerow"><td class="rank">11.10</td> 
+<td class="rank">170.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">11.11</td> 
+<td class="rank">171.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9545"  title="Week 16: vs Texans Sun 1:00 p.m. ET" class="position_wr">Hartline, Brian MIA WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=9545">28</a></td></tr> 
+<tr class="eventablerow"><td class="rank">11.12</td> 
+<td class="rank">172.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7957"  title="Week 16: at Dolphins Sun 1:00 p.m. ET" class="position_qb">Orlovsky, Dan HOU QB</a></td><td class="points">-</td></tr> 
+<tr class="oddtablerow"><td class="rank">11.13</td> 
+<td class="rank">173.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=9681"  title="Week 16: Bye" class="position_wr">Kinder, Derek FA WR</a></td><td class="points">-</td></tr> 
+<tr class="eventablerow"><td class="rank">11.14</td> 
+<td class="rank">174.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8294"  title="Week 16: vs Texans Sun 1:00 p.m. ET" class="position_te">Fasano, Anthony MIA TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8294">19</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">11.15</td> 
+<td class="rank">175.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3969"  title="Week 16: at Eagles Sun 4:15 p.m. ET" class="position_wr">Stokley, Brandon DEN WR</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3969">42</a></td></tr> 
+<tr class="eventablerow"><td class="rank">11.16</td> 
+<td class="rank">176.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0532"  title="Week 16: at Dolphins Sun 1:00 p.m. ET" class="position_def">Texans, Houston HOU Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0532">109</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">12.01</td> 
+<td class="rank">177.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">12.02</td> 
+<td class="rank">178.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">12.03</td> 
+<td class="rank">179.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">12.04</td> 
+<td class="rank">180.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">12.05</td> 
+<td class="rank">181.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+<td colspan="3">Pre-Draft Selection Made</td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">12.06</td> 
+<td class="rank">182.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+<td colspan="3">Pre-Draft Selection Made</td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">12.07</td> 
+<td class="rank">183.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6947"  title="Week 16: at Cardinals Sun 4:05 p.m. ET" class="position_qb">Boller, Kyle STL QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6947">18</a></td></tr> 
+<tr class="eventablerow"><td class="rank">12.08</td> 
+<td class="rank">184.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">12.09</td> 
+<td class="rank">185.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">12.10</td> 
+<td class="rank">186.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">12.11</td> 
+<td class="rank">187.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=4924"  title="Week 16: at Steelers Sun 1:00 p.m. ET" class="position_te">Heap, Todd BAL TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=4924">64</a></td></tr> 
+<tr class="eventablerow"><td class="rank">12.12</td> 
+<td class="rank">188.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8305"  title="Week 16: at Bears Mon 8:30 p.m. ET" class="position_qb">Jackson, Tarvaris MIN QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8305">9</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">12.13</td> 
+<td class="rank">189.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">12.14</td> 
+<td class="rank">190.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=6475"  title="Week 16: vs Chiefs Sun 1:00 p.m. ET" class="position_pk">Graham, Shayne CIN PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=6475">117</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">12.15</td> 
+<td class="rank">191.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">12.16</td> 
+<td class="rank">192.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=8302"  title="Week 16: at Eagles Sun 4:15 p.m. ET" class="position_te">Scheffler, Tony DEN TE</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=8302">30</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">13.01</td> 
+<td class="rank">193.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.02</td> 
+<td class="rank">194.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">13.03</td> 
+<td class="rank">195.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.04</td> 
+<td class="rank">196.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">13.05</td> 
+<td class="rank">197.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.06</td> 
+<td class="rank">198.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">13.07</td> 
+<td class="rank">199.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.08</td> 
+<td class="rank">200.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">13.09</td> 
+<td class="rank">201.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.10</td> 
+<td class="rank">202.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">13.11</td> 
+<td class="rank">203.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.12</td> 
+<td class="rank">204.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">13.13</td> 
+<td class="rank">205.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.14</td> 
+<td class="rank">206.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=0525"  title="Week 16: at Saints Sun 1:00 p.m. ET" class="position_def">Buccaneers, Tampa Bay TBB Def</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=0525">83</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">13.15</td> 
+<td class="rank">207.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">13.16</td> 
+<td class="rank">208.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=7496"  title="Week 16: at Patriots Sun 1:00 p.m. ET" class="position_qb">McCown, Luke JAC QB</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=7496">0</a></td></tr> 
+<tr class="oddtablerow"><td class="rank">14.01</td> 
+<td class="rank">209.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">14.02</td> 
+<td class="rank">210.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">14.03</td> 
+<td class="rank">211.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">14.04</td> 
+<td class="rank">212.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">14.05</td> 
+<td class="rank">213.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">14.06</td> 
+<td class="rank">214.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">14.07</td> 
+<td class="rank">215.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">14.08</td> 
+<td class="rank">216.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">14.09</td> 
+<td class="rank">217.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">14.10</td> 
+<td class="rank">218.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">14.11</td> 
+<td class="rank">219.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+<td class="player"><a href="http://football6.myfantasyleague.com/2009/player?L=39444&amp;P=3141"  title="Week 16: at Packers Sun 1:00 p.m. ET" class="position_pk">Mare, Olindo SEA PK</a></td><td class="points"><a href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;O=08&amp;PLAYER_ID=3141">103</a></td></tr> 
+<tr class="eventablerow"><td class="rank">14.12</td> 
+<td class="rank">220.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">14.13</td> 
+<td class="rank">221.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">14.14</td> 
+<td class="rank">222.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">14.15</td> 
+<td class="rank">223.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">14.16</td> 
+<td class="rank">224.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.01</td> 
+<td class="rank">225.</td> 
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0013&amp;O=07">Blitzkrieg</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.02</td> 
+<td class="rank">226.</td> 
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0015&amp;O=07">Texas Nashvillians</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.03</td> 
+<td class="rank">227.</td> 
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0012&amp;O=07">Carter's Commandos</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.04</td> 
+<td class="rank">228.</td> 
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0009&amp;O=07">OakalDoakals</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.05</td> 
+<td class="rank">229.</td> 
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0010&amp;O=07">Bunchalosers</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.06</td> 
+<td class="rank">230.</td> 
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0003&amp;O=07">Dunbar Dogs</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.07</td> 
+<td class="rank">231.</td> 
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0006&amp;O=07">Otters</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.08</td> 
+<td class="rank">232.</td> 
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0005&amp;O=07">Ho Train</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.09</td> 
+<td class="rank">233.</td> 
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0004&amp;O=07">F-Jackie</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.10</td> 
+<td class="rank">234.</td> 
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0007&amp;O=07">Da Funk</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.11</td> 
+<td class="rank">235.</td> 
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0014&amp;O=07">Iron City Pounders</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.12</td> 
+<td class="rank">236.</td> 
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0008&amp;O=07">Beers</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.13</td> 
+<td class="rank">237.</td> 
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0016&amp;O=07">Tally Wackers</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.14</td> 
+<td class="rank">238.</td> 
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0002&amp;O=07">Scooter's Boozers</a></td> 
+</tr> 
+<tr class="oddtablerow"><td class="rank">15.15</td> 
+<td class="rank">239.</td> 
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0001&amp;O=07">Manic Moose</a></td> 
+</tr> 
+<tr class="eventablerow"><td class="rank">15.16</td> 
+<td class="rank">240.</td> 
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011" href="http://football6.myfantasyleague.com/2009/options?L=39444&amp;F=0011&amp;O=07">Karpet Munchers</a></td> 
+</tr> 
+</table> 
+
+<!-- End comScore Tag --> 
+
+</body>
+</html>

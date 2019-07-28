@@ -1,0 +1,2076 @@
+<HTML>
+<HEAD><TITLE>PDL 2015 Annual Draft Results.</TITLE></HEAD>
+<!-- <body bgcolor="#000000" text="#FFFFFF" link="#99FFFF" vlink="#339999" alink="#CCFFFF"> -->
+
+
+<center>
+<H3>PDL 2015 Annual Draft Results -- By Round</H3>
+</center>
+ 
+ 
+ 
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Fantasy Football: PDL 2015 Draft</title>
+<meta name="apple-itunes-app" content="app-id=639397317, affiliate-data=at=1l3vowS  app-argument=41498">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"  />
+<meta name="keywords" content="Draft, fantasy football, keeper fantasy football league, dynasty fantasy football league, salary cap fantasy football league, IDP fantasy football league, MyFantasyLeague, MFL, ffl, league management"  />
+<meta name="description" content="The most customizable way to run your fantasy football league on the web today, MyFantasyLeague.com was voted 'Best Fantasy Commissioner Product' by the Fantasy Sports Trade Association, and has won several additional significant industry awards.  Our 21 years of experience means we do fantasy football right.  If you're ready to move beyond basic league settings, and onto fantasy football how the hard-core players play it, try MyFantasyLeague.com: Beyond League Management"  />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"  />
+<link rel="stylesheet" href="http://www11.myfantasyleague.com/fflnetdynamic2015/41498.css" type="text/css"  />
+<link rel="stylesheet" id="skin_stylesheet" href="http://www11.myfantasyleague.com/skins/mfl2012/skin.css" type="text/css"  />
+<link rel="apple-touch-icon" href="http://www11.myfantasyleague.com/apple-touch-icon.png"  />
+<link rel="shortcut icon" href="http://www11.myfantasyleague.com/favicon.ico"  />
+<script type="text/javascript" src="http://www11.myfantasyleague.com/mfl_common.js"></script>
+<script type="text/javascript">
+<!--
+
+var franchise_id = '0000';
+var league_id = '41498';
+var year = 2015;
+var xmlBaseURL = 'http://www11.myfantasyleague.com/fflnetdynamic2015/';
+var baseURLStatic = 'http://www11.myfantasyleague.com';
+var baseURLDynamic = 'http://football11.myfantasyleague.com';
+var currentServerTime = 1441029314;
+var completedWeek = 0;
+var liveScoringWeek = 1;
+
+function Franchise (id, name, division, icon, logo, abbrev) {
+   this.id = id;
+   this.name = name;
+   this.division = division;
+   this.icon = icon;
+   this.logo = logo;
+   this.abbrev = abbrev;
+}
+var leagueAttributes = new Object();
+
+var franchiseDatabase = new Array();
+franchiseDatabase['fid_0000'] = new Franchise('0000', 'Commissioner');
+franchiseDatabase['fid_0001'] = new Franchise('0001', 'Manic Moose', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2010/20526_franchise_icon0001.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2010/20526_franchise_logo0001.jpg' ,'');
+franchiseDatabase['fid_0002'] = new Franchise('0002', 'Scooter\'s Boozers', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2008/71127_franchise_icon0002.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_682_813.jpg' ,'');
+franchiseDatabase['fid_0003'] = new Franchise('0003', 'Dunbar Dogs', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'');
+franchiseDatabase['fid_0004'] = new Franchise('0004', 'F-Jackie', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'');
+franchiseDatabase['fid_0005'] = new Franchise('0005', 'Ho Train', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'');
+franchiseDatabase['fid_0006'] = new Franchise('0006', 'Otters', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'');
+franchiseDatabase['fid_0007'] = new Franchise('0007', 'Da Funk', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'');
+franchiseDatabase['fid_0008'] = new Franchise('0008', 'Beers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'');
+franchiseDatabase['fid_0009'] = new Franchise('0009', 'OakalDoakals', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'');
+franchiseDatabase['fid_0010'] = new Franchise('0010', 'Bunchalosers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'');
+franchiseDatabase['fid_0011'] = new Franchise('0011', 'Karpet Munchers', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'');
+franchiseDatabase['fid_0012'] = new Franchise('0012', 'Carter\'s Commandos', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'');
+franchiseDatabase['fid_0013'] = new Franchise('0013', 'Blitzkrieg', '03' ,'http://www10.myfantasyleague.com/fflnetdynamic2012/46585_franchise_icon0013.jpg' ,'http://www10.myfantasyleague.com/fflnetdynamic2012/46585_franchise_logo0013.jpg' ,'');
+franchiseDatabase['fid_0014'] = new Franchise('0014', 'Iron City Pounders', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'');
+franchiseDatabase['fid_0015'] = new Franchise('0015', 'Texas Nashvillians', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'');
+franchiseDatabase['fid_0016'] = new Franchise('0016', 'Tally Wackers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'');
+leagueAttributes['Draft'] = true;
+leagueAttributes['Trade'] = true;
+leagueAttributes['MinStarters'] = 9;
+leagueAttributes['MaxStarters'] = 9;
+leagueAttributes['Divisions'] = new Array('AFC East', 'AFC West', 'NFC East', 'NFC West');
+leagueAttributes['Franchises'] = 16;
+
+function chat_window (url) {
+    var chatWindow = window.open(url,"chat_window","height=600,width=450,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    chatWindow.focus();
+}
+
+function live_draft_window (url) {
+    var liveDraftWindow = window.open(url,"live_draft_window","height=700,width=900,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    liveDraftWindow.focus();
+}
+
+function live_auction_window (url) {
+    var liveAuctionWindow = window.open(url,"live_auction_window","height=700,width=900,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    liveAuctionWindow.focus();
+}
+
+function facebook_share (url) {
+   var facebookShare = window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(url), "sharer", "toolbar=0,status=0,width=626,height=436");
+   facebookShare.focus();
+}
+
+//-->
+</script>
+<link rev="MADE" href="mailto:support@myfantasyleague.com"  />
+<script type="text/javascript">
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  COMSCORE.beacon({
+    c1:2,
+    c2:"6035210",
+    c3:"",
+    c4:"www.myfantasyleague.com",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-249099-1', 'myfantasyleague.com');
+  ga('send', 'pageview', {
+     'page': '/2015/options_17',
+  });
+
+</script>
+</head>
+<body id="body_options_17"><noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035210&amp;c3=&amp;c4=www.myfantasyleague.com&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<script src="http://www11.myfantasyleague.com/menu5.945/milonic_src.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+if(ns4)_d.write("<"+"scr"+"ipt src=http://www11.myfantasyleague.com/menu5.945/mmenuns4.js></"+"scr"+"ipt>");
+   else _d.write("<"+"scr"+"ipt src=http://www11.myfantasyleague.com/menu5.945/mmenudom.js></"+"scr"+"ipt>");
+//-->
+</script>
+<script type="text/javascript">
+<!--
+_menuCloseDelay=500;
+_menuOpenDelay=150;
+_subOffsetTop=1;
+_subOffsetLeft=1;
+
+
+with(menuVerticalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="3";
+subimage="http://www11.myfantasyleague.com/menu5.945/black_10x9_whiteblackbox.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+
+}
+
+with(menuHorizontalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="3";
+subimage="http://www11.myfantasyleague.com/menu5.945/black_10x9_whiteblackboxdown.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+
+}
+
+with(milonic=new menuname("Main Menu")){
+style=menuHorizontalStyle;
+top="10";
+alwaysvisible="1";
+followscroll=0;
+openonclick=0;
+orientation="horizontal";
+screenposition="center";
+aI("text=My Leagues;showmenu=MYLEAGUES;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=MYLEAGUES;");
+aI("text=Reports;showmenu=REPORTS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS;");
+aI("text=For Owners;showmenu=FOROWNERS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=FOROWNERS;");
+aI("text=For Commissioners;showmenu=FORCOMMISSIONERS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=FORCOMMISSIONERS;");
+aI("text=Communications;showmenu=COMMUNICATIONS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=COMMUNICATIONS;");
+aI("text=This Page;showmenu=THISPAGE;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=THISPAGE;");
+aI("text=Links;showmenu=LINKS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=LINKS;");
+aI("text=Help;showmenu=HELP;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=HELP;");
+}
+with(milonic=new menuname("MYLEAGUES")){
+style=menuVerticalStyle;
+aI("text=PDL 2015;url=http://www11.myfantasyleague.com/2015/home/41498;");
+aI("text=2014 League Home;url=http://www.myfantasyleague.com/2014/home/42887;");
+aI("text=2013 League Home;url=http://football.myfantasyleague.com/2013/home/31368;");
+aI("text=2012 League Home;url=http://football24.myfantasyleague.com/2012/home/46585;");
+aI("text=2011 League Home;url=http://football6.myfantasyleague.com/2011/home/17475;");
+aI("text=2010 League Home;url=http://football6.myfantasyleague.com/2010/home/20526;");
+aI("text=2009 League Home;url=http://football6.myfantasyleague.com/2009/home/39444;");
+aI("text=2008 League Home;url=http://football6.myfantasyleague.com/2008/home/71127;");
+aI("text=2007 League Home;url=http://football6.myfantasyleague.com/2007/home/61839;");
+aI("text=2006 League Home;url=http://football99.myfantasyleague.com/2006/home/61505;");
+aI("text=2005 League Home;url=http://football99.myfantasyleague.com/2005/home/64832;");
+aI("text=2004 League Home;url=http://football99.myfantasyleague.com/2004/home/53450;");
+aI("text=2003 League Home;url=http://football99.myfantasyleague.com/2003/home/65775;");
+aI("text=2002 League Home;url=http://pdlreport.webatu.com/pdl/pdl2002/pdl2002.html;");
+aI("text=2001 League Home;url=http://pdlreport.webatu.com/pdl/pdl2001/pdl2001.html;");
+aI("text=2000 League Home;url=http://pdlreport.webatu.com/pdl/pdl2000/pdl2000.html;");
+aI("text=All My Leagues;url=http://football.myfantasyleague.com/2015/myleagues;");
+aI("text=Find A League;url=http://football.myfantasyleague.com/2015/index;");
+aI("text=Join A Mock Draft;url=http://www2.myfantasyleague.com/mockdrafts/public.php;");
+aI("text=Set Up A Free Draft-Only League;url=http://www.myfantasyleague.com/free-draft-only-league/;");
+aI("text=Set Up A New League;url=http://football11.myfantasyleague.com/2015/league_setup1?utm_source=existing_league&utm_content=41498&utm_medium=menu&utm_campaign=internal;");
+aI("text=Turn $10 into $100 By Joining An MFL10s League;url=http://football20.myfantasyleague.com/2015/public;");
+aI("text=The Fantasy Championship - $250 Entry Fee For A $200,000 Grand Prize;url=http://www.fantasychampionship.com/register?SRC=MFL;");
+}
+with(milonic=new menuname("REPORTS")){
+style=menuVerticalStyle;
+aI("text=Franchise;showmenu=FRANCHISE;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_FRANCHISE;");
+aI("text=Player;showmenu=PLAYER;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_PLAYER;");
+aI("text=Standings;showmenu=STANDINGSREPORTS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_STANDINGSREPORTS;");
+aI("text=Rules;showmenu=RULESREPORTS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_RULESREPORTS;");
+aI("text=Wireless;showmenu=WIRELESS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_WIRELESS;");
+aI("text=League;showmenu=LEAGUE;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_LEAGUE;");
+aI("text=Records;showmenu=RECORDS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_RECORDS;");
+aI("text=NFL;showmenu=NFLREPORTS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=REPORTS_NFLREPORTS;");
+aI("text=<form method='get' action='http://football11.myfantasyleague.com/2015/player_search'>Player:<input type='text' size='8' class='reallysmall' name='NAME'><input type='hidden' name='L' value='41498'><\/form>;type=form;;");
+}
+with(milonic=new menuname("FRANCHISE")){
+style=menuVerticalStyle;
+aI("text=Rosters;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=07;");
+aI("text=Transactions;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=03;");
+aI("text=Previously Processed Waivers;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=76;");
+aI("text=Starting Lineups;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=06;");
+aI("text=Who Should I Start?;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=205;");
+aI("text=Weekly Results;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=22;");
+aI("text=Fantasy Previews;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=207;");
+aI("text=Fantasy Recaps;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=177;");
+aI("text=Franchise Information;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=01;");
+aI("text=Accounting;url=http://football11.myfantasyleague.com/2015/accounting_report?L=41498;");
+aI("text=Scoring History;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=118;");
+aI("text=Box Score;url=http://football11.myfantasyleague.com/2015/fantasy_box_score?L=41498;");
+aI("text=Trade Bait;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=133;");
+aI("text=Keepers;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=187;");
+}
+with(milonic=new menuname("PLAYER")){
+style=menuVerticalStyle;
+aI("text=Top Performers/Player Stats;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=08;");
+aI("text=My Top Performers;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=08&SEARCHTYPE=ADVANCED&CATEGORY=0001;");
+aI("text=My Top Performers And Free Agents;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=08&SEARCHTYPE=ADVANCED&CATEGORY=0001&CATEGORY=freeagent;");
+aI("text=Top Passers;url=http://football11.myfantasyleague.com/2015/options?O=08&SEARCHTYPE=ADVANCED&POSITION=QB&DISPLAY=Passers&L=41498;");
+aI("text=Top Rushers;url=http://football11.myfantasyleague.com/2015/options?O=08&SEARCHTYPE=ADVANCED&POSITION=RB&DISPLAY=Rushers&L=41498;");
+aI("text=Top Receivers;url=http://football11.myfantasyleague.com/2015/options?O=08&SEARCHTYPE=ADVANCED&POSITION=WR%2BTE&DISPLAY=Receivers&L=41498;");
+aI("text=Top Kickers;url=http://football11.myfantasyleague.com/2015/options?O=08&SEARCHTYPE=ADVANCED&POSITION=PK&DISPLAY=Kickers&L=41498;");
+aI("text=Top Defenses;url=http://football11.myfantasyleague.com/2015/options?O=08&SEARCHTYPE=ADVANCED&POSITION=Def&DISPLAY=Defenses&L=41498;");
+aI("text=Top Free Agents;url=http://football11.myfantasyleague.com/2015/options?O=08&CATEGORY=freeagent&L=41498;");
+aI("text=Full Free Agent Listing;url=http://football11.myfantasyleague.com/2015/free_agents?L=41498;");
+aI("text=Starter Pts - Player;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=37;");
+aI("text=Top Adds/Drops/Starters;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=117;");
+aI("text=Player Search;url=http://football11.myfantasyleague.com/2015/player_search?L=41498;");
+aI("text=Locked Players;url=http://football11.myfantasyleague.com/2015/locked_players?L=41498;");
+}
+with(milonic=new menuname("STANDINGSREPORTS")){
+style=menuVerticalStyle;
+aI("text=Standings;url=http://football11.myfantasyleague.com/2015/standings?L=41498;");
+aI("text=Weekly Summary;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=31;");
+aI("text=Power Rank;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=101;");
+aI("text=Bar Chart;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=20;");
+aI("text=Tiebreakers;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=119;");
+aI("text=Victory Points Summary;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=153;");
+}
+with(milonic=new menuname("RULESREPORTS")){
+style=menuVerticalStyle;
+aI("text=League Scoring;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=09;");
+aI("text=League Bylaws;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=26;");
+aI("text=History;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=112;");
+}
+with(milonic=new menuname("WIRELESS")){
+style=menuVerticalStyle;
+aI("text=Send Me My Wireless Home Page;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=191;");
+aI("text=Home;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=159;");
+aI("text=Login/Logout;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=160;");
+aI("text=Live Scoring;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=155;");
+aI("text=Standings;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=154;");
+aI("text=Wireless Rosters;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=221;");
+aI("text=Submit Lineup;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=163;");
+aI("text=My Player News;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=188;");
+aI("text=Top Players;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=189;");
+aI("text=Top Free Agents;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=190;");
+aI("text=Survivor Pool;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=240;");
+aI("text=League Polls;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=241;");
+aI("text=MFL Wireless Home;url=http://m.myfantasyleague.com/;");
+}
+with(milonic=new menuname("LEAGUE")){
+style=menuVerticalStyle;
+aI("text=Live Scoring Summary;url=http://www11.myfantasyleague.com/2015/live_scoring_summary?L=41498&W=1;");
+aI("text=Monthly League Calendar;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=123;");
+aI("text=Projected Playoff Seedings;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=230;");
+aI("text=Playoff Brackets;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=79;");
+aI("text=Starter Pts - Position;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=23;");
+aI("text=Points Allowed - By Position;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=81;");
+aI("text=Fantasy Schedule By Week;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=15;");
+aI("text=Draft;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=17;");
+aI("text=Future Draft Picks;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=100;");
+aI("text=League Map;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=238;");
+aI("text=RSS Feed;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=152;");
+aI("text=MFL Widgets;url=http://football11.myfantasyleague.com/2015/generate_embed?L=41498;");
+}
+with(milonic=new menuname("RECORDS")){
+style=menuVerticalStyle;
+aI("text=Franchise Records;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=156;");
+aI("text=Player Records;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=157;");
+aI("text=Matchup Records;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=158;");
+aI("text=All-Time Series Records;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=171;");
+aI("text=Season Records;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=204;");
+aI("text=Career Records;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=208;");
+aI("text=Record Streaks;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=232;");
+aI("text=League Champions;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=194;");
+aI("text=League Awards;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=202;");
+}
+with(milonic=new menuname("NFLREPORTS")){
+style=menuVerticalStyle;
+aI("text=Injury Report;url=http://football11.myfantasyleague.com/2015/injury?L=41498;");
+aI("text=NFL Schedule;url=http://football11.myfantasyleague.com/2015/pro_schedule?L=41498;");
+aI("text=NFL Box Scores;url=http://football11.myfantasyleague.com/2015/pro_matchup?L=41498;");
+aI("text=NFL Team Stats;url=http://football11.myfantasyleague.com/2015/nfl_team_stats?L=41498;");
+aI("text=Fantasy Depth Chart;url=http://football11.myfantasyleague.com/2015/depth_chart?L=41498;");
+aI("text=Fantasy Depth Chart Grid;url=http://football11.myfantasyleague.com/2015/depth_chart?TYPE=grid&L=41498;");
+aI("text=NFL Draft;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=215;");
+aI("text=News Articles;url=http://football11.myfantasyleague.com/2015/news_articles?L=41498;");
+}
+with(milonic=new menuname("FOROWNERS")){
+style=menuVerticalStyle;
+aI("text=Draft;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=52;");
+aI("text=Live Draft Room;url=javascript:live_draft_window('http://www11.myfantasyleague.com/2015/ajax_ld?L=41498');;");
+aI("text=My Draft List;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=129;");
+aI("text=My Draft Preferences;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=151;");
+aI("text=Submit Lineup;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=02;");
+aI("text=Change Password;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=70;");
+aI("text=Franchise Setup;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=50;");
+aI("text=Trades;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=05;");
+aI("text=Waivers;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=46;");
+aI("text=Drop Players;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=74;");
+aI("text=NFL Pool Picks;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=121;");
+aI("text=Survivor Pool;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=120;");
+aI("text=My Watch List;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=178;");
+aI("text=My Scratchpad;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=234;");
+aI("text=My Player News;url=http://football11.myfantasyleague.com/2015/news_articles?MYNEWS=1&L=41498;");
+}
+with(milonic=new menuname("FORCOMMISSIONERS")){
+style=menuVerticalStyle;
+aI("text=Setup;url=http://football11.myfantasyleague.com/2015/commissioner_setup?L=41498;");
+aI("text=Statistics Changes;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=80;");
+aI("text=Process Waivers;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=47;");
+aI("text=Previously Processed Waivers;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=76;");
+aI("text=Recalculate Standings;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=24;");
+aI("text=Edit Accounting Records;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=49;");
+aI("text=Edit Weekly Newsletter;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=66;");
+aI("text=Delete Transactions;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=67;");
+aI("text=Commissioner News;url=http://football11.myfantasyleague.com/2015/site_news?CATEGORY=Commissioner+News&L=41498;");
+aI("text=Email Log;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=172;");
+aI("text=Failed Login Attempts;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=245;");
+aI("text=League Invoice;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=148;");
+aI("text=Refer A Friend;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=167;");
+}
+with(milonic=new menuname("COMMUNICATIONS")){
+style=menuVerticalStyle;
+aI("text=Email to Commissioner;url=mailto:spinolam@hotmail.com?Subject=PDL%202015%20%2841498%29;");
+aI("text=Email to Entire League;url=mailto:matt.spinola@gmail.com,scottarrigo36@gmail.com,bigdogg27f@aol.com,verdream@yahoo.com,jonathan_kraus@hotmail.com,rraida@gmail.com,mostahlsmith@gmail.com,michaeljspinola@gmail.com,alan.hatok@emerson.com,arrigop98@gmail.com,jkeenan42@yahoo.com,tezzie888@yahoo.com,sberecek@gmail.com,briansmcintyre@verizon.net,rcfolks@gmail.com,temme37@gmail.com,spinolam@hotmail.com?subject=PDL%202015%20%2841498%29;");
+aI("text=Text Message to Entire League;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=218;");
+aI("text=Message Board;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=29;");
+aI("text=League Articles;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=73;");
+aI("text=League Polls;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=69;");
+aI("text=League Chat;url=javascript:chat_window('http://www11.myfantasyleague.com/2015/chat?L=41498&COUNT=40');;");
+aI("text=League Videoconference;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=222;");
+aI("text=Trash-Talk Videos;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=244;");
+aI("text=Schedule A League Event;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=224;");
+aI("text=Bulletin Board;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=13;");
+}
+with(milonic=new menuname("THISPAGE")){
+style=menuVerticalStyle;
+aI("text=Mail This Page;url=mailto:?subject=PDL%202015%20Web%20Page&body=Check%20out%20this%20web%20page%3A%20http%3A%2F%2Ffootball11.myfantasyleague.com%2F2015%2Foptions%3FL%3D41498%26O%3D17;");
+aI("text=Printer Friendly Page;url=http://football11.myfantasyleague.com/2015/options?L=41498&O=17&PRINTER=1;");
+aI("text=Add To My Links;url=javascript:add_my_links();;");
+aI("text=Share This Page On Twitter;url=http://twitter.com/home?status=http%3A%2F%2Ffootball11.myfantasyleague.com%2F2015%2Foptions%3FL%3D41498%26O%3D17;");
+aI("text=Share This Page On Facebook;url=javascript:facebook_share('http://football11.myfantasyleague.com/2015/options?L=41498&O=17');;");
+}
+with(milonic=new menuname("LINKS")){
+style=menuVerticalStyle;
+aI("text=My Links;showmenu=MYLINKS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=LINKS_MYLINKS;");
+aI("text=League Links;showmenu=LEAGUELINKS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=LINKS_LEAGUELINKS;");
+aI("text=NFL Links;showmenu=NFLLINKS;url=http://football11.myfantasyleague.com/2015/menu_page?L=41498&NAME=LINKS_NFLLINKS;");
+}
+with(milonic=new menuname("MYLINKS")){
+style=menuVerticalStyle;
+aI("text=Edit My Links;url=http://football11.myfantasyleague.com/2015/edit_my_links?L=41498;");
+}
+with(milonic=new menuname("LEAGUELINKS")){
+style=menuVerticalStyle;
+aI("text=StatsWorld Message Board;url=http://www99.myfantasyleague.com/fflnetdynamic2007/61839_board.htm;");
+aI("text=Edit League Links;url=http://football11.myfantasyleague.com/2015/edit_my_links?L=41498&TYPE=L;");
+}
+with(milonic=new menuname("NFLLINKS")){
+style=menuVerticalStyle;
+aI("text=NFL.com;url=http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&LOCATION=http://www.nfl.com/&L=41498;");
+aI("text=USA Today;url=http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&LOCATION=http://www.usatoday.com/sports/football/default.htm&L=41498;");
+aI("text=Fox Sports;url=http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&LOCATION=http://msn.foxsports.com/nfl&L=41498;");
+aI("text=SI.com;url=http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&LOCATION=http://sportsillustrated.cnn.com/football/nfl/&L=41498;");
+aI("text=ESPN;url=http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&LOCATION=http://espn.go.com/nfl/&L=41498;");
+aI("text=CBSSports.com;url=http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&LOCATION=http://www.cbssports.com/nfl/&L=41498;");
+}
+with(milonic=new menuname("HELP")){
+style=menuVerticalStyle;
+aI("text=Help Center;url=http://football11.myfantasyleague.com/2015/support?L=41498;target=_blank;");
+aI("text=<form method='get' target='_blank' action='http://football11.myfantasyleague.com/2015/support'>Search Help:<input type='text' size='8' class='reallysmall' name='SEARCH'><input type='hidden' name='L' value='41498'><\/form>;type=form;;");
+aI("text=My Support Tickets;url=http://football11.myfantasyleague.com/2015/my_tickets?L=41498;");
+aI("text=What's New? (Updated Aug&nbsp;28);url=http://football11.myfantasyleague.com/2015/site_news?L=41498;");
+aI("text=MFL Community Forums;url=http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&LOCATION=http://forums.myfantasyleague.com/forums/index.php?showforum=19&L=41498;");
+aI("text=Official Statistics Changes;url=http://football11.myfantasyleague.com/2015/site_news?CATEGORY=Official+Statistics+Changes&L=41498;");
+aI("text=Strange Plays;url=http://football11.myfantasyleague.com/2015/site_news?CATEGORY=Strange+Plays&L=41498;");
+aI("text=Follow Us On Twitter;url=http://twitter.com/MyFantasyLeague;");
+aI("text=Become Our Fan On Facebook;url=http://www.facebook.com/MyFantasyLeague;");
+aI("text=Developer's Program;url=http://football.myfantasyleague.com/2015/export;");
+}
+drawMenus();
+//-->
+</script>
+<noscript>
+<h2><a href="http://www11.myfantasyleague.com/2015/home/41498">PDL 2015</a></h2>
+</noscript>
+<table cellspacing="0" class="pageheader">
+<tr>
+<td rowspan="3" class="brandlogo">
+<a href="http://www.myfantasyleague.com/"><img src="http://www11.myfantasyleague.com/images/new_mfl_logo.png" alt="http://www.myfantasyleague.com/" width="80" height="80" border="0"  /></a></td><td align="center" class="bannerimage">
+</td>
+<td rowspan="3" class="welcome"><b>41498 Commissioner</b> (<a href="http://football11.myfantasyleague.com/2015/logout?L=41498">Logout</a> | <a href="http://football11.myfantasyleague.com/2015/logout?L=41498&amp;BECOME=0001">Become Owner</a>)<br  /> <small><a target="_blank" href="http://football11.myfantasyleague.com/2015/support?L=41498&amp;PROGRAM=options_17">Help Center</a></small></td>
+</tr>
+<tr>
+<td class="pagetitle">
+<h1>
+PDL 2015 Draft</h1></td></tr></table><div class="pagebody" id="options_17">
+<div id="contentframe">
+<div id="hsubmenu">
+  <ul id="hsubmenuitems">
+  <li><a href="http://www11.myfantasyleague.com/2015/home/41498">Home</a></li>
+  <li><a href="http://www11.myfantasyleague.com/2015/live_scoring_summary?L=41498">Live Scoring</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/standings?L=41498">Standings</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=101">Power Rank</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=15">Schedules</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=29">Message Board</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=79">Playoffs</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=08">Players Stats</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=156">League History</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=03">Transactions</a></li>
+  </ul>
+</div>
+<div id="withmenus" ><h3>Display: Full Format | <a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=113&amp;DISPLAY=LEAGUE">Grid Format</a> | <a href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;O=182&amp;DISPLAY=LEAGUE">Draft Recap</a> | <a href="http://football11.myfantasyleague.com/2015/mfl_redirect?TRACK=1&amp;L=41498&amp;LOCATION=http%3A%2F%2Fdraftwizard.fantasypros.com%2Fanalyzer%2F%3Fsport%3Dnfl%26partner%3Dmfl%26mflLeagueId%3D41498%26mflFranchiseId%3D0001" target="_blank">FantasyPros Projected Standings</a></h3><form method="get" action="options" class="reportform">
+<input type="hidden" name="L" value="41498"  />
+<input type="hidden" name="O" value="17"  />
+<input type="hidden" name="DISPLAY" value="LEAGUE"  />
+Show Only
+<select name="POSITION" size="1">
+<option value="*" selected="selected" >Any Player</option>
+<option value="QB">QB</option>
+<option value="RB">RB</option>
+<option value="WR">WR</option>
+<option value="TE">TE</option>
+<option value="PK">PK</option>
+<option value="Def">Def</option>
+</select>
+on
+<select name="FRANCHISE" size="1">
+<option value="0000"  selected="selected" >Any Franchise</option>
+<option value="0001">Manic Moose</option>
+<option value="0002">Scooter's Boozers</option>
+<option value="0003">Dunbar Dogs</option>
+<option value="0004">F-Jackie</option>
+<option value="0005">Ho Train</option>
+<option value="0006">Otters</option>
+<option value="0007">Da Funk</option>
+<option value="0008">Beers</option>
+<option value="0009">OakalDoakals</option>
+<option value="0010">Bunchalosers</option>
+<option value="0011">Karpet Munchers</option>
+<option value="0012">Carter's Commandos</option>
+<option value="0013">Blitzkrieg</option>
+<option value="0014">Iron City Pounders</option>
+<option value="0015">Texas Nashvillians</option>
+<option value="0016">Tally Wackers</option>
+</select>
+<input type="submit" value="Now!"  />
+</form>
+<table align="center" cellspacing="1" class="report nocaption"><tbody><tr><th>Pick</th><th class="rank">Ovr</th><th class="franchisename">Franchise</th><th class="player">Selection</th><th class="timestamp">Date/Time</th><th>Comments</th></tr>
+<tr class="oddtablerow"><td class="rank">1.01</td>
+<td class="rank">1.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12150"  title="Week 1: vs Seahawks Sun 1:00 p.m. ET" class="position_rb">Gurley, Todd STL RB</a></td><td class="timestamp">Sun Aug 30 3:43:46 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.02</td>
+<td class="rank">2.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12175"  title="Week 1: vs Bengals Sun 4:25 p.m. ET" class="position_wr">Cooper, Amari OAK WR</a></td><td class="timestamp">Sun Aug 30 3:44:13 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.03</td>
+<td class="rank">3.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12181"  title="Week 1: at Falcons Mon 7:10 p.m. ET" class="position_wr">Agholor, Nelson PHI WR</a></td><td class="timestamp">Sun Aug 30 3:44:26 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.04</td>
+<td class="rank">4.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12151"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_rb">Gordon, Melvin SDC RB</a></td><td class="timestamp">Sun Aug 30 3:45:31 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.05</td>
+<td class="rank">5.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12176"  title="Week 1: at Redskins Sun 1:00 p.m. ET" class="position_wr">Parker, DeVante MIA WR</a></td><td class="timestamp">Sun Aug 30 3:45:52 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.06</td>
+<td class="rank">6.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12140"  title="Week 1: vs Titans Sun 4:25 p.m. ET" class="position_qb">Winston, Jameis TBB QB</a></td><td class="timestamp">Sun Aug 30 3:47:20 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.07</td>
+<td class="rank">7.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12141"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_qb">Mariota, Marcus TEN QB</a></td><td class="timestamp">Sun Aug 30 3:47:53 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.08</td>
+<td class="rank">8.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12153"  title="Week 1: vs Panthers Sun 1:00 p.m. ET" class="position_rb">Yeldon, T.J. JAC RB</a></td><td class="timestamp">Sun Aug 30 3:50:15 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.09</td>
+<td class="rank">9.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12155"  title="Week 1: at Chargers Sun 4:05 p.m. ET" class="position_rb">Abdullah, Ameer DET RB</a></td><td class="timestamp">Sun Aug 30 3:51:07 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.10</td>
+<td class="rank">10.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12177"  title="Week 1: vs Packers Sun 1:00 p.m. ET" class="position_wr">White, Kevin CHI WR</a></td><td class="timestamp">Sun Aug 30 3:51:37 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.11</td>
+<td class="rank">11.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12152"  title="Week 1: vs Eagles Mon 7:10 p.m. ET" class="position_rb">Coleman, Tevin ATL RB</a></td><td class="timestamp">Sun Aug 30 3:52:31 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.12</td>
+<td class="rank">12.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12197"  title="Week 1: at Broncos Sun 4:25 p.m. ET" class="position_wr">Perriman, Breshad BAL WR</a></td><td class="timestamp">Sun Aug 30 3:53:24 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.13</td>
+<td class="rank">13.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12154"  title="Week 1: at Redskins Sun 1:00 p.m. ET" class="position_rb">Ajayi, Jay MIA RB</a></td><td class="timestamp">Sun Aug 30 3:54:56 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.14</td>
+<td class="rank">14.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12205"  title="Week 1: at Jaguars Sun 1:00 p.m. ET" class="position_wr">Funchess, Devin CAR WR</a></td><td class="timestamp">Sun Aug 30 3:55:43 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.15</td>
+<td class="rank">15.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12180"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_wr">Green-Beckham, Dorial TEN WR</a></td><td class="timestamp">Sun Aug 30 3:57:28 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.16</td>
+<td class="rank">16.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=4974"  title="Week 1: at Broncos Sun 4:25 p.m. ET" class="position_wr">Smith, Steve BAL WR</a></td><td class="timestamp">Sun Aug 30 3:59:21 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.01</td>
+<td class="rank">17.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12187"  title="Week 1: at Rams Sun 1:00 p.m. ET" class="position_wr">Lockett, Tyler SEA WR</a></td><td class="timestamp">Sun Aug 30 4:00:20 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.02</td>
+<td class="rank">18.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12157"  title="Week 1: at Jets Sun 1:00 p.m. ET" class="position_rb">Johnson, Duke CLE RB</a></td><td class="timestamp">Sun Aug 30 4:01:15 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.03</td>
+<td class="rank">19.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12179"  title="Week 1: vs Chiefs Sun 1:00 p.m. ET" class="position_wr">Strong, Jaelen HOU WR</a></td><td class="timestamp">Sun Aug 30 4:01:54 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.04</td>
+<td class="rank">20.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12188"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_wr">Dorsett, Phillip IND WR</a></td><td class="timestamp">Sun Aug 30 4:02:52 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.05</td>
+<td class="rank">21.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12158"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_rb">Cobb, David TEN RB</a></td><td class="timestamp">Sun Aug 30 4:03:50 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.06</td>
+<td class="rank">22.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8293"  title="Week 1: at Redskins Sun 1:00 p.m. ET" class="position_wr">Jennings, Greg MIA WR</a></td><td class="timestamp">Sun Aug 30 4:04:43 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.07</td>
+<td class="rank">23.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12171"  title="Week 1: vs Saints Sun 4:05 p.m. ET" class="position_rb">Johnson, David ARI RB</a></td><td class="timestamp">Sun Aug 30 4:06:33 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.08</td>
+<td class="rank">24.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12261"  title="Week 1: at Bears Sun 1:00 p.m. ET" class="position_wr">Montgomery, Ty GBP WR</a></td><td class="timestamp">Sun Aug 30 4:07:11 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.09</td>
+<td class="rank">25.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12178"  title="Week 1: at Patriots Thu 8:30 p.m. ET" class="position_wr">Coates, Sammie PIT WR</a></td><td class="timestamp">Sun Aug 30 4:07:39 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.10</td>
+<td class="rank">26.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11658"  title="Week 1: at Cowboys Sun 8:30 p.m. ET" class="position_rb">Williams, Andre NYG RB</a></td><td class="timestamp">Sun Aug 30 4:09:07 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.11</td>
+<td class="rank">27.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8687"  title="Week 1: at Jaguars Sun 1:00 p.m. ET" class="position_te">Olsen, Greg CAR TE</a></td><td class="timestamp">Sun Aug 30 4:09:09 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.12</td>
+<td class="rank">28.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11677"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_wr">Moncrief, Donte IND WR</a></td><td class="timestamp">Sun Aug 30 4:09:42 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.13</td>
+<td class="rank">29.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9087"  title="Week 1: vs Giants Sun 8:30 p.m. ET" class="position_rb">McFadden, Darren DAL RB</a></td><td class="timestamp">Sun Aug 30 4:09:48 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.14</td>
+<td class="rank">30.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10738"  title="Week 1: at Raiders Sun 4:25 p.m. ET" class="position_wr">Jones, Marvin CIN WR</a></td><td class="timestamp">Sun Aug 30 4:13:08 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.15</td>
+<td class="rank">31.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12159"  title="Week 1: at Broncos Sun 4:25 p.m. ET" class="position_rb">Allen, Javorius BAL RB</a></td><td class="timestamp">Sun Aug 30 4:12:30 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.16</td>
+<td class="rank">32.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11529"  title="Week 1: at Cardinals Sun 4:05 p.m. ET" class="position_te">Hill, Josh NOS TE</a></td><td class="timestamp">Sun Aug 30 4:14:48 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.01</td>
+<td class="rank">33.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9269"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_wr">Johnson, Stevie SDC WR</a></td><td class="timestamp">Sun Aug 30 4:15:40 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.02</td>
+<td class="rank">34.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10725"  title="Week 1: at Cowboys Sun 8:30 p.m. ET" class="position_wr">Randle, Rueben NYG WR</a></td><td class="timestamp">Sun Aug 30 4:16:49 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.03</td>
+<td class="rank">35.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0515"  title="Week 1: at Rams Sun 1:00 p.m. ET" class="position_def">Seahawks, Seattle SEA Def</a></td><td class="timestamp">Sun Aug 30 4:19:00 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.04</td>
+<td class="rank">36.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8667"  title="Week 1: at Jets Sun 1:00 p.m. ET" class="position_wr">Bowe, Dwayne CLE WR</a></td><td class="timestamp">Sun Aug 30 4:19:32 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.05</td>
+<td class="rank">37.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11210"  title="Week 1: vs Panthers Sun 1:00 p.m. ET" class="position_rb">Robinson, Denard JAC RB</a></td><td class="timestamp">Sun Aug 30 4:20:08 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.06</td>
+<td class="rank">38.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8934"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_rb">Jackson, Fred BUF RB</a></td><td class="timestamp">Sun Aug 30 4:20:34 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.07</td>
+<td class="rank">39.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12257"  title="Week 1: at Texans Sun 1:00 p.m. ET" class="position_wr">Conley, Chris KCC WR</a></td><td class="timestamp">Sun Aug 30 4:21:06 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.08</td>
+<td class="rank">40.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11250"  title="Week 1: at Raiders Sun 4:25 p.m. ET" class="position_te">Eifert, Tyler CIN TE</a></td><td class="timestamp">Sun Aug 30 4:21:56 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.09</td>
+<td class="rank">41.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11870"  title="Week 1: at Bears Sun 1:00 p.m. ET" class="position_wr">Janis, Jeff GBP WR</a></td><td class="timestamp">Sun Aug 30 4:22:22 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.10</td>
+<td class="rank">42.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11154"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_qb">Manuel, E.J. BUF QB</a></td><td class="timestamp">Sun Aug 30 4:23:48 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.11</td>
+<td class="rank">43.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11174"  title="Week 1: vs Ravens Sun 4:25 p.m. ET" class="position_rb">Ball, Montee DEN RB</a></td><td class="timestamp">Sun Aug 30 4:24:33 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.12</td>
+<td class="rank">44.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12162"  title="Week 1: vs Dolphins Sun 1:00 p.m. ET" class="position_rb">Jones, Matt WAS RB</a></td><td class="timestamp">Sun Aug 30 4:25:15 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.13</td>
+<td class="rank">45.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8416"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_te">Walker, Delanie TEN TE</a></td><td class="timestamp">Sun Aug 30 4:25:46 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.14</td>
+<td class="rank">46.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8062"  title="Week 1: vs Browns Sun 1:00 p.m. ET" class="position_qb">Fitzpatrick, Ryan NYJ QB</a></td><td class="timestamp">Sun Aug 30 4:26:09 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.15</td>
+<td class="rank">47.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9693"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_rb">Woodhead, Danny SDC RB</a></td><td class="timestamp">Sun Aug 30 4:26:33 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.16</td>
+<td class="rank">48.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10881"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_rb">Herron, Dan IND RB</a></td><td class="timestamp">Sun Aug 30 4:28:33 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.01</td>
+<td class="rank">49.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12185"  title="Week 1: vs Eagles Mon 7:10 p.m. ET" class="position_wr">Hardy, Justin ATL WR</a></td><td class="timestamp">Sun Aug 30 4:28:49 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.02</td>
+<td class="rank">50.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11761"  title="Week 1: at 49ers Mon 10:20 p.m. ET" class="position_rb">McKinnon, Jerick MIN RB</a></td><td class="timestamp">Sun Aug 30 4:29:47 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.03</td>
+<td class="rank">51.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11975"  title="Week 1: at Jets Sun 1:00 p.m. ET" class="position_wr">Gabriel, Taylor CLE WR</a></td><td class="timestamp">Sun Aug 30 4:30:51 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.04</td>
+<td class="rank">52.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10812"  title="Week 1: vs Ravens Sun 4:25 p.m. ET" class="position_rb">Hillman, Ronnie DEN RB</a></td><td class="timestamp">Sun Aug 30 4:31:48 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.05</td>
+<td class="rank">53.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=7498"  title="Week 1: at Jaguars Sun 1:00 p.m. ET" class="position_wr">Cotchery, Jerricho CAR WR</a></td><td class="timestamp">Sun Aug 30 4:33:04 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.06</td>
+<td class="rank">54.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=7842"  title="Week 1: at Patriots Thu 8:30 p.m. ET" class="position_te">Miller, Heath PIT TE</a></td><td class="timestamp">Sun Aug 30 4:33:37 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.07</td>
+<td class="rank">55.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12186"  title="Week 1: at 49ers Mon 10:20 p.m. ET" class="position_wr">Diggs, Stefon MIN WR</a></td><td class="timestamp">Sun Aug 30 4:34:26 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.08</td>
+<td class="rank">56.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11758"  title="Week 1: vs Ravens Sun 4:25 p.m. ET" class="position_wr">Latimer, Cody DEN WR</a></td><td class="timestamp">Sun Aug 30 4:35:39 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.09</td>
+<td class="rank">57.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=6997"  title="Week 1: vs Giants Sun 8:30 p.m. ET" class="position_te">Witten, Jason DAL TE</a></td><td class="timestamp">Sun Aug 30 4:35:54 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.10</td>
+<td class="rank">58.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10700"  title="Week 1: vs Dolphins Sun 1:00 p.m. ET" class="position_qb">Cousins, Kirk WAS QB</a></td><td class="timestamp">Sun Aug 30 4:37:30 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.11</td>
+<td class="rank">59.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12156"  title="Week 1: vs Packers Sun 1:00 p.m. ET" class="position_rb">Langford, Jeremy CHI RB</a></td><td class="timestamp">Sun Aug 30 4:38:00 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.12</td>
+<td class="rank">60.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10413"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_qb">Taylor, Tyrod BUF QB</a></td><td class="timestamp">Sun Aug 30 4:38:30 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.13</td>
+<td class="rank">61.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12206"  title="Week 1: at Broncos Sun 4:25 p.m. ET" class="position_te">Williams, Maxx BAL TE</a></td><td class="timestamp">Sun Aug 30 4:39:23 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.14</td>
+<td class="rank">62.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9964"  title="Week 1: at Falcons Mon 7:10 p.m. ET" class="position_wr">Cooper, Riley PHI WR</a></td><td class="timestamp">Sun Aug 30 4:40:46 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.15</td>
+<td class="rank">63.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11332"  title="Week 1: vs Steelers Thu 8:30 p.m. ET" class="position_rb">Gray, Jonas NEP RB</a></td><td class="timestamp">Sun Aug 30 4:42:46 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.16</td>
+<td class="rank">64.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0501"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_def">Bills, Buffalo BUF Def</a></td><td class="timestamp">Sun Aug 30 4:43:50 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.01</td>
+<td class="rank">65.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11760"  title="Week 1: vs Steelers Thu 8:30 p.m. ET" class="position_qb">Garoppolo, Jimmy NEP QB</a></td><td class="timestamp">Sun Aug 30 4:45:36 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.02</td>
+<td class="rank">66.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0532"  title="Week 1: vs Chiefs Sun 1:00 p.m. ET" class="position_def">Texans, Houston HOU Def</a></td><td class="timestamp">Sun Aug 30 5:11:42 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.03</td>
+<td class="rank">67.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0528"  title="Week 1: vs Seahawks Sun 1:00 p.m. ET" class="position_def">Rams, St. Louis STL Def</a></td><td class="timestamp">Sun Aug 30 5:13:13 p.m. ET 2015</td>
+<td>Pick made based on My Work List</td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.04</td>
+<td class="rank">68.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11972"  title="Week 1: at Jaguars Sun 1:00 p.m. ET" class="position_wr">Brown, Corey CAR WR</a></td><td class="timestamp">Sun Aug 30 5:14:26 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.05</td>
+<td class="rank">69.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0518"  title="Week 1: at Falcons Mon 7:10 p.m. ET" class="position_def">Eagles, Philadelphia PHI Def</a></td><td class="timestamp">Sun Aug 30 5:15:08 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.06</td>
+<td class="rank">70.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8359"  title="Week 1: vs Steelers Thu 8:30 p.m. ET" class="position_pk">Gostkowski, Stephen NEP PK</a></td><td class="timestamp">Sun Aug 30 5:15:31 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.07</td>
+<td class="rank">71.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12164"  title="Week 1: vs Vikings Mon 10:20 p.m. ET" class="position_rb">Davis, Mike SFO RB</a></td><td class="timestamp">Sun Aug 30 5:15:54 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.08</td>
+<td class="rank">72.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=7942"  title="Week 1: at Falcons Mon 7:10 p.m. ET" class="position_rb">Sproles, Darren PHI RB</a></td><td class="timestamp">Sun Aug 30 5:16:44 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.09</td>
+<td class="rank">73.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11746"  title="Week 1: at Jets Sun 1:00 p.m. ET" class="position_rb">West, Terrance CLE RB</a></td><td class="timestamp">Sun Aug 30 5:18:08 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.10</td>
+<td class="rank">74.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10355"  title="Week 1: vs Bengals Sun 4:25 p.m. ET" class="position_rb">Helu, Roy OAK RB</a></td><td class="timestamp">Sun Aug 30 5:18:21 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.11</td>
+<td class="rank">75.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=4923"  title="Week 1: vs Steelers Thu 8:30 p.m. ET" class="position_wr">Wayne, Reggie NEP WR</a></td><td class="timestamp">Sun Aug 30 5:18:34 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.12</td>
+<td class="rank">76.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=1600"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_wr">Floyd, Malcom SDC WR</a></td><td class="timestamp">Sun Aug 30 5:19:40 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.13</td>
+<td class="rank">77.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=6789"  title="Week 1: vs Eagles Mon 7:10 p.m. ET" class="position_pk">Bryant, Matt ATL PK</a></td><td class="timestamp">Sun Aug 30 5:19:49 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.14</td>
+<td class="rank">78.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9319"  title="Week 1: at Rams Sun 1:00 p.m. ET" class="position_pk">Hauschka, Steven SEA PK</a></td><td class="timestamp">Sun Aug 30 5:21:19 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.15</td>
+<td class="rank">79.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12182"  title="Week 1: vs Browns Sun 1:00 p.m. ET" class="position_wr">Smith, Devin NYJ WR</a></td><td class="timestamp">Sun Aug 30 5:22:04 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.16</td>
+<td class="rank">80.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10710"  title="Week 1: vs Chiefs Sun 1:00 p.m. ET" class="position_rb">Polk, Chris HOU RB</a></td><td class="timestamp">Sun Aug 30 5:22:43 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.01</td>
+<td class="rank">81.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12260"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_wr">McBride, Tre TEN WR</a></td><td class="timestamp">Sun Aug 30 5:23:37 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.02</td>
+<td class="rank">82.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12161"  title="Week 1: at Jaguars Sun 1:00 p.m. ET" class="position_rb">Artis-Payne, Cameron CAR RB</a></td><td class="timestamp">Sun Aug 30 5:24:40 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.03</td>
+<td class="rank">83.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11754"  title="Week 1: at Cardinals Sun 4:05 p.m. ET" class="position_wr">Coleman, Brandon NOS WR</a></td><td class="timestamp">Sun Aug 30 5:25:09 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.04</td>
+<td class="rank">84.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11076"  title="Week 1: at Rams Sun 1:00 p.m. ET" class="position_wr">Kearse, Jermaine SEA WR</a></td><td class="timestamp">Sun Aug 30 5:26:12 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.05</td>
+<td class="rank">85.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8742"  title="Week 1: at Bears Sun 1:00 p.m. ET" class="position_pk">Crosby, Mason GBP PK</a></td><td class="timestamp">Sun Aug 30 5:26:26 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.06</td>
+<td class="rank">86.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9450"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_wr">Nicks, Hakeem TEN WR</a></td><td class="timestamp">Sun Aug 30 5:28:01 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.07</td>
+<td class="rank">87.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11697"  title="Week 1: vs Titans Sun 4:25 p.m. ET" class="position_te">Seferian-Jenkins, Austin TBB TE</a></td><td class="timestamp">Sun Aug 30 5:28:34 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.08</td>
+<td class="rank">88.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=2842"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_pk">Vinatieri, Adam IND PK</a></td><td class="timestamp">Sun Aug 30 5:30:20 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.09</td>
+<td class="rank">89.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11220"  title="Week 1: at Chargers Sun 4:05 p.m. ET" class="position_wr">Fuller, Corey DET WR</a></td><td class="timestamp">Sun Aug 30 5:30:12 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.10</td>
+<td class="rank">90.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10409"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_te">Clay, Charles BUF TE</a></td><td class="timestamp">Sun Aug 30 5:33:02 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.11</td>
+<td class="rank">91.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10976"  title="Week 1: at Broncos Sun 4:25 p.m. ET" class="position_pk">Tucker, Justin BAL PK</a></td><td class="timestamp">Sun Aug 30 5:32:03 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.12</td>
+<td class="rank">92.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9714"  title="Week 1: vs Chiefs Sun 1:00 p.m. ET" class="position_qb">Hoyer, Brian HOU QB</a></td><td class="timestamp">Sun Aug 30 5:34:07 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.13</td>
+<td class="rank">93.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0519"  title="Week 1: vs Saints Sun 4:05 p.m. ET" class="position_def">Cardinals, Arizona ARI Def</a></td><td class="timestamp">Sun Aug 30 5:34:14 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.14</td>
+<td class="rank">94.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10723"  title="Week 1: at Raiders Sun 4:25 p.m. ET" class="position_wr">Sanu, Mohamed CIN WR</a></td><td class="timestamp">Sun Aug 30 5:34:35 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.15</td>
+<td class="rank">95.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9299"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_pk">Carpenter, Dan BUF PK</a></td><td class="timestamp">Sun Aug 30 5:35:07 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.16</td>
+<td class="rank">96.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10506"  title="Week 1: vs Giants Sun 8:30 p.m. ET" class="position_pk">Bailey, Dan DAL PK</a></td><td class="timestamp">Sun Aug 30 5:36:02 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.01</td>
+<td class="rank">97.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12195"  title="Week 1: vs Titans Sun 4:25 p.m. ET" class="position_wr">Bell, Kenny TBB WR</a></td><td class="timestamp">Sun Aug 30 5:36:47 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.02</td>
+<td class="rank">98.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11966"  title="Week 1: at Falcons Mon 7:10 p.m. ET" class="position_pk">Parkey, Cody PHI PK</a></td><td class="timestamp">Sun Aug 30 5:37:20 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.03</td>
+<td class="rank">99.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9176"  title="Week 1: vs Eagles Mon 7:10 p.m. ET" class="position_te">Tamme, Jacob ATL TE</a></td><td class="timestamp">Sun Aug 30 5:37:43 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.04</td>
+<td class="rank">100.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=6589"  title="Week 1: at Jets Sun 1:00 p.m. ET" class="position_qb">McCown, Josh CLE QB</a></td><td class="timestamp">Sun Aug 30 5:39:36 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.05</td>
+<td class="rank">101.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=7236"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_te">Gates, Antonio SDC TE</a></td><td class="timestamp">Sun Aug 30 5:39:48 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.06</td>
+<td class="rank">102.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11687"  title="Week 1: vs Giants Sun 8:30 p.m. ET" class="position_wr">Street, Devin DAL WR</a></td><td class="timestamp">Sun Aug 30 5:40:08 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.07</td>
+<td class="rank">103.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12184"  title="Week 1: vs Dolphins Sun 1:00 p.m. ET" class="position_wr">Crowder, Jamison WAS WR</a></td><td class="timestamp">Sun Aug 30 5:40:38 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.08</td>
+<td class="rank">104.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0505"  title="Week 1: vs Browns Sun 1:00 p.m. ET" class="position_def">Jets, New York NYJ Def</a></td><td class="timestamp">Sun Aug 30 5:42:06 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.09</td>
+<td class="rank">105.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8144"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_pk">Novak, Nick SDC PK</a></td><td class="timestamp">Sun Aug 30 5:43:19 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.10</td>
+<td class="rank">106.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10872"  title="Week 1: at 49ers Mon 10:20 p.m. ET" class="position_pk">Walsh, Blair MIN PK</a></td><td class="timestamp">Sun Aug 30 5:43:47 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.11</td>
+<td class="rank">107.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12183"  title="Week 1: vs Panthers Sun 1:00 p.m. ET" class="position_wr">Greene, Rashad JAC WR</a></td><td class="timestamp">Sun Aug 30 5:43:54 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.12</td>
+<td class="rank">108.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11179"  title="Week 1: at Rams Sun 1:00 p.m. ET" class="position_rb">Michael, Christine SEA RB</a></td><td class="timestamp">Sun Aug 30 5:44:30 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.13</td>
+<td class="rank">109.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10352"  title="Week 1: at Redskins Sun 1:00 p.m. ET" class="position_te">Cameron, Jordan MIA TE</a></td><td class="timestamp">Sun Aug 30 5:45:11 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.14</td>
+<td class="rank">110.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10744"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_te">Green, Ladarius SDC TE</a></td><td class="timestamp">Sun Aug 30 5:46:28 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.15</td>
+<td class="rank">111.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0511"  title="Week 1: vs Ravens Sun 4:25 p.m. ET" class="position_def">Broncos, Denver DEN Def</a></td><td class="timestamp">Sun Aug 30 5:47:33 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.16</td>
+<td class="rank">112.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11747"  title="Week 1: vs Steelers Thu 8:30 p.m. ET" class="position_rb">White, James NEP RB</a></td><td class="timestamp">Sun Aug 30 5:48:36 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.01</td>
+<td class="rank">113.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12160"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_rb">Williams, Karlos BUF RB</a></td><td class="timestamp">Sun Aug 30 5:50:52 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.02</td>
+<td class="rank">114.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11248"  title="Week 1: vs Dolphins Sun 1:00 p.m. ET" class="position_te">Reed, Jordan WAS TE</a></td><td class="timestamp">Sun Aug 30 5:51:09 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.03</td>
+<td class="rank">115.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10307"  title="Week 1: vs Eagles Mon 7:10 p.m. ET" class="position_wr">Hankerson, Leonard ATL WR</a></td><td class="timestamp">Sun Aug 30 5:52:39 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.04</td>
+<td class="rank">116.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11947"  title="Week 1: vs Ravens Sun 4:25 p.m. ET" class="position_pk">McManus, Brandon DEN PK</a></td><td class="timestamp">Sun Aug 30 5:53:35 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.05</td>
+<td class="rank">117.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12102"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_wr">Carter, Duron IND WR</a></td><td class="timestamp">Sun Aug 30 5:54:44 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.06</td>
+<td class="rank">118.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11214"  title="Week 1: vs Steelers Thu 8:30 p.m. ET" class="position_wr">Dobson, Aaron NEP WR</a></td><td class="timestamp">Sun Aug 30 5:55:08 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.07</td>
+<td class="rank">119.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12210"  title="Week 1: vs Bengals Sun 4:25 p.m. ET" class="position_te">Walford, Clive OAK TE</a></td><td class="timestamp">Sun Aug 30 5:56:00 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.08</td>
+<td class="rank">120.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11223"  title="Week 1: vs Seahawks Sun 1:00 p.m. ET" class="position_wr">Bailey, Stedman STL WR</a></td><td class="timestamp">Sun Aug 30 5:56:51 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.09</td>
+<td class="rank">121.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0523"  title="Week 1: at Bears Sun 1:00 p.m. ET" class="position_def">Packers, Green Bay GBP Def</a></td><td class="timestamp">Sun Aug 30 5:57:07 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.10</td>
+<td class="rank">122.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10674"  title="Week 1: vs Bengals Sun 4:25 p.m. ET" class="position_wr">Holmes, Andre OAK WR</a></td><td class="timestamp">Sun Aug 30 5:57:36 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.11</td>
+<td class="rank">123.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10714"  title="Week 1: at Rams Sun 1:00 p.m. ET" class="position_rb">Turbin, Robert SEA RB</a></td><td class="timestamp">Sun Aug 30 5:57:54 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.12</td>
+<td class="rank">124.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10742"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_te">Allen, Dwayne IND TE</a></td><td class="timestamp">Sun Aug 30 5:58:10 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.13</td>
+<td class="rank">125.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10973"  title="Week 1: vs Giants Sun 8:30 p.m. ET" class="position_wr">Beasley, Cole DAL WR</a></td><td class="timestamp">Sun Aug 30 5:58:16 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.14</td>
+<td class="rank">126.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8339"  title="Week 1: vs Ravens Sun 4:25 p.m. ET" class="position_te">Daniels, Owen DEN TE</a></td><td class="timestamp">Sun Aug 30 5:59:12 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.15</td>
+<td class="rank">127.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12146"  title="Week 1: at Cardinals Sun 4:05 p.m. ET" class="position_qb">Grayson, Garrett NOS QB</a></td><td class="timestamp">Sun Aug 30 6:00:07 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.16</td>
+<td class="rank">128.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9545"  title="Week 1: at Jets Sun 1:00 p.m. ET" class="position_wr">Hartline, Brian CLE WR</a></td><td class="timestamp">Sun Aug 30 6:00:50 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.01</td>
+<td class="rank">129.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12163"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_rb">Robinson, Josh IND RB</a></td><td class="timestamp">Sun Aug 30 6:02:27 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.02</td>
+<td class="rank">130.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11684"  title="Week 1: at Falcons Mon 7:10 p.m. ET" class="position_wr">Huff, Josh PHI WR</a></td><td class="timestamp">Sun Aug 30 6:03:03 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.03</td>
+<td class="rank">131.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11218"  title="Week 1: vs Vikings Mon 10:20 p.m. ET" class="position_wr">Patton, Quinton SFO WR</a></td><td class="timestamp">Sun Aug 30 6:03:12 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.04</td>
+<td class="rank">132.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0517"  title="Week 1: at Cowboys Sun 8:30 p.m. ET" class="position_def">Giants, New York NYG Def</a></td><td class="timestamp">Sun Aug 30 6:04:31 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.05</td>
+<td class="rank">133.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:04:38 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.06</td>
+<td class="rank">134.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0503"  title="Week 1: at Redskins Sun 1:00 p.m. ET" class="position_def">Dolphins, Miami MIA Def</a></td><td class="timestamp">Sun Aug 30 6:05:13 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.07</td>
+<td class="rank">135.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=5666"  title="Week 1: vs Bengals Sun 4:25 p.m. ET" class="position_pk">Janikowski, Sebastian OAK PK</a></td><td class="timestamp">Sun Aug 30 6:05:44 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.08</td>
+<td class="rank">136.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11890"  title="Week 1: at Texans Sun 1:00 p.m. ET" class="position_wr">Wilson, Albert KCC WR</a></td><td class="timestamp">Sun Aug 30 6:06:26 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.09</td>
+<td class="rank">137.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:06:36 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.10</td>
+<td class="rank">138.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=3494"  title="Week 1: vs Vikings Mon 10:20 p.m. ET" class="position_pk">Dawson, Phil SFO PK</a></td><td class="timestamp">Sun Aug 30 6:06:52 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.11</td>
+<td class="rank">139.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9474"  title="Week 1: vs Seahawks Sun 1:00 p.m. ET" class="position_te">Cook, Jared STL TE</a></td><td class="timestamp">Sun Aug 30 6:07:15 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.12</td>
+<td class="rank">140.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0531"  title="Week 1: at Broncos Sun 4:25 p.m. ET" class="position_def">Ravens, Baltimore BAL Def</a></td><td class="timestamp">Sun Aug 30 6:07:30 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.13</td>
+<td class="rank">141.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10702"  title="Week 1: vs Ravens Sun 4:25 p.m. ET" class="position_qb">Osweiler, Brock DEN QB</a></td><td class="timestamp">Sun Aug 30 6:07:37 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.14</td>
+<td class="rank">142.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9987"  title="Week 1: at Bears Sun 1:00 p.m. ET" class="position_rb">Starks, James GBP RB</a></td><td class="timestamp">Sun Aug 30 6:08:05 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.15</td>
+<td class="rank">143.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11188"  title="Week 1: at Chargers Sun 4:05 p.m. ET" class="position_rb">Riddick, Theo DET RB</a></td><td class="timestamp">Sun Aug 30 6:09:18 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.16</td>
+<td class="rank">144.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0522"  title="Week 1: at Chargers Sun 4:05 p.m. ET" class="position_def">Lions, Detroit DET Def</a></td><td class="timestamp">Sun Aug 30 6:10:10 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.01</td>
+<td class="rank">145.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8930"  title="Week 1: at Chargers Sun 4:05 p.m. ET" class="position_pk">Prater, Matt DET PK</a></td><td class="timestamp">Sun Aug 30 6:16:18 p.m. ET 2015</td>
+<td>Timer Expired Replacement pick made by Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.02</td>
+<td class="rank">146.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:11:49 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.03</td>
+<td class="rank">147.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10862"  title="Week 1: vs Chiefs Sun 1:00 p.m. ET" class="position_pk">Bullock, Randy HOU PK</a></td><td class="timestamp">Sun Aug 30 6:12:03 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.04</td>
+<td class="rank">148.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10706"  title="Week 1: vs Bengals Sun 4:25 p.m. ET" class="position_rb">Richardson, Trent OAK RB</a></td><td class="timestamp">Sun Aug 30 6:13:26 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.05</td>
+<td class="rank">149.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:13:30 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.06</td>
+<td class="rank">150.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11384"  title="Week 1: at Redskins Sun 1:00 p.m. ET" class="position_pk">Sturgis, Caleb MIA PK</a></td><td class="timestamp">Sun Aug 30 6:17:33 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.07</td>
+<td class="rank">151.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12207"  title="Week 1: vs Colts Sun 1:00 p.m. ET" class="position_te">O'Leary, Nick BUF TE</a></td><td class="timestamp">Sun Aug 30 6:17:52 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.08</td>
+<td class="rank">152.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9307"  title="Week 1: vs Titans Sun 4:25 p.m. ET" class="position_pk">Barth, Connor TBB PK</a></td><td class="timestamp">Sun Aug 30 6:19:23 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.09</td>
+<td class="rank">153.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:19:32 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.10</td>
+<td class="rank">154.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=12264"  title="Week 1: at Chargers Sun 4:05 p.m. ET" class="position_rb">Zenner, Zach DET RB</a></td><td class="timestamp">Sun Aug 30 6:19:41 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.11</td>
+<td class="rank">155.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=3445"  title="Week 1: at Bills Sun 1:00 p.m. ET" class="position_qb">Hasselbeck, Matt IND QB</a></td><td class="timestamp">Sun Aug 30 6:19:51 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.12</td>
+<td class="rank">156.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10868"  title="Week 1: vs Seahawks Sun 1:00 p.m. ET" class="position_pk">Zuerlein, Greg STL PK</a></td><td class="timestamp">Sun Aug 30 6:20:05 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.13</td>
+<td class="rank">157.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0504"  title="Week 1: vs Steelers Thu 8:30 p.m. ET" class="position_def">Patriots, New England NEP Def</a></td><td class="timestamp">Sun Aug 30 6:20:13 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.14</td>
+<td class="rank">158.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9429"  title="Week 1: at Falcons Mon 7:10 p.m. ET" class="position_qb">Sanchez, Mark PHI QB</a></td><td class="timestamp">Sun Aug 30 6:21:04 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.15</td>
+<td class="rank">159.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11645"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_qb">Mettenberger, Zach TEN QB</a></td><td class="timestamp">Sun Aug 30 6:21:53 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.16</td>
+<td class="rank">160.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11521"  title="Week 1: at Cowboys Sun 8:30 p.m. ET" class="position_te">Donnell, Larry NYG TE</a></td><td class="timestamp">Sun Aug 30 6:22:28 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.01</td>
+<td class="rank">161.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0527"  title="Week 1: at Jaguars Sun 1:00 p.m. ET" class="position_def">Panthers, Carolina CAR Def</a></td><td class="timestamp">Sun Aug 30 6:23:06 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.02</td>
+<td class="rank">162.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:23:14 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.03</td>
+<td class="rank">163.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0530"  title="Week 1: vs Vikings Mon 10:20 p.m. ET" class="position_def">49ers, San Francisco SFO Def</a></td><td class="timestamp">Sun Aug 30 6:23:22 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.04</td>
+<td class="rank">164.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=7150"  title="Week 1: at Cowboys Sun 8:30 p.m. ET" class="position_pk">Brown, Josh NYG PK</a></td><td class="timestamp">Sun Aug 30 6:24:27 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.05</td>
+<td class="rank">165.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:24:32 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.06</td>
+<td class="rank">166.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11696"  title="Week 1: vs Browns Sun 1:00 p.m. ET" class="position_te">Amaro, Jace NYJ TE</a></td><td class="timestamp">Sun Aug 30 6:24:42 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.07</td>
+<td class="rank">167.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0514"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_def">Chargers, San Diego SDC Def</a></td><td class="timestamp">Sun Aug 30 6:25:09 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.08</td>
+<td class="rank">168.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11785"  title="Week 1: at Bears Sun 1:00 p.m. ET" class="position_te">Rodgers, Richard GBP TE</a></td><td class="timestamp">Sun Aug 30 6:25:39 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.09</td>
+<td class="rank">169.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:25:42 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.10</td>
+<td class="rank">170.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:25:44 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.11</td>
+<td class="rank">171.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11652"  title="Week 1: vs Packers Sun 1:00 p.m. ET" class="position_rb">Carey, Ka'Deem CHI RB</a></td><td class="timestamp">Sun Aug 30 6:25:54 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.12</td>
+<td class="rank">172.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:26:06 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.13</td>
+<td class="rank">173.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10369"  title="Week 1: vs Browns Sun 1:00 p.m. ET" class="position_rb">Powell, Bilal NYJ RB</a></td><td class="timestamp">Sun Aug 30 6:26:41 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.14</td>
+<td class="rank">174.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0510"  title="Week 1: at Patriots Thu 8:30 p.m. ET" class="position_def">Steelers, Pittsburgh PIT Def</a></td><td class="timestamp">Sun Aug 30 6:27:47 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.15</td>
+<td class="rank">175.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10601"  title="Week 1: at Jets Sun 1:00 p.m. ET" class="position_wr">Hawkins, Andrew CLE WR</a></td><td class="timestamp">Sun Aug 30 6:28:27 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.16</td>
+<td class="rank">176.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11960"  title="Week 1: vs Saints Sun 4:05 p.m. ET" class="position_pk">Catanzaro, Chandler ARI PK</a></td><td class="timestamp">Sun Aug 30 6:28:48 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.01</td>
+<td class="rank">177.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:29:01 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.02</td>
+<td class="rank">178.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:29:02 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.03</td>
+<td class="rank">179.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11941"  title="Week 1: vs Lions Sun 4:05 p.m. ET" class="position_rb">Oliver, Branden SDC RB</a></td><td class="timestamp">Sun Aug 30 6:29:22 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.04</td>
+<td class="rank">180.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:29:31 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.05</td>
+<td class="rank">181.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:29:32 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.06</td>
+<td class="rank">182.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=8117"  title="Week 1: vs Chiefs Sun 1:00 p.m. ET" class="position_wr">Washington, Nate HOU WR</a></td><td class="timestamp">Sun Aug 30 6:29:59 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.07</td>
+<td class="rank">183.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11689"  title="Week 1: vs Vikings Mon 10:20 p.m. ET" class="position_wr">Ellington, Bruce SFO WR</a></td><td class="timestamp">Sun Aug 30 6:30:13 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.08</td>
+<td class="rank">184.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9936"  title="Week 1: vs Chiefs Sun 1:00 p.m. ET" class="position_te">Graham, Garrett HOU TE</a></td><td class="timestamp">Sun Aug 30 6:30:57 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.09</td>
+<td class="rank">185.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:31:07 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.10</td>
+<td class="rank">186.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:31:09 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.11</td>
+<td class="rank">187.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0512"  title="Week 1: at Texans Sun 1:00 p.m. ET" class="position_def">Chiefs, Kansas City KCC Def</a></td><td class="timestamp">Sun Aug 30 6:31:24 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.12</td>
+<td class="rank">188.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:31:38 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.13</td>
+<td class="rank">189.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10961"  title="Week 1: vs Giants Sun 8:30 p.m. ET" class="position_rb">Dunbar, Lance DAL RB</a></td><td class="timestamp">Sun Aug 30 6:31:51 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.14</td>
+<td class="rank">190.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=0506"  title="Week 1: at Raiders Sun 4:25 p.m. ET" class="position_def">Bengals, Cincinnati CIN Def</a></td><td class="timestamp">Sun Aug 30 6:32:16 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.15</td>
+<td class="rank">191.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:19 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.16</td>
+<td class="rank">192.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=10651"  title="Week 1: at Broncos Sun 4:25 p.m. ET" class="position_wr">Aiken, Kamar BAL WR</a></td><td class="timestamp">Sun Aug 30 6:32:45 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.01</td>
+<td class="rank">193.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:47 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.02</td>
+<td class="rank">194.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:48 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.03</td>
+<td class="rank">195.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:49 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.04</td>
+<td class="rank">196.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:50 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.05</td>
+<td class="rank">197.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:52 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.06</td>
+<td class="rank">198.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:52 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.07</td>
+<td class="rank">199.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:53 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.08</td>
+<td class="rank">200.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:32:59 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.09</td>
+<td class="rank">201.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:01 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.10</td>
+<td class="rank">202.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:03 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.11</td>
+<td class="rank">203.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:05 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.12</td>
+<td class="rank">204.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:08 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.13</td>
+<td class="rank">205.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:10 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.14</td>
+<td class="rank">206.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:11 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.15</td>
+<td class="rank">207.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:13 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.16</td>
+<td class="rank">208.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=11342"  title="Week 1: at Jaguars Sun 1:00 p.m. ET" class="position_rb">Whittaker, Fozzy CAR RB</a></td><td class="timestamp">Sun Aug 30 6:33:36 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.01</td>
+<td class="rank">209.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:39 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.02</td>
+<td class="rank">210.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:40 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.03</td>
+<td class="rank">211.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:42 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.04</td>
+<td class="rank">212.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:43 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.05</td>
+<td class="rank">213.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:44 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.06</td>
+<td class="rank">214.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:45 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.07</td>
+<td class="rank">215.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:46 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.08</td>
+<td class="rank">216.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:47 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.09</td>
+<td class="rank">217.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:49 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.10</td>
+<td class="rank">218.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:50 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.11</td>
+<td class="rank">219.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:51 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.12</td>
+<td class="rank">220.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:56 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.13</td>
+<td class="rank">221.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:57 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.14</td>
+<td class="rank">222.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:33:59 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.15</td>
+<td class="rank">223.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:34:01 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.16</td>
+<td class="rank">224.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2015/player?L=41498&amp;P=9144"  title="Week 1: at Buccaneers Sun 4:25 p.m. ET" class="position_wr">Douglas, Harry TEN WR</a></td><td class="timestamp">Sun Aug 30 6:35:19 p.m. ET 2015</td>
+<td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.01</td>
+<td class="rank">225.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:23 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.02</td>
+<td class="rank">226.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:24 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.03</td>
+<td class="rank">227.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:26 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.04</td>
+<td class="rank">228.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:27 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.05</td>
+<td class="rank">229.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:28 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.06</td>
+<td class="rank">230.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:29 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.07</td>
+<td class="rank">231.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:30 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.08</td>
+<td class="rank">232.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:31 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.09</td>
+<td class="rank">233.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:32 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.10</td>
+<td class="rank">234.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:33 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.11</td>
+<td class="rank">235.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:37 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.12</td>
+<td class="rank">236.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:37 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.13</td>
+<td class="rank">237.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:38 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.14</td>
+<td class="rank">238.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:39 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.15</td>
+<td class="rank">239.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:41 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.16</td>
+<td class="rank">240.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:43 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.01</td>
+<td class="rank">241.</td>
+<td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:44 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.02</td>
+<td class="rank">242.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:45 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.03</td>
+<td class="rank">243.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:46 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.04</td>
+<td class="rank">244.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:46 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.05</td>
+<td class="rank">245.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:47 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.06</td>
+<td class="rank">246.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:48 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.07</td>
+<td class="rank">247.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:48 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.08</td>
+<td class="rank">248.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:48 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.09</td>
+<td class="rank">249.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:48 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.10</td>
+<td class="rank">250.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:49 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.11</td>
+<td class="rank">251.</td>
+<td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:49 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.12</td>
+<td class="rank">252.</td>
+<td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:50 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.13</td>
+<td class="rank">253.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:50 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.14</td>
+<td class="rank">254.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:50 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.15</td>
+<td class="rank">255.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:51 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">16.16</td>
+<td class="rank">256.</td>
+<td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 30 6:35:51 p.m. ET 2015</td>
+<td>Pick Skipped By Commissioner</td>
+</tr>
+</tbody></table><br  /> <table align="center" cellspacing="1" class="report"><caption><span>Average Time Waiting For Pick To Be Made</span></caption><tbody><tr>
+<th class="franchisename">Franchise</th><th>Avg. Wait Time</th><th># Picks</th></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Matt Spinola"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0001&amp;O=07">Manic Moose</a></td><td align="right">less than a minute</td><td align="right">16</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Scott Arrigo"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0002&amp;O=07">Scooter's Boozers</a></td><td align="right">less than a minute</td><td align="right">14</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Erik Farmerie"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0003&amp;O=07">Dunbar Dogs</a></td><td align="right">less than a minute</td><td align="right">16</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Tony Verdream"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0004&amp;O=07">F-Jackie</a></td><td align="right">less than a minute</td><td align="right">15</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Jon Kraus"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0005&amp;O=07">Ho Train</a></td><td align="right">less than a minute</td><td align="right">15</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Rich Raida"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0006&amp;O=07">Otters</a></td><td align="right">less than a minute</td><td align="right">17</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Mark Stahlsmith"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0007&amp;O=07">Da Funk</a></td><td align="right">1 minute</td><td align="right">16</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Mike Spinola"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0008&amp;O=07">Beers</a></td><td align="right">less than a minute</td><td align="right">19</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Alan Hatok"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0009&amp;O=07">OakalDoakals</a></td><td align="right">less than a minute</td><td align="right">16</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Phil Arrigo"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0010&amp;O=07">Bunchalosers</a></td><td align="right">less than a minute</td><td align="right">14</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: John Keenan"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0011&amp;O=07">Karpet Munchers</a></td><td align="right">less than a minute</td><td align="right">16</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Chris Arenth"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0012&amp;O=07">Carter's Commandos</a></td><td align="right">less than a minute</td><td align="right">16</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Sean Berecek"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0013&amp;O=07">Blitzkrieg</a></td><td align="right">less than a minute</td><td align="right">16</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Brian McIntyre"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0014&amp;O=07">Iron City Pounders</a></td><td align="right">less than a minute</td><td align="right">18</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Randy Folks"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0015&amp;O=07">Texas Nashvillians</a></td><td align="right">1 minute</td><td align="right">14</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Mike Temme"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2015/options?L=41498&amp;F=0016&amp;O=07">Tally Wackers</a></td><td align="right">less than a minute</td><td align="right">17</td></tr>
+</tbody></table><!-- 1 - KCA July 16, 2012 --> </div></div><!-- 2 - KCA July 16, 2012 --> </div><div class="pagefooter"><table border="0" cellpadding="1" cellspacing="1" align="center">
+<tr><td colspan="2" align="center"><a href="#body_options_17">Back To Top Of Page</a></td></tr>
+<tr><td colspan="2" align="center">Page Generated Mon Aug 31 9:55:14 a.m. ET 2015</td></tr>
+<tr><td colspan="2" align="center">Copyright &copy; 1995-2015 <a href="http://www.sidesoft.com/">Sideline Software, Inc.</a> All Rights Reserved. <a href="http://www.myfantasyleague.com/privacy-policy/">Privacy Policy</a> - <a href="http://www.myfantasyleague.com/terms-of-service/">Terms Of Service</a> - <a href="http://www.myfantasyleague.com/acceptable-use-policy/">Acceptable Use Policy</a> - Statistical Information provided by: <a href="http://www.stats.com/">STATS LLC</a> 
+</td></tr>
+
+<tr><td colspan="2" align="center"><b>Disclaimer:</b>  This site is not
+in any way affiliated with, endorsed or licensed by the
+National Football League, any NFL team or NFLPA member.
+</td></tr></table></div>
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+(function () {
+var d = new Image(1, 1);
+d.onerror = d.onload = function () {
+d.onerror = d.onload = null;
+};
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804068h", "&", "cg=0", "&", "cc=1", "&", "si=", escape(window.location.href), "&", "rp=", escape(document.referrer), "&", "ts=compact", "&", "rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+<div>
+<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804068h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+width="1" height="1" alt="" />
+</div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+</body></html>

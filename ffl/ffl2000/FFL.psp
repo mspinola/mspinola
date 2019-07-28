@@ -1,0 +1,13 @@
+;Codewright Project Space File (do not remove or modify this line)
+[State]
+StateWindowFrame=0,0,1089,812,0x53097fca
+
+
+[Project]
+ConfigSetUserWorkspace=''
+ConfigSetUserWorkspaceParser=''
+ConfigSetUserWorkspaceTimeStamp=0
+ConfigSetUserWorkspaceAutoSync=0
+
+[Project.".\FFL.pjt"]
+

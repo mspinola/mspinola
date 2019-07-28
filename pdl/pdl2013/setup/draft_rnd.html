@@ -1,0 +1,1981 @@
+<HTML>
+<HEAD><TITLE>PDL 2013 Annual Draft Results.</TITLE></HEAD>
+<!-- <body bgcolor="#000000" text="#FFFFFF" link="#99FFFF" vlink="#339999" alink="#CCFFFF"> -->
+
+
+<center>
+<H3>PDL 2013 Annual Draft Results -- By Round</H3>
+</center>
+ 
+ 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Fantasy Football: PDL 2013 Draft</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"  />
+<meta name="keywords" content="Draft, fantasy football, keeper fantasy football league, dynasty fantasy football league, salary cap fantasy football league, IDP fantasy football league, MyFantasyLeague, MFL, ffl, league management"  />
+<meta name="description" content="The most customizable way to run your fantasy football league on the web today, MyFantasyLeague.com was voted 'Best Fantasy Commissioner Product' by the Fantasy Sports Trade Association, and has won several additional significant industry awards.  Our 19 years of experience means we do fantasy football right.  If you're ready to move beyond basic league settings, and onto fantasy football how the hard-core players play it, try MyFantasyLeague.com: Beyond League Management"  />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"  />
+<link rel="stylesheet" href="http://www11.myfantasyleague.com/fflnetdynamic2013/31368.css" type="text/css"  />
+<link rel="stylesheet" id="skin_stylesheet" href="http://www11.myfantasyleague.com/skins/mfl2012/skin.css" type="text/css"  />
+<link rel="apple-touch-icon" href="http://www11.myfantasyleague.com/apple-touch-icon.png"  />
+<link rel="shortcut icon" href="http://www11.myfantasyleague.com/favicon.ico"  />
+<script type="text/javascript" src="http://www11.myfantasyleague.com/mfl_common.js"></script>
+<script type="text/javascript">
+<!--
+
+var franchise_id = '0000';
+var league_id = '31368';
+var year = 2013;
+var xmlBaseURL = 'http://www11.myfantasyleague.com/fflnetdynamic2013/';
+var baseURLStatic = 'http://www11.myfantasyleague.com';
+var baseURLDynamic = 'http://football11.myfantasyleague.com';
+var currentServerTime = 1388344988;
+var completedWeek = 16;
+var liveScoringWeek = 17;
+
+function Franchise (id, name, division, icon, logo, abbrev) {
+   this.id = id;
+   this.name = name;
+   this.division = division;
+   this.icon = icon;
+   this.logo = logo;
+   this.abbrev = abbrev;
+}
+var leagueAttributes = new Object();
+
+var franchiseDatabase = new Array();
+franchiseDatabase['fid_0000'] = new Franchise('0000', 'Commissioner');
+franchiseDatabase['fid_0001'] = new Franchise('0001', 'Manic Moose', '01' ,'http://www22.myfantasyleague.com/fflnetdynamic2010/20526_franchise_icon0001.jpg' ,'http://www22.myfantasyleague.com/fflnetdynamic2010/20526_franchise_logo0001.jpg' ,'');
+franchiseDatabase['fid_0002'] = new Franchise('0002', 'Scooter\'s Boozers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2008/71127_franchise_icon0002.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_682_813.jpg' ,'');
+franchiseDatabase['fid_0003'] = new Franchise('0003', 'Dunbar Dogs', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'');
+franchiseDatabase['fid_0004'] = new Franchise('0004', 'F-Jackie', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'');
+franchiseDatabase['fid_0005'] = new Franchise('0005', 'Ho Train', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'');
+franchiseDatabase['fid_0006'] = new Franchise('0006', 'Otters', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'');
+franchiseDatabase['fid_0007'] = new Franchise('0007', 'Da Funk', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'');
+franchiseDatabase['fid_0008'] = new Franchise('0008', 'Beers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'');
+franchiseDatabase['fid_0009'] = new Franchise('0009', 'OakalDoakals', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'');
+franchiseDatabase['fid_0010'] = new Franchise('0010', 'Bunchalosers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'');
+franchiseDatabase['fid_0011'] = new Franchise('0011', 'Karpet Munchers', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'');
+franchiseDatabase['fid_0012'] = new Franchise('0012', 'Carter\'s Commandos', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'');
+franchiseDatabase['fid_0013'] = new Franchise('0013', 'Blitzkrieg', '01' ,'http://www10.myfantasyleague.com/fflnetdynamic2012/46585_franchise_icon0013.jpg' ,'http://www10.myfantasyleague.com/fflnetdynamic2012/46585_franchise_logo0013.jpg' ,'');
+franchiseDatabase['fid_0014'] = new Franchise('0014', 'Iron City Pounders', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'');
+franchiseDatabase['fid_0015'] = new Franchise('0015', 'Texas Nashvillians', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'');
+franchiseDatabase['fid_0016'] = new Franchise('0016', 'Tally Wackers', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'');
+leagueAttributes['Draft'] = true;
+leagueAttributes['Trade'] = true;
+leagueAttributes['MinStarters'] = 9;
+leagueAttributes['MaxStarters'] = 9;
+leagueAttributes['Divisions'] = new Array('AFC East', 'AFC West', 'NFC East', 'NFC West');
+leagueAttributes['Franchises'] = 16;
+
+function chat_window (url) {
+    var chatWindow = window.open(url,"chat_window","height=600,width=450,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    chatWindow.focus();
+}
+
+function live_draft_window (url) {
+    var liveDraftWindow = window.open(url,"live_draft_window","height=700,width=900,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    liveDraftWindow.focus();
+}
+
+function live_auction_window (url) {
+    var liveAuctionWindow = window.open(url,"live_auction_window","height=700,width=900,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    liveAuctionWindow.focus();
+}
+
+function facebook_share (url) {
+   var facebookShare = window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(url), "sharer", "toolbar=0,status=0,width=626,height=436");
+   facebookShare.focus();
+}
+
+//-->
+</script>
+<link rev="MADE" href="mailto:support@myfantasyleague.com"  />
+<script type="text/javascript">
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  COMSCORE.beacon({
+    c1:2,
+    c2:"6035210",
+    c3:"",
+    c4:"www.myfantasyleague.com",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-249099-1']);
+  _gaq.push(['_setDomainName', 'myfantasyleague.com']);
+  _gaq.push(['_trackPageview', '/2013/options_17']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body id="body_options_17"><noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035210&amp;c3=&amp;c4=www.myfantasyleague.com&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<script src="http://www11.myfantasyleague.com/menu5.923/milonic_src.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+if(ns4)_d.write("<"+"scr"+"ipt src=http://www11.myfantasyleague.com/menu5.923/mmenuns4.js></"+"scr"+"ipt>");
+   else _d.write("<"+"scr"+"ipt src=http://www11.myfantasyleague.com/menu5.923/mmenudom.js></"+"scr"+"ipt>");
+//-->
+</script>
+<script type="text/javascript">
+<!--
+_menuCloseDelay=500;
+_menuOpenDelay=150;
+_subOffsetTop=1;
+_subOffsetLeft=1;
+
+
+with(menuVerticalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="2";
+subimage="http://www11.myfantasyleague.com/menu5.923/black_10x9_whiteblackbox.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+
+}
+
+with(menuHorizontalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="2";
+subimage="http://www11.myfantasyleague.com/menu5.923/black_10x9_whiteblackboxdown.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+
+}
+
+with(milonic=new menuname("Main Menu")){
+style=menuHorizontalStyle;
+top="10";
+alwaysvisible="1";
+followscroll=0;
+openonclick=0;
+orientation="horizontal";
+screenposition="center";
+aI("text=My Leagues;showmenu=MYLEAGUES;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=MYLEAGUES;");
+aI("text=Reports;showmenu=REPORTS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS;");
+aI("text=For Owners;showmenu=FOROWNERS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=FOROWNERS;");
+aI("text=For Commissioners;showmenu=FORCOMMISSIONERS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=FORCOMMISSIONERS;");
+aI("text=Communications;showmenu=COMMUNICATIONS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=COMMUNICATIONS;");
+aI("text=This Page;showmenu=THISPAGE;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=THISPAGE;");
+aI("text=Links;showmenu=LINKS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=LINKS;");
+aI("text=Help;showmenu=HELP;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=HELP;");
+}
+with(milonic=new menuname("MYLEAGUES")){
+style=menuVerticalStyle;
+aI("text=PDL 2013;url=http://www11.myfantasyleague.com/2013/home/31368;");
+aI("text=2012 League Home;url=http://football24.myfantasyleague.com/2012/home/46585;");
+aI("text=2011 League Home;url=http://football6.myfantasyleague.com/2011/home/17475;");
+aI("text=2010 League Home;url=http://football6.myfantasyleague.com/2010/home/20526;");
+aI("text=2009 League Home;url=http://football6.myfantasyleague.com/2009/home/39444;");
+aI("text=2008 League Home;url=http://football6.myfantasyleague.com/2008/home/71127;");
+aI("text=2007 League Home;url=http://football6.myfantasyleague.com/2007/home/61839;");
+aI("text=2006 League Home;url=http://football99.myfantasyleague.com/2006/home/61505;");
+aI("text=2005 League Home;url=http://football99.myfantasyleague.com/2005/home/64832;");
+aI("text=2004 League Home;url=http://football99.myfantasyleague.com/2004/home/53450;");
+aI("text=2003 League Home;url=http://football99.myfantasyleague.com/2003/home/65775;");
+aI("text=2002 League Home;url=http://pdlreport.webatu.com/pdl/pdl2002/pdl2002.html;");
+aI("text=2001 League Home;url=http://pdlreport.webatu.com/pdl/pdl2001/pdl2001.html;");
+aI("text=2000 League Home;url=http://pdlreport.webatu.com/pdl/pdl2000/pdl2000.html;");
+aI("text=All My Leagues;url=http://football.myfantasyleague.com/2013/myleagues;");
+aI("text=Find A League;url=http://football.myfantasyleague.com/2013/index;");
+aI("text=Join A Mock Draft;url=http://www21.myfantasyleague.com/mockdrafts/public.php;");
+aI("text=Set Up A Free Draft-Only League;url=http://www.myfantasyleague.com/fantasy-football-get-started/free-draft-only-leagues.php;");
+aI("text=Set Up A New League;url=http://football11.myfantasyleague.com/2013/league_setup1?utm_source=existing_league&utm_content=31368&utm_medium=menu&utm_campaign=internal;");
+aI("text=Turn $10 into $100 By Joining An MFL10s League;url=http://www.myfantasyleague.com/fantasy-football-purchase/fantasy-football-purchase-mfltens.php;");
+aI("text=Set up an NFL Playoff League Based on This League;url=http://football11.myfantasyleague.com/2013/copy_league?PLAYOFFS=YES&L=31368;");
+}
+with(milonic=new menuname("REPORTS")){
+style=menuVerticalStyle;
+aI("text=Franchise;showmenu=FRANCHISE;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_FRANCHISE;");
+aI("text=Player;showmenu=PLAYER;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_PLAYER;");
+aI("text=Standings;showmenu=STANDINGSREPORTS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_STANDINGSREPORTS;");
+aI("text=Rules;showmenu=RULESREPORTS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_RULESREPORTS;");
+aI("text=Wireless;showmenu=WIRELESS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_WIRELESS;");
+aI("text=League;showmenu=LEAGUE;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_LEAGUE;");
+aI("text=Records;showmenu=RECORDS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_RECORDS;");
+aI("text=NFL;showmenu=NFLREPORTS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=REPORTS_NFLREPORTS;");
+aI("text=<form method='get' action='http://football11.myfantasyleague.com/2013/player_search'>Player:<input type='text' size='8' class='reallysmall' name='NAME'><input type='hidden' name='L' value='31368'><\/form>;type=form;;");
+}
+with(milonic=new menuname("FRANCHISE")){
+style=menuVerticalStyle;
+aI("text=Rosters;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=07;");
+aI("text=Transactions;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=03;");
+aI("text=Previously Processed Waivers;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=76;");
+aI("text=Starting Lineups;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=06;");
+aI("text=Who Should I Start?;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=205;");
+aI("text=Weekly Results;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=22;");
+aI("text=Fantasy Previews;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=207;");
+aI("text=Fantasy Recaps;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=177;");
+aI("text=Franchise Information;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=01;");
+aI("text=Accounting;url=http://football11.myfantasyleague.com/2013/accounting_report?L=31368;");
+aI("text=Scoring History;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=118;");
+aI("text=Box Score;url=http://football11.myfantasyleague.com/2013/fantasy_box_score?L=31368;");
+aI("text=Trade Bait;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=133;");
+aI("text=Keepers;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=187;");
+}
+with(milonic=new menuname("PLAYER")){
+style=menuVerticalStyle;
+aI("text=Top Performers/Player Stats;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=08;");
+aI("text=My Top Performers;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=08&SEARCHTYPE=ADVANCED&CATEGORY=0001;");
+aI("text=My Top Performers And Free Agents;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=08&SEARCHTYPE=ADVANCED&CATEGORY=0001&CATEGORY=freeagent;");
+aI("text=Top Passers;url=http://football11.myfantasyleague.com/2013/options?O=08&SEARCHTYPE=ADVANCED&POSITION=QB&DISPLAY=Passers&L=31368;");
+aI("text=Top Rushers;url=http://football11.myfantasyleague.com/2013/options?O=08&SEARCHTYPE=ADVANCED&POSITION=RB&DISPLAY=Rushers&L=31368;");
+aI("text=Top Receivers;url=http://football11.myfantasyleague.com/2013/options?O=08&SEARCHTYPE=ADVANCED&POSITION=WR%2BTE&DISPLAY=Receivers&L=31368;");
+aI("text=Top Kickers;url=http://football11.myfantasyleague.com/2013/options?O=08&SEARCHTYPE=ADVANCED&POSITION=PK&DISPLAY=Kickers&L=31368;");
+aI("text=Top Defenses;url=http://football11.myfantasyleague.com/2013/options?O=08&SEARCHTYPE=ADVANCED&POSITION=Def&DISPLAY=Defenses&L=31368;");
+aI("text=Top Free Agents;url=http://football11.myfantasyleague.com/2013/options?O=08&CATEGORY=freeagent&L=31368;");
+aI("text=Full Free Agent Listing;url=http://football11.myfantasyleague.com/2013/free_agents?L=31368;");
+aI("text=Starter Pts - Player;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=37;");
+aI("text=Top Adds/Drops/Starters;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=117;");
+aI("text=Player Search;url=http://football11.myfantasyleague.com/2013/player_search?L=31368;");
+aI("text=Locked Players;url=http://football11.myfantasyleague.com/2013/locked_players?L=31368;");
+}
+with(milonic=new menuname("STANDINGSREPORTS")){
+style=menuVerticalStyle;
+aI("text=Standings;url=http://football11.myfantasyleague.com/2013/standings?L=31368;");
+aI("text=Weekly Summary;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=31;");
+aI("text=Power Rank;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=101;");
+aI("text=Bar Chart;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=20;");
+aI("text=Tiebreakers;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=119;");
+aI("text=Victory Points Summary;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=153;");
+}
+with(milonic=new menuname("RULESREPORTS")){
+style=menuVerticalStyle;
+aI("text=League Scoring;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=09;");
+aI("text=League Bylaws;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=26;");
+aI("text=History;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=112;");
+}
+with(milonic=new menuname("WIRELESS")){
+style=menuVerticalStyle;
+aI("text=Send Me My Wireless Home Page;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=191;");
+aI("text=Home;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=159;");
+aI("text=Login/Logout;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=160;");
+aI("text=Live Scoring;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=155;");
+aI("text=Standings;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=154;");
+aI("text=Wireless Rosters;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=221;");
+aI("text=Submit Lineup;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=163;");
+aI("text=My Player News;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=188;");
+aI("text=Top Players;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=189;");
+aI("text=Top Free Agents;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=190;");
+aI("text=Survivor Pool;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=240;");
+aI("text=League Polls;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=241;");
+aI("text=MFL Wireless Home;url=http://m.myfantasyleague.com/;");
+}
+with(milonic=new menuname("LEAGUE")){
+style=menuVerticalStyle;
+aI("text=Live Scoring Summary;url=http://www11.myfantasyleague.com/2013/live_scoring_summary?L=31368&W=16;");
+aI("text=Monthly League Calendar;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=123;");
+aI("text=Projected Playoff Seedings;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=230;");
+aI("text=Playoff Brackets;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=79;");
+aI("text=Starter Pts - Position;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=23;");
+aI("text=Points Allowed - By Position;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=81;");
+aI("text=Fantasy Schedule By Week;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=15;");
+aI("text=Draft;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=17;");
+aI("text=Future Draft Picks;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=100;");
+aI("text=League Map;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=238;");
+aI("text=RSS Feed;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=152;");
+aI("text=MFL Widgets;url=http://football11.myfantasyleague.com/2013/generate_embed?L=31368;");
+}
+with(milonic=new menuname("RECORDS")){
+style=menuVerticalStyle;
+aI("text=Franchise Records;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=156;");
+aI("text=Player Records;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=157;");
+aI("text=Matchup Records;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=158;");
+aI("text=All-Time Series Records;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=171;");
+aI("text=Season Records;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=204;");
+aI("text=Career Records;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=208;");
+aI("text=Record Streaks;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=232;");
+aI("text=League Champions;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=194;");
+aI("text=League Awards;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=202;");
+}
+with(milonic=new menuname("NFLREPORTS")){
+style=menuVerticalStyle;
+aI("text=Injury Report;url=http://football11.myfantasyleague.com/2013/injury?L=31368;");
+aI("text=NFL Schedule;url=http://football11.myfantasyleague.com/2013/pro_schedule?L=31368;");
+aI("text=NFL Box Scores;url=http://football11.myfantasyleague.com/2013/pro_matchup?L=31368;");
+aI("text=NFL Team Stats;url=http://football11.myfantasyleague.com/2013/nfl_team_stats?L=31368;");
+aI("text=Fantasy Depth Chart;url=http://football11.myfantasyleague.com/2013/depth_chart?L=31368;");
+aI("text=Fantasy Depth Chart Grid;url=http://football11.myfantasyleague.com/2013/depth_chart?TYPE=grid&L=31368;");
+aI("text=NFL Draft;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=215;");
+aI("text=News Articles;url=http://football11.myfantasyleague.com/2013/news_articles?L=31368;");
+}
+with(milonic=new menuname("FOROWNERS")){
+style=menuVerticalStyle;
+aI("text=Submit Lineup;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=02;");
+aI("text=Change Password;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=70;");
+aI("text=Franchise Setup;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=50;");
+aI("text=Trades;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=05;");
+aI("text=Waivers;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=46;");
+aI("text=Drop Players;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=74;");
+aI("text=NFL Pool Picks;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=121;");
+aI("text=Survivor Pool;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=120;");
+aI("text=My Watch List;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=178;");
+aI("text=My Scratchpad;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=234;");
+aI("text=My Player News;url=http://football11.myfantasyleague.com/2013/news_articles?MYNEWS=1&L=31368;");
+}
+with(milonic=new menuname("FORCOMMISSIONERS")){
+style=menuVerticalStyle;
+aI("text=Setup;url=http://football11.myfantasyleague.com/2013/commissioner_setup?L=31368;");
+aI("text=Statistics Changes;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=80;");
+aI("text=Process Waivers;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=47;");
+aI("text=Previously Processed Waivers;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=76;");
+aI("text=Recalculate Standings;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=24;");
+aI("text=Edit Accounting Records;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=49;");
+aI("text=Edit Weekly Newsletter;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=66;");
+aI("text=Delete Transactions;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=67;");
+aI("text=Commissioner News;url=http://football11.myfantasyleague.com/2013/site_news?CATEGORY=Commissioner+News&L=31368;");
+aI("text=Email Log;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=172;");
+aI("text=League Invoice;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=148;");
+aI("text=Refer A Friend;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=167;");
+}
+with(milonic=new menuname("COMMUNICATIONS")){
+style=menuVerticalStyle;
+aI("text=Email to Commissioner;url=mailto:spinolam@hotmail.com?Subject=PDL%202013%20%2831368%29;");
+aI("text=Email to Entire League;url=mailto:matt.spinola@gmail.com,scottarrigo36@gmail.com,bigdogg27f@aol.com,verdream@yahoo.com,jonathan_kraus@hotmail.com,rraida@gmail.com,mostahlsmith@gmail.com,michaeljspinola@gmail.com,alan.hatok@emerson.com,arrigop98@gmail.com,jkeenan42@yahoo.com,tezzie888@yahoo.com,sberecek@gmail.com,briansmcintyre@verizon.net,rcfolks@gmail.com,temme37@gmail.com,spinolam@hotmail.com?subject=PDL%202013%20%2831368%29;");
+aI("text=Text Message to Entire League;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=218;");
+aI("text=Message Board;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=29;");
+aI("text=League Articles;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=73;");
+aI("text=League Polls;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=69;");
+aI("text=League Chat;url=javascript:chat_window('http://www11.myfantasyleague.com/2013/chat?L=31368&COUNT=40');;");
+aI("text=League Videoconference;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=222;");
+aI("text=Schedule A League Event;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=224;");
+aI("text=Bulletin Board;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=13;");
+}
+with(milonic=new menuname("THISPAGE")){
+style=menuVerticalStyle;
+aI("text=Mail This Page;url=mailto:?subject=PDL%202013%20Web%20Page&body=Check%20out%20this%20web%20page%3A%20http%3A%2F%2Ffootball11.myfantasyleague.com%2F2013%2Foptions%3FL%3D31368%26O%3D17;");
+aI("text=Printer Friendly Page;url=http://football11.myfantasyleague.com/2013/options?L=31368&O=17&PRINTER=1;");
+aI("text=Add To My Links;url=javascript:add_my_links();;");
+aI("text=Share This Page On Facebook;url=javascript:facebook_share('http://football11.myfantasyleague.com/2013/options?L=31368&O=17');;");
+aI("text=Share This Page On Twitter;url=http://twitter.com/home?status=http%3A%2F%2Ffootball11.myfantasyleague.com%2F2013%2Foptions%3FL%3D31368%26O%3D17;");
+aI("text=Share This Page On Google+;url=https://plusone.google.com/_/+1/confirm?hl=en&url=http%3A%2F%2Ffootball11.myfantasyleague.com%2F2013%2Foptions%3FL%3D31368%26O%3D17;");
+}
+with(milonic=new menuname("LINKS")){
+style=menuVerticalStyle;
+aI("text=My Links;showmenu=MYLINKS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=LINKS_MYLINKS;");
+aI("text=League Links;showmenu=LEAGUELINKS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=LINKS_LEAGUELINKS;");
+aI("text=NFL Links;showmenu=NFLLINKS;url=http://football11.myfantasyleague.com/2013/menu_page?L=31368&NAME=LINKS_NFLLINKS;");
+}
+with(milonic=new menuname("MYLINKS")){
+style=menuVerticalStyle;
+aI("text=Edit My Links;url=http://football11.myfantasyleague.com/2013/edit_my_links?L=31368;");
+}
+with(milonic=new menuname("LEAGUELINKS")){
+style=menuVerticalStyle;
+aI("text=StatsWorld Message Board;url=http://www99.myfantasyleague.com/fflnetdynamic2007/61839_board.htm;");
+aI("text=Edit League Links;url=http://football11.myfantasyleague.com/2013/edit_my_links?L=31368&TYPE=L;");
+}
+with(milonic=new menuname("NFLLINKS")){
+style=menuVerticalStyle;
+aI("text=NFL.com;url=http://football11.myfantasyleague.com/2013/mfl_redirect?TRACK=1&LOCATION=http://www.nfl.com/&L=31368;");
+aI("text=USA Today;url=http://football11.myfantasyleague.com/2013/mfl_redirect?TRACK=1&LOCATION=http://www.usatoday.com/sports/football/default.htm&L=31368;");
+aI("text=Fox Sports;url=http://football11.myfantasyleague.com/2013/mfl_redirect?TRACK=1&LOCATION=http://msn.foxsports.com/nfl&L=31368;");
+aI("text=SI.com;url=http://football11.myfantasyleague.com/2013/mfl_redirect?TRACK=1&LOCATION=http://sportsillustrated.cnn.com/football/nfl/&L=31368;");
+aI("text=ESPN;url=http://football11.myfantasyleague.com/2013/mfl_redirect?TRACK=1&LOCATION=http://espn.go.com/nfl/&L=31368;");
+aI("text=CBSSports.com;url=http://football11.myfantasyleague.com/2013/mfl_redirect?TRACK=1&LOCATION=http://www.cbssports.com/nfl/&L=31368;");
+}
+with(milonic=new menuname("HELP")){
+style=menuVerticalStyle;
+aI("text=Help Center;url=http://football11.myfantasyleague.com/2013/support?L=31368;target=_blank;");
+aI("text=<form method='get' target='_blank' action='http://football11.myfantasyleague.com/2013/support'>Search Help:<input type='text' size='8' class='reallysmall' name='SEARCH'><input type='hidden' name='L' value='31368'><\/form>;type=form;;");
+aI("text=My Support Tickets;url=http://football11.myfantasyleague.com/2013/my_tickets?L=31368;");
+aI("text=What's New? (Updated Dec&nbsp;25);url=http://football11.myfantasyleague.com/2013/site_news?L=31368;");
+aI("text=MFL Community Forums;url=http://football11.myfantasyleague.com/2013/mfl_redirect?TRACK=1&LOCATION=http://forums.myfantasyleague.com/forums/index.php?showforum=19&L=31368;");
+aI("text=Official Statistics Changes;url=http://football11.myfantasyleague.com/2013/site_news?CATEGORY=Official+Statistics+Changes&L=31368;");
+aI("text=Strange Plays;url=http://football11.myfantasyleague.com/2013/site_news?CATEGORY=Strange+Plays&L=31368;");
+aI("text=Follow Us On Twitter;url=http://twitter.com/MyFantasyLeague;");
+aI("text=Become Our Fan On Facebook;url=http://www.facebook.com/MyFantasyLeague;");
+aI("text=Google+;url=http://plus.google.com/+myfantasyleague;");
+aI("text=Developer's Program;url=http://football.myfantasyleague.com/2013/export;");
+aI("text=Take A Survey;url=http://football11.myfantasyleague.com/2013/survey?L=31368;");
+}
+drawMenus();
+//-->
+</script>
+<noscript>
+<h2><a href="http://www11.myfantasyleague.com/2013/home/31368">PDL 2013</a></h2>
+</noscript>
+<table cellspacing="0" class="pageheader">
+<tr>
+<td rowspan="3" class="brandlogo">
+<a href="http://www.myfantasyleague.com/"><img src="http://www11.myfantasyleague.com/images/new_mfl_logo.png" alt="http://www.myfantasyleague.com/" width="80" height="80" border="0"  /></a></td><td align="center" class="bannerimage">
+</td>
+<td rowspan="3" class="welcome"><b>31368 Commissioner</b> (<a href="http://football11.myfantasyleague.com/2013/logout?L=31368">Logout</a> | <a href="http://football11.myfantasyleague.com/2013/logout?L=31368&amp;BECOME=0001">Become Owner</a>)<br  /> <small><a target="_blank" href="http://football11.myfantasyleague.com/2013/support?L=31368&amp;PROGRAM=options_17">Help Center</a></small></td>
+</tr>
+<tr>
+<td class="pagetitle">
+<h1>
+PDL 2013 Draft</h1></td></tr></table><div class="pagebody" id="options_17">
+<div id="contentframe">
+<div id="hsubmenu">
+  <ul id="hsubmenuitems">
+  <li><a href="http://www11.myfantasyleague.com/2013/home/31368">Home</a></li>
+  <li><a href="http://www11.myfantasyleague.com/2013/live_scoring_summary?L=31368">Live Scoring</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/standings?L=31368">Standings</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=101">Power Rank</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=15">Schedules</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=29">Message Board</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=79">Playoffs</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08">Players Stats</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=156">League History</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=03">Transactions</a></li>
+  </ul>
+</div>
+<div id="withmenus" ><h3>Display: Full Format | <a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=113&amp;DISPLAY=LEAGUE">Grid Format</a> | <a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=209&amp;DISPLAY=LEAGUE">Steals and Busts (BETA)</a> | <a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=182&amp;DISPLAY=LEAGUE">Draft Recap</a></h3><form method="get" action="options" class="reportform">
+<input type="hidden" name="L" value="31368"  />
+<input type="hidden" name="O" value="17"  />
+<input type="hidden" name="DISPLAY" value="LEAGUE"  />
+Show Only
+<select name="POSITION" size="1">
+<option value="*" selected="selected" >Any Player</option>
+<option value="QB">QB</option>
+<option value="RB">RB</option>
+<option value="WR">WR</option>
+<option value="TE">TE</option>
+<option value="PK">PK</option>
+<option value="Def">Def</option>
+</select>
+on
+<select name="FRANCHISE" size="1">
+<option value="0000"  selected="selected" >Any Franchise</option>
+<option value="0001">Manic Moose</option>
+<option value="0002">Scooter's Boozers</option>
+<option value="0003">Dunbar Dogs</option>
+<option value="0004">F-Jackie</option>
+<option value="0005">Ho Train</option>
+<option value="0006">Otters</option>
+<option value="0007">Da Funk</option>
+<option value="0008">Beers</option>
+<option value="0009">OakalDoakals</option>
+<option value="0010">Bunchalosers</option>
+<option value="0011">Karpet Munchers</option>
+<option value="0012">Carter's Commandos</option>
+<option value="0013">Blitzkrieg</option>
+<option value="0014">Iron City Pounders</option>
+<option value="0015">Texas Nashvillians</option>
+<option value="0016">Tally Wackers</option>
+</select>
+<input type="submit" value="Now!"  />
+</form>
+<table align="center" cellspacing="1" class="report nocaption"><tbody><tr><th>Pick</th><th class="rank">Ovr</th><th class="franchisename">Franchise</th><th class="player">Selection</th><th class="timestamp">Date/Time</th><th>Pts</th><th>Comments</th></tr>
+<tr class="oddtablerow"><td class="rank">1.01</td>
+<td class="rank">1.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11192"  title="Week 16: at Packers Sun 4:25 p.m. ET" class="position_rb">Bell, Le'Veon PIT RB</a></td><td class="timestamp">Sun Aug 18 1:22:15 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11192">125</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.02</td>
+<td class="rank">2.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11174"  title="Week 16: at Texans Sun 1:00 p.m. ET" class="position_rb">Ball, Montee DEN RB</a></td><td class="timestamp">Sun Aug 18 1:22:32 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11174">39</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.03</td>
+<td class="rank">3.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11193"  title="Week 16: vs Vikings Sun 1:00 p.m. ET" class="position_rb">Bernard, Giovani CIN RB</a></td><td class="timestamp">Sun Aug 18 1:23:37 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11193">128</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.04</td>
+<td class="rank">4.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11201"  title="Week 16: vs Steelers Sun 4:25 p.m. ET" class="position_rb">Lacy, Eddie GBP RB</a></td><td class="timestamp">Sun Aug 18 1:24:08 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11201">159</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.05</td>
+<td class="rank">5.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11213"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_wr">Austin, Tavon STL WR</a></td><td class="timestamp">Sun Aug 18 1:25:10 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11213">96</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.06</td>
+<td class="rank">6.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11225"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_wr">Patterson, Cordarrelle MIN WR</a></td><td class="timestamp">Sun Aug 18 1:27:23 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11225">108</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.07</td>
+<td class="rank">7.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10338"  title="Week 16: vs Raiders Sun 4:25 p.m. ET" class="position_wr">Brown, Vincent SDC WR</a></td><td class="timestamp">Sun Aug 18 1:28:54 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10338">25</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.08</td>
+<td class="rank">8.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11232"  title="Week 16: vs Broncos Sun 1:00 p.m. ET" class="position_wr">Hopkins, DeAndre HOU WR</a></td><td class="timestamp">Sun Aug 18 1:29:18 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11232">72</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.09</td>
+<td class="rank">9.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11177"  title="Week 16: vs Saints Sun 1:00 p.m. ET" class="position_rb">Barner, Kenjon CAR RB</a></td><td class="timestamp">Sun Aug 18 1:30:11 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11177">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.10</td>
+<td class="rank">10.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8178"  title="Week 16: at Panthers Sun 1:00 p.m. ET" class="position_wr">Moore, Lance NOS WR</a></td><td class="timestamp">Sun Aug 18 1:31:33 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8178">20</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.11</td>
+<td class="rank">11.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10388"  title="Week 16: at Chargers Sun 4:25 p.m. ET" class="position_wr">Moore, Denarius OAK WR</a></td><td class="timestamp">Sun Aug 18 1:33:02 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10388">81</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.12</td>
+<td class="rank">12.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10303"  title="Week 16: at Ravens Sun 4:25 p.m. ET" class="position_rb">Vereen, Shane NEP RB</a></td><td class="timestamp">Sun Aug 18 1:33:16 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10303">72</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.13</td>
+<td class="rank">13.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11229"  title="Week 16: at Packers Sun 4:25 p.m. ET" class="position_wr">Wheaton, Markus PIT WR</a></td><td class="timestamp">Sun Aug 18 1:35:38 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11229">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.14</td>
+<td class="rank">14.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=2918"  title="Week 16: at 49ers Mon 8:40 p.m. ET" class="position_te">Gonzalez, Tony ATL TE</a></td><td class="timestamp">Sun Aug 18 1:36:11 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=2918">114</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">1.15</td>
+<td class="rank">15.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8772"  title="Week 16: vs Patriots Sun 4:25 p.m. ET" class="position_wr">Jones, Jacoby BAL WR</a></td><td class="timestamp">Sun Aug 18 1:37:28 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8772">56</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">1.16</td>
+<td class="rank">16.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11227"  title="Week 16: at Panthers Sun 1:00 p.m. ET" class="position_wr">Stills, Kenny NOS WR</a></td><td class="timestamp">Sun Aug 18 1:38:32 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11227">78</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.01</td>
+<td class="rank">17.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=1600"  title="Week 16: vs Raiders Sun 4:25 p.m. ET" class="position_wr">Floyd, Malcom SDC WR</a></td><td class="timestamp">Sun Aug 18 1:41:21 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=1600">10</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.02</td>
+<td class="rank">18.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8339"  title="Week 16: vs Broncos Sun 1:00 p.m. ET" class="position_te">Daniels, Owen HOU TE</a></td><td class="timestamp">Sun Aug 18 1:43:21 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8339">40</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.03</td>
+<td class="rank">19.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11154"  title="Week 16: vs Dolphins Sun 1:00 p.m. ET" class="position_qb">Manuel, E.J. BUF QB</a></td><td class="timestamp">Sun Aug 18 1:44:29 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11154">123</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.04</td>
+<td class="rank">20.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8687"  title="Week 16: vs Saints Sun 1:00 p.m. ET" class="position_te">Olsen, Greg CAR TE</a></td><td class="timestamp">Sun Aug 18 1:45:05 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8687">91</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.05</td>
+<td class="rank">21.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11150"  title="Week 16: vs Browns Sun 1:00 p.m. ET" class="position_qb">Smith, Geno NYJ QB</a></td><td class="timestamp">Sun Aug 18 1:46:38 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11150">167</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.06</td>
+<td class="rank">22.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11179"  title="Week 16: vs Cardinals Sun 4:05 p.m. ET" class="position_rb">Michael, Christine SEA RB</a></td><td class="timestamp">Sun Aug 18 1:47:01 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11179">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.07</td>
+<td class="rank">23.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9632"  title="Week 16: at Lions Sun 4:05 p.m. ET" class="position_te">Myers, Brandon NYG TE</a></td><td class="timestamp">Sun Aug 18 1:48:20 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9632">54</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.08</td>
+<td class="rank">24.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11189"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_rb">Stacy, Zac STL RB</a></td><td class="timestamp">Sun Aug 18 1:49:44 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11189">150</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.09</td>
+<td class="rank">25.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10715"  title="Week 16: at Chiefs Sun 1:00 p.m. ET" class="position_rb">Ballard, Vick IND RB</a></td><td class="timestamp">Sun Aug 18 1:50:34 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10715">6</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.10</td>
+<td class="rank">26.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9565"  title="Week 16: at Lions Sun 4:05 p.m. ET" class="position_rb">Brown, Andre NYG RB</a></td><td class="timestamp">Sun Aug 18 1:52:02 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9565">54</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.11</td>
+<td class="rank">27.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11228"  title="Week 16: vs Dolphins Sun 1:00 p.m. ET" class="position_wr">Woods, Robert BUF WR</a></td><td class="timestamp">Sun Aug 18 1:54:28 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11228">64</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.12</td>
+<td class="rank">28.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9150"  title="Week 16: vs Steelers Sun 4:25 p.m. ET" class="position_te">Finley, Jermichael GBP TE</a></td><td class="timestamp">Sun Aug 18 1:54:54 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9150">49</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.13</td>
+<td class="rank">29.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9705"  title="Week 16: Bye" class="position_rb">Redman, Isaac FA RB</a></td><td class="timestamp">Sun Aug 18 1:58:33 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9705">-3</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.14</td>
+<td class="rank">30.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11440"  title="Week 16: at Ravens Sun 4:25 p.m. ET" class="position_wr">Thompkins, Kenbrell NEP WR</a></td><td class="timestamp">Sun Aug 18 2:01:21 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11440">56</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">2.15</td>
+<td class="rank">31.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9254"  title="Week 16: vs Steelers Sun 4:25 p.m. ET" class="position_qb">Flynn, Matt GBP QB</a></td><td class="timestamp">Sun Aug 18 2:02:15 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9254">72</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">2.16</td>
+<td class="rank">32.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10312"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_te">Rudolph, Kyle MIN TE</a></td><td class="timestamp">Sun Aug 18 2:03:12 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10312">41</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.01</td>
+<td class="rank">33.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11222"  title="Week 16: vs Raiders Sun 4:25 p.m. ET" class="position_wr">Allen, Keenan SDC WR</a></td><td class="timestamp">Sun Aug 18 2:06:12 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11222">134</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.02</td>
+<td class="rank">34.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11198"  title="Week 16: vs Falcons Mon 8:40 p.m. ET" class="position_rb">Lattimore, Marcus SFO RB</a></td><td class="timestamp">Sun Aug 18 2:06:49 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.03</td>
+<td class="rank">35.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11176"  title="Week 16: at Seahawks Sun 4:05 p.m. ET" class="position_rb">Taylor, Stepfan ARI RB</a></td><td class="timestamp">Sun Aug 18 2:07:27 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11176">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.04</td>
+<td class="rank">36.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0515"  title="Week 16: vs Cardinals Sun 4:05 p.m. ET" class="position_def">Seahawks, Seattle SEA Def</a></td><td class="timestamp">Sun Aug 18 2:10:49 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0515">172</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.05</td>
+<td class="rank">37.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11181"  title="Week 16: vs Steelers Sun 4:25 p.m. ET" class="position_rb">Franklin, Johnathan GBP RB</a></td><td class="timestamp">Sun Aug 18 2:11:44 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11181">13</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.06</td>
+<td class="rank">38.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10530"  title="Week 16: vs Steelers Sun 4:25 p.m. ET" class="position_rb">Harris, DuJuan GBP RB</a></td><td class="timestamp">Sun Aug 18 2:12:26 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.07</td>
+<td class="rank">39.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11214"  title="Week 16: at Ravens Sun 4:25 p.m. ET" class="position_wr">Dobson, Aaron NEP WR</a></td><td class="timestamp">Sun Aug 18 2:13:58 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11214">74</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.08</td>
+<td class="rank">40.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0530"  title="Week 16: vs Falcons Mon 8:40 p.m. ET" class="position_def">49ers, San Francisco SFO Def</a></td><td class="timestamp">Sun Aug 18 2:16:25 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0530">140</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.09</td>
+<td class="rank">41.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11200"  title="Week 16: at Redskins Sun 1:00 p.m. ET" class="position_rb">Randle, Joseph DAL RB</a></td><td class="timestamp">Sun Aug 18 2:17:55 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11200">23</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.10</td>
+<td class="rank">42.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9831"  title="Week 16: vs Cardinals Sun 4:05 p.m. ET" class="position_wr">Tate, Golden SEA WR</a></td><td class="timestamp">Sun Aug 18 2:18:22 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9831">84</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.11</td>
+<td class="rank">43.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10305"  title="Week 16: vs Falcons Mon 8:40 p.m. ET" class="position_rb">Hunter, Kendall SFO RB</a></td><td class="timestamp">Sun Aug 18 2:20:39 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10305">38</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.12</td>
+<td class="rank">44.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10352"  title="Week 16: at Jets Sun 1:00 p.m. ET" class="position_te">Cameron, Jordan CLE TE</a></td><td class="timestamp">Sun Aug 18 2:20:49 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10352">113</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.13</td>
+<td class="rank">45.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11194"  title="Week 16: vs Colts Sun 1:00 p.m. ET" class="position_rb">Davis, Knile KCC RB</a></td><td class="timestamp">Sun Aug 18 2:21:50 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11194">27</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.14</td>
+<td class="rank">46.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10872"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_pk">Walsh, Blair MIN PK</a></td><td class="timestamp">Sun Aug 18 2:23:21 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10872">143</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">3.15</td>
+<td class="rank">47.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10732"  title="Week 16: vs Giants Sun 4:05 p.m. ET" class="position_wr">Broyles, Ryan DET WR</a></td><td class="timestamp">Sun Aug 18 2:24:29 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10732">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">3.16</td>
+<td class="rank">48.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8350"  title="Week 16: vs Bears Sun 8:30 p.m. ET" class="position_wr">Avant, Jason PHI WR</a></td><td class="timestamp">Sun Aug 18 2:24:35 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8350">28</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.01</td>
+<td class="rank">49.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=6789"  title="Week 16: at 49ers Mon 8:40 p.m. ET" class="position_pk">Bryant, Matt ATL PK</a></td><td class="timestamp">Sun Aug 18 2:25:24 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=6789">132</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.02</td>
+<td class="rank">50.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0521"  title="Week 16: at Eagles Sun 8:30 p.m. ET" class="position_def">Bears, Chicago CHI Def</a></td><td class="timestamp">Sun Aug 18 2:25:34 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0521">99</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.03</td>
+<td class="rank">51.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11247"  title="Week 16: vs Bears Sun 8:30 p.m. ET" class="position_te">Ertz, Zach PHI TE</a></td><td class="timestamp">Sun Aug 18 2:25:51 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11247">46</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.04</td>
+<td class="rank">52.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10700"  title="Week 16: vs Cowboys Sun 1:00 p.m. ET" class="position_qb">Cousins, Kirk WAS QB</a></td><td class="timestamp">Sun Aug 18 2:26:16 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10700">38</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.05</td>
+<td class="rank">53.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11151"  title="Week 16: vs Bears Sun 8:30 p.m. ET" class="position_qb">Barkley, Matt PHI QB</a></td><td class="timestamp">Sun Aug 18 2:27:31 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11151">-15</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.06</td>
+<td class="rank">54.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0511"  title="Week 16: at Texans Sun 1:00 p.m. ET" class="position_def">Broncos, Denver DEN Def</a></td><td class="timestamp">Sun Aug 18 2:27:47 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0511">106</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.07</td>
+<td class="rank">55.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8359"  title="Week 16: at Ravens Sun 4:25 p.m. ET" class="position_pk">Gostkowski, Stephen NEP PK</a></td><td class="timestamp">Sun Aug 18 2:29:48 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8359">199</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.08</td>
+<td class="rank">56.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8930"  title="Week 16: at Texans Sun 1:00 p.m. ET" class="position_pk">Prater, Matt DEN PK</a></td><td class="timestamp">Sun Aug 18 2:32:52 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8930">191</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.09</td>
+<td class="rank">57.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11212"  title="Week 16: at Jaguars Sun 1:00 p.m. ET" class="position_wr">Hunter, Justin TEN WR</a></td><td class="timestamp">Sun Aug 18 2:33:58 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11212">68</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.10</td>
+<td class="rank">58.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11250"  title="Week 16: vs Vikings Sun 1:00 p.m. ET" class="position_te">Eifert, Tyler CIN TE</a></td><td class="timestamp">Sun Aug 18 2:34:24 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11250">31</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.11</td>
+<td class="rank">59.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9360"  title="Week 16: Bye" class="position_pk">Hartley, Garrett FA PK</a></td><td class="timestamp">Sun Aug 18 2:39:00 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9360">132</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.12</td>
+<td class="rank">60.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10296"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_qb">Ponder, Christian MIN QB</a></td><td class="timestamp">Sun Aug 18 2:39:39 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10296">110</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.13</td>
+<td class="rank">61.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=3494"  title="Week 16: vs Falcons Mon 8:40 p.m. ET" class="position_pk">Dawson, Phil SFO PK</a></td><td class="timestamp">Sun Aug 18 2:41:19 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=3494">168</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.14</td>
+<td class="rank">62.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0532"  title="Week 16: vs Broncos Sun 1:00 p.m. ET" class="position_def">Texans, Houston HOU Def</a></td><td class="timestamp">Sun Aug 18 2:42:16 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0532">49</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">4.15</td>
+<td class="rank">63.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10743"  title="Week 16: at Chiefs Sun 1:00 p.m. ET" class="position_te">Fleener, Coby IND TE</a></td><td class="timestamp">Sun Aug 18 2:42:54 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10743">73</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">4.16</td>
+<td class="rank">64.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9874"  title="Week 16: at Chargers Sun 4:25 p.m. ET" class="position_wr">Ford, Jacoby OAK WR</a></td><td class="timestamp">Sun Aug 18 2:44:26 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9874">-3</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.01</td>
+<td class="rank">65.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0506"  title="Week 16: vs Vikings Sun 1:00 p.m. ET" class="position_def">Bengals, Cincinnati CIN Def</a></td><td class="timestamp">Sun Aug 18 2:45:13 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0506">151</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.02</td>
+<td class="rank">66.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10976"  title="Week 16: vs Patriots Sun 4:25 p.m. ET" class="position_pk">Tucker, Justin BAL PK</a></td><td class="timestamp">Sun Aug 18 2:46:39 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10976">193</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.03</td>
+<td class="rank">67.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0504"  title="Week 16: at Ravens Sun 4:25 p.m. ET" class="position_def">Patriots, New England NEP Def</a></td><td class="timestamp">Sun Aug 18 2:47:43 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0504">123</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.04</td>
+<td class="rank">68.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9838"  title="Week 16: vs Vikings Sun 1:00 p.m. ET" class="position_te">Gresham, Jermaine CIN TE</a></td><td class="timestamp">Sun Aug 18 2:48:27 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9838">38</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.05</td>
+<td class="rank">69.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0523"  title="Week 16: vs Steelers Sun 4:25 p.m. ET" class="position_def">Packers, Green Bay GBP Def</a></td><td class="timestamp">Sun Aug 18 2:48:56 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0523">82</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.06</td>
+<td class="rank">70.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9044"  title="Week 16: at Eagles Sun 8:30 p.m. ET" class="position_te">Bennett, Martellus CHI TE</a></td><td class="timestamp">Sun Aug 18 2:49:14 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9044">78</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.07</td>
+<td class="rank">71.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9921"  title="Week 16: at Seahawks Sun 4:05 p.m. ET" class="position_wr">Roberts, Andre ARI WR</a></td><td class="timestamp">Sun Aug 18 2:51:05 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9921">25</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.08</td>
+<td class="rank">72.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10506"  title="Week 16: at Redskins Sun 1:00 p.m. ET" class="position_pk">Bailey, Dan DAL PK</a></td><td class="timestamp">Sun Aug 18 2:52:59 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10506">179</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.09</td>
+<td class="rank">73.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9058"  title="Week 16: vs Cowboys Sun 1:00 p.m. ET" class="position_te">Davis, Fred WAS TE</a></td><td class="timestamp">Sun Aug 18 2:53:10 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9058">9</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.10</td>
+<td class="rank">74.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10868"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_pk">Zuerlein, Greg STL PK</a></td><td class="timestamp">Sun Aug 18 2:53:39 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10868">132</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.11</td>
+<td class="rank">75.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0517"  title="Week 16: at Lions Sun 4:05 p.m. ET" class="position_def">Giants, New York NYG Def</a></td><td class="timestamp">Sun Aug 18 2:54:21 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0517">107</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.12</td>
+<td class="rank">76.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10355"  title="Week 16: vs Cowboys Sun 1:00 p.m. ET" class="position_rb">Helu, Roy WAS RB</a></td><td class="timestamp">Sun Aug 18 2:54:53 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10355">30</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.13</td>
+<td class="rank">77.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0510"  title="Week 16: at Packers Sun 4:25 p.m. ET" class="position_def">Steelers, Pittsburgh PIT Def</a></td><td class="timestamp">Sun Aug 18 2:56:03 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0510">87</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.14</td>
+<td class="rank">78.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8685"  title="Week 16: at Eagles Sun 8:30 p.m. ET" class="position_rb">Bush, Michael CHI RB</a></td><td class="timestamp">Sun Aug 18 2:57:35 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8685">42</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">5.15</td>
+<td class="rank">79.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0528"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_def">Rams, St. Louis STL Def</a></td><td class="timestamp">Sun Aug 18 2:57:58 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0528">150</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">5.16</td>
+<td class="rank">80.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11175"  title="Week 16: at Seahawks Sun 4:05 p.m. ET" class="position_rb">Ellington, Andre ARI RB</a></td><td class="timestamp">Sun Aug 18 2:58:02 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11175">101</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.01</td>
+<td class="rank">81.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8416"  title="Week 16: at Jaguars Sun 1:00 p.m. ET" class="position_te">Walker, Delanie TEN TE</a></td><td class="timestamp">Sun Aug 18 2:59:24 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8416">73</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.02</td>
+<td class="rank">82.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10742"  title="Week 16: at Chiefs Sun 1:00 p.m. ET" class="position_te">Allen, Dwayne IND TE</a></td><td class="timestamp">Sun Aug 18 3:03:29 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10742">9</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.03</td>
+<td class="rank">83.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10862"  title="Week 16: vs Broncos Sun 1:00 p.m. ET" class="position_pk">Bullock, Randy HOU PK</a></td><td class="timestamp">Sun Aug 18 3:03:55 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10862">131</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.04</td>
+<td class="rank">84.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11152"  title="Week 16: at Rams Sun 1:00 p.m. ET" class="position_qb">Glennon, Mike TBB QB</a></td><td class="timestamp">Sun Aug 18 3:04:21 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11152">150</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.05</td>
+<td class="rank">85.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8153"  title="Week 16: at Eagles Sun 8:30 p.m. ET" class="position_pk">Gould, Robbie CHI PK</a></td><td class="timestamp">Sun Aug 18 3:05:32 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8153">152</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.06</td>
+<td class="rank">86.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11211"  title="Week 16: at Redskins Sun 1:00 p.m. ET" class="position_wr">Williams, Terrance DAL WR</a></td><td class="timestamp">Sun Aug 18 3:05:45 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11211">87</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.07</td>
+<td class="rank">87.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9693"  title="Week 16: vs Raiders Sun 4:25 p.m. ET" class="position_rb">Woodhead, Danny SDC RB</a></td><td class="timestamp">Sun Aug 18 3:06:29 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9693">128</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.08</td>
+<td class="rank">88.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11224"  title="Week 16: at Ravens Sun 4:25 p.m. ET" class="position_wr">Boyce, Josh NEP WR</a></td><td class="timestamp">Sun Aug 18 3:07:06 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11224">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.09</td>
+<td class="rank">89.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11223"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_wr">Bailey, Stedman STL WR</a></td><td class="timestamp">Sun Aug 18 3:08:03 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11223">18</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.10</td>
+<td class="rank">90.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0525"  title="Week 16: at Rams Sun 1:00 p.m. ET" class="position_def">Buccaneers, Tampa Bay TBB Def</a></td><td class="timestamp">Sun Aug 18 3:09:26 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0525">108</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.11</td>
+<td class="rank">91.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10369"  title="Week 16: vs Browns Sun 1:00 p.m. ET" class="position_rb">Powell, Bilal NYJ RB</a></td><td class="timestamp">Sun Aug 18 3:10:38 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10369">31</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.12</td>
+<td class="rank">92.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10048"  title="Week 16: vs Giants Sun 4:05 p.m. ET" class="position_rb">Bell, Joique DET RB</a></td><td class="timestamp">Sun Aug 18 3:10:45 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10048">97a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.13</td>
+<td class="rank">93.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=6999"  title="Week 16: vs Giants Sun 4:05 p.m. ET" class="position_wr">Burleson, Nate DET WR</a></td><td class="timestamp">Sun Aug 18 3:13:32 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=6999">36</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.14</td>
+<td class="rank">94.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9278"  title="Week 16: vs Titans Sun 1:00 p.m. ET" class="position_rb">Forsett, Justin JAC RB</a></td><td class="timestamp">Sun Aug 18 3:15:05 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9278">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">6.15</td>
+<td class="rank">95.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8931"  title="Week 16: at Panthers Sun 1:00 p.m. ET" class="position_rb">Thomas, Pierre NOS RB</a></td><td class="timestamp">Sun Aug 18 3:15:54 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8931">93</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">6.16</td>
+<td class="rank">96.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=5666"  title="Week 16: at Chargers Sun 4:25 p.m. ET" class="position_pk">Janikowski, Sebastian OAK PK</a></td><td class="timestamp">Sun Aug 18 3:16:12 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=5666">135</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.01</td>
+<td class="rank">97.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10527"  title="Week 16: vs Cardinals Sun 4:05 p.m. ET" class="position_wr">Baldwin, Doug SEA WR</a></td><td class="timestamp">Sun Aug 18 3:16:42 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10527">98</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.02</td>
+<td class="rank">98.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:16:56 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.03</td>
+<td class="rank">99.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9680"  title="Week 16: at Chargers Sun 4:25 p.m. ET" class="position_rb">Jennings, Rashad OAK RB</a></td><td class="timestamp">Sun Aug 18 3:17:22 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9680">105</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.04</td>
+<td class="rank">100.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10307"  title="Week 16: vs Cowboys Sun 1:00 p.m. ET" class="position_wr">Hankerson, Leonard WAS WR</a></td><td class="timestamp">Sun Aug 18 3:19:02 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10307">43</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.05</td>
+<td class="rank">101.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10803"  title="Week 16: vs Colts Sun 1:00 p.m. ET" class="position_wr">Jenkins, A.J. KCC WR</a></td><td class="timestamp">Sun Aug 18 3:19:48 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10803">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.06</td>
+<td class="rank">102.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11244"  title="Week 16: vs Colts Sun 1:00 p.m. ET" class="position_te">Kelce, Travis KCC TE</a></td><td class="timestamp">Sun Aug 18 3:20:25 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.07</td>
+<td class="rank">103.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8709"  title="Week 16: at Rams Sun 1:00 p.m. ET" class="position_rb">Leonard, Brian TBB RB</a></td><td class="timestamp">Sun Aug 18 3:21:10 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8709">5</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.08</td>
+<td class="rank">104.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11210"  title="Week 16: vs Titans Sun 1:00 p.m. ET" class="position_rb">Robinson, Denard JAC RB</a></td><td class="timestamp">Sun Aug 18 3:21:54 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11210">-6</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.09</td>
+<td class="rank">105.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0524"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_def">Vikings, Minnesota MIN Def</a></td><td class="timestamp">Sun Aug 18 3:24:57 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0524">65</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.10</td>
+<td class="rank">106.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10961"  title="Week 16: at Redskins Sun 1:00 p.m. ET" class="position_rb">Dunbar, Lance DAL RB</a></td><td class="timestamp">Sun Aug 18 3:25:00 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10961">5</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.11</td>
+<td class="rank">107.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9176"  title="Week 16: at Texans Sun 1:00 p.m. ET" class="position_te">Tamme, Jacob DEN TE</a></td><td class="timestamp">Sun Aug 18 3:28:41 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9176">9</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.12</td>
+<td class="rank">108.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11233"  title="Week 16: vs Titans Sun 1:00 p.m. ET" class="position_wr">Sanders, Ace JAC WR</a></td><td class="timestamp">Sun Aug 18 3:28:50 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11233">56</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.13</td>
+<td class="rank">109.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9437"  title="Week 16: at Texans Sun 1:00 p.m. ET" class="position_rb">Moreno, Knowshon DEN RB</a></td><td class="timestamp">Sun Aug 18 3:29:41 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9437">196</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.14</td>
+<td class="rank">110.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8117"  title="Week 16: at Jaguars Sun 1:00 p.m. ET" class="position_wr">Washington, Nate TEN WR</a></td><td class="timestamp">Sun Aug 18 3:31:00 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8117">94</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">7.15</td>
+<td class="rank">111.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9964"  title="Week 16: vs Bears Sun 8:30 p.m. ET" class="position_wr">Cooper, Riley PHI WR</a></td><td class="timestamp">Sun Aug 18 3:32:02 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9964">134</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">7.16</td>
+<td class="rank">112.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0519"  title="Week 16: at Seahawks Sun 4:05 p.m. ET" class="position_def">Cardinals, Arizona ARI Def</a></td><td class="timestamp">Sun Aug 18 3:32:48 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0519">156</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.01</td>
+<td class="rank">113.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8767"  title="Week 16: Bye" class="position_rb">Jackson, Brandon FA RB</a></td><td class="timestamp">Sun Aug 18 3:33:27 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.02</td>
+<td class="rank">114.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:33:49 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.03</td>
+<td class="rank">115.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11406"  title="Week 16: at Chargers Sun 4:25 p.m. ET" class="position_wr">Butler, Brice OAK WR</a></td><td class="timestamp">Sun Aug 18 3:33:57 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11406">5</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.04</td>
+<td class="rank">116.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9700"  title="Week 16: vs Giants Sun 4:05 p.m. ET" class="position_wr">Ogletree, Kevin DET WR</a></td><td class="timestamp">Sun Aug 18 3:35:02 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9700">20</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.05</td>
+<td class="rank">117.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:35:17 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.06</td>
+<td class="rank">118.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8742"  title="Week 16: vs Steelers Sun 4:25 p.m. ET" class="position_pk">Crosby, Mason GBP PK</a></td><td class="timestamp">Sun Aug 18 3:35:48 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8742">179</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.07</td>
+<td class="rank">119.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=6952"  title="Week 16: vs Patriots Sun 4:25 p.m. ET" class="position_te">Clark, Dallas BAL TE</a></td><td class="timestamp">Sun Aug 18 3:36:14 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=6952">37</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.08</td>
+<td class="rank">120.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=7842"  title="Week 16: at Packers Sun 4:25 p.m. ET" class="position_te">Miller, Heath PIT TE</a></td><td class="timestamp">Sun Aug 18 3:37:07 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=7842">37</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.09</td>
+<td class="rank">121.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=3579"  title="Week 16: vs Giants Sun 4:05 p.m. ET" class="position_pk">Akers, David DET PK</a></td><td class="timestamp">Sun Aug 18 3:37:22 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=3579">114</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.10</td>
+<td class="rank">122.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0514"  title="Week 16: vs Raiders Sun 4:25 p.m. ET" class="position_def">Chargers, San Diego SDC Def</a></td><td class="timestamp">Sun Aug 18 3:38:42 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0514">73</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.11</td>
+<td class="rank">123.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10737"  title="Week 16: at Jets Sun 1:00 p.m. ET" class="position_wr">Benjamin, Travis CLE WR</a></td><td class="timestamp">Sun Aug 18 3:38:56 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10737">9</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.12</td>
+<td class="rank">124.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10392"  title="Week 16: vs Browns Sun 1:00 p.m. ET" class="position_wr">Kerley, Jeremy NYJ WR</a></td><td class="timestamp">Sun Aug 18 3:38:56 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10392">55</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.13</td>
+<td class="rank">125.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10711"  title="Week 16: vs Falcons Mon 8:40 p.m. ET" class="position_rb">James, LaMichael SFO RB</a></td><td class="timestamp">Sun Aug 18 3:40:27 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10711">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.14</td>
+<td class="rank">126.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=2842"  title="Week 16: at Chiefs Sun 1:00 p.m. ET" class="position_pk">Vinatieri, Adam IND PK</a></td><td class="timestamp">Sun Aug 18 3:40:34 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=2842">185</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">8.15</td>
+<td class="rank">127.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0531"  title="Week 16: vs Patriots Sun 4:25 p.m. ET" class="position_def">Ravens, Baltimore BAL Def</a></td><td class="timestamp">Sun Aug 18 3:41:21 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0531">97</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">8.16</td>
+<td class="rank">128.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10738"  title="Week 16: vs Vikings Sun 1:00 p.m. ET" class="position_wr">Jones, Marvin CIN WR</a></td><td class="timestamp">Sun Aug 18 3:41:32 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10738">116</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.01</td>
+<td class="rank">129.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:42:05 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.02</td>
+<td class="rank">130.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:42:08 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.03</td>
+<td class="rank">131.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11180"  title="Week 16: at Bills Sun 1:00 p.m. ET" class="position_rb">Gillislee, Mike MIA RB</a></td><td class="timestamp">Sun Aug 18 3:42:12 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11180">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.04</td>
+<td class="rank">132.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9834"  title="Week 16: at Packers Sun 4:25 p.m. ET" class="position_rb">Dwyer, Jonathan PIT RB</a></td><td class="timestamp">Sun Aug 18 3:42:28 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9834">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.05</td>
+<td class="rank">133.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:42:43 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.06</td>
+<td class="rank">134.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8244"  title="Week 16: Bye" class="position_qb">Young, Vince FA* QB</a></td><td class="timestamp">Sun Aug 18 3:42:51 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.07</td>
+<td class="rank">135.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0526"  title="Week 16: at 49ers Mon 8:40 p.m. ET" class="position_def">Falcons, Atlanta ATL Def</a></td><td class="timestamp">Sun Aug 18 3:43:10 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0526">57</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.08</td>
+<td class="rank">136.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0516"  title="Week 16: at Redskins Sun 1:00 p.m. ET" class="position_def">Cowboys, Dallas DAL Def</a></td><td class="timestamp">Sun Aug 18 3:44:01 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0516">96</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.09</td>
+<td class="rank">137.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10731"  title="Week 16: at Panthers Sun 1:00 p.m. ET" class="position_wr">Toon, Nick NOS WR</a></td><td class="timestamp">Sun Aug 18 3:44:50 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10731">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.10</td>
+<td class="rank">138.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10365"  title="Week 16: vs Bears Sun 8:30 p.m. ET" class="position_pk">Henery, Alex PHI PK</a></td><td class="timestamp">Sun Aug 18 3:45:55 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10365">127</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.11</td>
+<td class="rank">139.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9085"  title="Week 16: vs Falcons Mon 8:40 p.m. ET" class="position_wr">Manningham, Mario SFO WR</a></td><td class="timestamp">Sun Aug 18 3:49:31 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9085">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.12</td>
+<td class="rank">140.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11259"  title="Week 16: vs Browns Sun 1:00 p.m. ET" class="position_te">Sudfeld, Zach NYJ TE</a></td><td class="timestamp">Sun Aug 18 3:49:35 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11259">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.13</td>
+<td class="rank">141.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9908"  title="Week 16: Bye" class="position_rb">Hardesty, Montario FA RB</a></td><td class="timestamp">Sun Aug 18 3:50:21 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.14</td>
+<td class="rank">142.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0507"  title="Week 16: at Jets Sun 1:00 p.m. ET" class="position_def">Browns, Cleveland CLE Def</a></td><td class="timestamp">Sun Aug 18 3:51:28 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0507">92</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">9.15</td>
+<td class="rank">143.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9319"  title="Week 16: vs Cardinals Sun 4:05 p.m. ET" class="position_pk">Hauschka, Steven SEA PK</a></td><td class="timestamp">Sun Aug 18 3:52:12 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9319">177</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">9.16</td>
+<td class="rank">144.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9315"  title="Week 16: vs Saints Sun 1:00 p.m. ET" class="position_rb">Tolbert, Mike CAR RB</a></td><td class="timestamp">Sun Aug 18 3:52:31 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9315">60</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.01</td>
+<td class="rank">145.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:52:51 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.02</td>
+<td class="rank">146.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:52:52 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.03</td>
+<td class="rank">147.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8266"  title="Week 16: vs Browns Sun 1:00 p.m. ET" class="position_wr">Holmes, Santonio NYJ WR</a></td><td class="timestamp">Sun Aug 18 3:53:15 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8266">44</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.04</td>
+<td class="rank">148.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:54:18 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.05</td>
+<td class="rank">149.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 3:54:19 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.06</td>
+<td class="rank">150.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9686"  title="Week 16: vs Colts Sun 1:00 p.m. ET" class="position_pk">Succop, Ryan KCC PK</a></td><td class="timestamp">Sun Aug 18 3:54:36 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9686">129</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.07</td>
+<td class="rank">151.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11239"  title="Week 16: vs Dolphins Sun 1:00 p.m. ET" class="position_wr">Goodwin, Marquise BUF WR</a></td><td class="timestamp">Sun Aug 18 3:55:00 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11239">57</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.08</td>
+<td class="rank">152.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11390"  title="Week 16: at Chargers Sun 4:25 p.m. ET" class="position_rb">Murray, Latavius OAK RB</a></td><td class="timestamp">Sun Aug 18 3:55:25 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.09</td>
+<td class="rank">153.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9389"  title="Week 16: vs Browns Sun 1:00 p.m. ET" class="position_rb">Reynaud, Darius NYJ RB</a></td><td class="timestamp">Sun Aug 18 3:55:50 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9389">-3</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.10</td>
+<td class="rank">154.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9856"  title="Week 16: vs Colts Sun 1:00 p.m. ET" class="position_wr">McCluster, Dexter KCC WR</a></td><td class="timestamp">Sun Aug 18 3:56:34 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9856">56</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.11</td>
+<td class="rank">155.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8042"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_qb">Cassel, Matt MIN QB</a></td><td class="timestamp">Sun Aug 18 3:57:04 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8042">136</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.12</td>
+<td class="rank">156.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0503"  title="Week 16: at Bills Sun 1:00 p.m. ET" class="position_def">Dolphins, Miami MIA Def</a></td><td class="timestamp">Sun Aug 18 3:57:10 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0503">102</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.13</td>
+<td class="rank">157.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10487"  title="Week 16: vs Cowboys Sun 1:00 p.m. ET" class="position_pk">Forbath, Kai WAS PK</a></td><td class="timestamp">Sun Aug 18 3:58:39 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10487">87</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.14</td>
+<td class="rank">158.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9137"  title="Week 16: at Eagles Sun 8:30 p.m. ET" class="position_wr">Bennett, Earl CHI WR</a></td><td class="timestamp">Sun Aug 18 3:59:42 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9137">37</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">10.15</td>
+<td class="rank">159.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=7150"  title="Week 16: at Lions Sun 4:05 p.m. ET" class="position_pk">Brown, Josh NYG PK</a></td><td class="timestamp">Sun Aug 18 3:59:53 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=7150">113</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">10.16</td>
+<td class="rank">160.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10735"  title="Week 16: vs Buccaneers Sun 1:00 p.m. ET" class="position_wr">Quick, Brian STL WR</a></td><td class="timestamp">Sun Aug 18 4:00:13 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10735">21</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.01</td>
+<td class="rank">161.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:00:23 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.02</td>
+<td class="rank">162.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:00:25 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.03</td>
+<td class="rank">163.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9997"  title="Week 16: vs Colts Sun 1:00 p.m. ET" class="position_wr">Williams, Kyle KCC WR</a></td><td class="timestamp">Sun Aug 18 4:00:39 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9997">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.04</td>
+<td class="rank">164.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:00:47 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.05</td>
+<td class="rank">165.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:00:49 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.06</td>
+<td class="rank">166.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11185"  title="Week 16: Bye" class="position_rb">Williams, Kerwynn FA RB</a></td><td class="timestamp">Sun Aug 18 4:01:34 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11185">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.07</td>
+<td class="rank">167.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9625"  title="Week 16: at Bills Sun 1:00 p.m. ET" class="position_wr">Gibson, Brandon MIA WR</a></td><td class="timestamp">Sun Aug 18 4:01:55 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9625">42</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.08</td>
+<td class="rank">168.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10410"  title="Week 16: at Redskins Sun 1:00 p.m. ET" class="position_wr">Harris, Dwayne DAL WR</a></td><td class="timestamp">Sun Aug 18 4:02:13 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10410">24</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.09</td>
+<td class="rank">169.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8269"  title="Week 16: vs Titans Sun 1:00 p.m. ET" class="position_te">Lewis, Marcedes JAC TE</a></td><td class="timestamp">Sun Aug 18 4:02:24 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8269">34</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.10</td>
+<td class="rank">170.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:02:40 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.11</td>
+<td class="rank">171.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9436"  title="Week 16: vs Bears Sun 8:30 p.m. ET" class="position_wr">Maclin, Jeremy PHI WR</a></td><td class="timestamp">Sun Aug 18 4:04:02 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.12</td>
+<td class="rank">172.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=6475"  title="Week 16: at Panthers Sun 1:00 p.m. ET" class="position_pk">Graham, Shayne NOS PK</a></td><td class="timestamp">Sun Aug 18 4:04:16 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=6475">9</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.13</td>
+<td class="rank">173.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=0527"  title="Week 16: vs Saints Sun 1:00 p.m. ET" class="position_def">Panthers, Carolina CAR Def</a></td><td class="timestamp">Sun Aug 18 4:05:48 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=0527">158</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.14</td>
+<td class="rank">174.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10333"  title="Week 16: at Seahawks Sun 4:05 p.m. ET" class="position_te">Housler, Robert ARI TE</a></td><td class="timestamp">Sun Aug 18 4:06:50 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10333">31</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">11.15</td>
+<td class="rank">175.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9880"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_rb">Gerhart, Toby MIN RB</a></td><td class="timestamp">Sun Aug 18 4:07:01 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9880">41</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">11.16</td>
+<td class="rank">176.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9301"  title="Week 16: at Jets Sun 1:00 p.m. ET" class="position_wr">Bess, Davone CLE WR</a></td><td class="timestamp">Sun Aug 18 4:07:06 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9301">20</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.01</td>
+<td class="rank">177.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:07:37 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.02</td>
+<td class="rank">178.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:07:38 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.03</td>
+<td class="rank">179.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11190"  title="Week 16: at Rams Sun 1:00 p.m. ET" class="position_rb">James, Mike TBB RB</a></td><td class="timestamp">Sun Aug 18 4:07:44 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11190">27</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.04</td>
+<td class="rank">180.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:07:52 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.05</td>
+<td class="rank">181.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:07:53 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.06</td>
+<td class="rank">182.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:07:55 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.07</td>
+<td class="rank">183.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9979"  title="Week 16: vs Broncos Sun 1:00 p.m. ET" class="position_rb">Karim, Deji HOU RB</a></td><td class="timestamp">Sun Aug 18 4:08:04 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9979">0</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.08</td>
+<td class="rank">184.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=5168"  title="Week 16: at Rams Sun 1:00 p.m. ET" class="position_pk">Tynes, Lawrence TBB PK</a></td><td class="timestamp">Sun Aug 18 4:10:02 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.09</td>
+<td class="rank">185.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11226"  title="Week 16: at Chiefs Sun 1:00 p.m. ET" class="position_wr">Rogers, Da'Rick IND WR</a></td><td class="timestamp">Sun Aug 18 4:11:25 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=11226">28</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.10</td>
+<td class="rank">186.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:11:32 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.11</td>
+<td class="rank">187.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:11:33 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.12</td>
+<td class="rank">188.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:11:35 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.13</td>
+<td class="rank">189.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8683"  title="Week 16: vs Cardinals Sun 4:05 p.m. ET" class="position_te">Miller, Zach SEA TE</a></td><td class="timestamp">Sun Aug 18 4:11:54 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=8683">50</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.14</td>
+<td class="rank">190.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=7498"  title="Week 16: at Packers Sun 4:25 p.m. ET" class="position_wr">Cotchery, Jerricho PIT WR</a></td><td class="timestamp">Sun Aug 18 4:13:14 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=7498">101</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">12.15</td>
+<td class="rank">191.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9124"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_wr">Simpson, Jerome MIN WR</a></td><td class="timestamp">Sun Aug 18 4:14:00 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9124">44</a></td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">12.16</td>
+<td class="rank">192.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8774"  title="Week 16: Bye" class="position_wr">Robinson, Laurent FA WR</a></td><td class="timestamp">Sun Aug 18 4:14:21 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.01</td>
+<td class="rank">193.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:14:29 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.02</td>
+<td class="rank">194.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:14:32 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.03</td>
+<td class="rank">195.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=8822"  title="Week 16: Bye" class="position_wr">Breaston, Steve FA WR</a></td><td class="timestamp">Sun Aug 18 4:14:53 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.04</td>
+<td class="rank">196.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:06 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.05</td>
+<td class="rank">197.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:07 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.06</td>
+<td class="rank">198.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:09 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.07</td>
+<td class="rank">199.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:10 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.08</td>
+<td class="rank">200.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10601"  title="Week 16: vs Vikings Sun 1:00 p.m. ET" class="position_wr">Hawkins, Andrew CIN WR</a></td><td class="timestamp">Sun Aug 18 4:15:22 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10601">6</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.09</td>
+<td class="rank">201.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:35 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.10</td>
+<td class="rank">202.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:35 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.11</td>
+<td class="rank">203.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:36 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.12</td>
+<td class="rank">204.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:36 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.13</td>
+<td class="rank">205.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:37 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.14</td>
+<td class="rank">206.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:15:55 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">13.15</td>
+<td class="rank">207.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:11 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">13.16</td>
+<td class="rank">208.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=9670"  title="Week 16: at Packers Sun 4:25 p.m. ET" class="position_rb">Stephens-Howling, LaRod PIT RB</a></td><td class="timestamp">Sun Aug 18 4:16:26 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=9670">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.01</td>
+<td class="rank">209.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:37 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.02</td>
+<td class="rank">210.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:37 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.03</td>
+<td class="rank">211.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:38 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.04</td>
+<td class="rank">212.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:39 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.05</td>
+<td class="rank">213.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:39 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.06</td>
+<td class="rank">214.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:40 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.07</td>
+<td class="rank">215.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:16:41 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.08</td>
+<td class="rank">216.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10734"  title="Week 16: at Bengals Sun 1:00 p.m. ET" class="position_wr">Wright, Jarius MIN WR</a></td><td class="timestamp">Sun Aug 18 4:17:15 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10734">47</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.09</td>
+<td class="rank">217.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:17 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.10</td>
+<td class="rank">218.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:18 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.11</td>
+<td class="rank">219.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:19 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.12</td>
+<td class="rank">220.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:21 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.13</td>
+<td class="rank">221.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:21 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.14</td>
+<td class="rank">222.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:23 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">14.15</td>
+<td class="rank">223.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:24 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">14.16</td>
+<td class="rank">224.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=10733"  title="Week 16: vs Giants Sun 4:05 p.m. ET" class="position_wr">Edwards, Patrick DET WR</a></td><td class="timestamp">Sun Aug 18 4:17:42 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=10733">0</a></td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.01</td>
+<td class="rank">225.</td>
+<td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:46 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.02</td>
+<td class="rank">226.</td>
+<td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:47 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.03</td>
+<td class="rank">227.</td>
+<td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:53 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.04</td>
+<td class="rank">228.</td>
+<td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:54 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.05</td>
+<td class="rank">229.</td>
+<td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:56 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.06</td>
+<td class="rank">230.</td>
+<td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:57 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.07</td>
+<td class="rank">231.</td>
+<td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:58 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.08</td>
+<td class="rank">232.</td>
+<td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:17:59 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.09</td>
+<td class="rank">233.</td>
+<td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:18:00 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.10</td>
+<td class="rank">234.</td>
+<td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:18:01 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.11</td>
+<td class="rank">235.</td>
+<td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:18:04 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.12</td>
+<td class="rank">236.</td>
+<td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:18:08 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.13</td>
+<td class="rank">237.</td>
+<td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:18:10 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.14</td>
+<td class="rank">238.</td>
+<td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:18:12 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="oddtablerow"><td class="rank">15.15</td>
+<td class="rank">239.</td>
+<td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td>
+<td class="player">No Pick Made</td><td class="timestamp">Sun Aug 18 4:18:14 p.m. ET 2013</td>
+<td class="points">-</td><td>Pick Skipped By Commissioner</td>
+</tr>
+<tr class="eventablerow"><td class="rank">15.16</td>
+<td class="rank">240.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=11153"  title="Week 16: at Jaguars Sun 1:00 p.m. ET" class="position_qb">Wilson, Tyler TEN QB</a></td><td class="timestamp">Sun Aug 18 4:18:29 p.m. ET 2013</td>
+<td class="points">-</td><td></td>
+</tr>
+<tr class="oddtablerow"><td class="rank">16.01</td>
+<td class="rank">241.</td>
+<td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td>
+<td class="player"><a href="http://football11.myfantasyleague.com/2013/player?L=31368&amp;P=7496"  title="Week 16: at Panthers Sun 1:00 p.m. ET" class="position_qb">McCown, Luke NOS QB</a></td><td class="timestamp">Sun Aug 18 4:19:24 p.m. ET 2013</td>
+<td class="points"><a href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;O=08&amp;PLAYER_ID=7496">0</a></td><td></td>
+</tr>
+</table>
+<br  /> <table align="center" cellspacing="1" class="report"><caption><span>Average Time Waiting For Pick To Be Made</span></caption><tbody><tr>
+<th class="franchisename">Franchise</th><th>Avg. Wait Time</th><th># Picks</th></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Matt Spinola, Record: 10-3-0, PF: 1661"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0001&amp;O=07">Manic Moose</a></td><td align="right">less than a minute</td><td align="right">14</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Scott Arrigo, Record: 7-6-0, PF: 1400"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0002&amp;O=07">Scooter's Boozers</a></td><td align="right">less than a minute</td><td align="right">16</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1466"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0003&amp;O=07">Dunbar Dogs</a></td><td align="right">less than a minute</td><td align="right">14</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Tony Verdream, Record: 4-9-0, PF: 1022"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0004&amp;O=07">F-Jackie</a></td><td align="right">less than a minute</td><td align="right">15</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Jon Kraus, Record: 8-5-0, PF: 1272"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0005&amp;O=07">Ho Train</a></td><td align="right">less than a minute</td><td align="right">15</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Rich Raida, Record: 7-6-0, PF: 1730"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0006&amp;O=07">Otters</a></td><td align="right">less than a minute</td><td align="right">15</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Mark Stahlsmith, Record: 4-9-0, PF: 1242"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0007&amp;O=07">Da Funk</a></td><td align="right">less than a minute</td><td align="right">17</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Mike Spinola, Record: 6-7-0, PF: 1242"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0008&amp;O=07">Beers</a></td><td align="right">1 minute</td><td align="right">16</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Alan Hatok, Record: 6-7-0, PF: 1202"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0009&amp;O=07">OakalDoakals</a></td><td align="right">less than a minute</td><td align="right">14</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Phil Arrigo, Record: 3-10-0, PF: 1165"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0010&amp;O=07">Bunchalosers</a></td><td align="right">less than a minute</td><td align="right">14</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: John Keenan, Record: 5-8-0, PF: 1360"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0011&amp;O=07">Karpet Munchers</a></td><td align="right">less than a minute</td><td align="right">14</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Chris Arenth, Record: 4-9-0, PF: 1267"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0012&amp;O=07">Carter's Commandos</a></td><td align="right">less than a minute</td><td align="right">15</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Sean Berecek, Record: 12-1-0, PF: 1456"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0013&amp;O=07">Blitzkrieg</a></td><td align="right">1 minute</td><td align="right">15</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Brian McIntyre, Record: 6-7-0, PF: 1252"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0014&amp;O=07">Iron City Pounders</a></td><td align="right">less than a minute</td><td align="right">15</td></tr>
+<tr class="oddtablerow"><td class="franchisename"><a title="Owner: Randy Folks, Record: 6-7-0, PF: 1507"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0015&amp;O=07">Texas Nashvillians</a></td><td align="right">less than a minute</td><td align="right">13</td></tr>
+<tr class="eventablerow"><td class="franchisename"><a title="Owner: Mike Temme, Record: 9-4-0, PF: 1484"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2013/options?L=31368&amp;F=0016&amp;O=07">Tally Wackers</a></td><td align="right">less than a minute</td><td align="right">18</td></tr>
+</tbody></table><!-- 1 - KCA July 16, 2012 --> </div></div><!-- 2 - KCA July 16, 2012 --> </div><div class="pagefooter"><table border="0" cellpadding="1" cellspacing="1" align="center">
+<tr><td colspan="2" align="center"><a href="#body_options_17">Back To Top Of Page</a></td></tr>
+<tr><td colspan="2" align="center">Page Generated Sun Dec 29 2:23:08 p.m. ET 2013</td></tr>
+<tr><td colspan="2" align="center">Copyright &copy; 1995-2013 <a href="http://www.sidesoft.com/">Sideline Software, Inc.</a> All Rights Reserved. <a href="http://www.myfantasyleague.com/policies.php">Privacy Policy</a> - <a href="http://www.myfantasyleague.com/tos.php">Terms Of Service</a> - <a href="http://www.myfantasyleague.com/aup.php">Acceptable Use Policy</a> - Statistical Information provided by: <a href="http://www.stats.com/">STATS LLC</a> 
+</td></tr>
+
+<tr><td colspan="2" align="center"><b>Disclaimer:</b>  This site is not
+in any way affiliated with, endorsed or licensed by the
+National Football League, any NFL team or NFLPA member.
+</td></tr></table></div>
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+(function () {
+var d = new Image(1, 1);
+d.onerror = d.onload = function () {
+d.onerror = d.onload = null;
+};
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804068h", "&", "cg=0", "&", "cc=1", "&", "si=", escape(window.location.href), "&", "rp=", escape(document.referrer), "&", "ts=compact", "&", "rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+<div>
+<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804068h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+width="1" height="1" alt="" />
+</div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+</body></html>
+ 

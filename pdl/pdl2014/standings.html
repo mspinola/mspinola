@@ -1,0 +1,713 @@
+<HTML><HEAD>
+<link rel="stylesheet" href="../../css/skins/standard.css" />
+<!--<link id="_Header1__StdStyles" rel="stylesheet" href="../../css/Styles.css"></link>
+<link id="_Header1__AdvStyles" rel="stylesheet" href="../../css/AdvStyles.css"></link> -->
+<!-- 
+<link rel="stylesheet" href="http://www6.myfantasyleague.com/fflnetdynamic2008/71127.css" type="text/css"  />
+<link rel="stylesheet" id="skin_stylesheet" href="http://www6.myfantasyleague.com/skins/statsworld/statsworld.css" type="text/css"  />
+-->
+<!-- <body bgcolor="#000000" text="#FFFFFF" link="#99FFFF" vlink="#339999" alink="#CCFFFF"> -->
+
+<CENTER><i><h2>PDL 2014 Standings.</h2></i></CENTER>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Fantasy Football: PDL 2014 Standings</title>
+<meta name="apple-itunes-app" content="app-id=639397317, affiliate-data=at=1l3vowS, app-argument=42887">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"  />
+<meta name="keywords" content="Standings, fantasy football, keeper fantasy football league, dynasty fantasy football league, salary cap fantasy football league, IDP fantasy football league, MyFantasyLeague, MFL, ffl, league management"  />
+<meta name="description" content="The most customizable way to run your fantasy football league on the web today, MyFantasyLeague.com was voted 'Best Fantasy Commissioner Product' by the Fantasy Sports Trade Association, and has won several additional significant industry awards.  Our 21 years of experience means we do fantasy football right.  If you're ready to move beyond basic league settings, and onto fantasy football how the hard-core players play it, try MyFantasyLeague.com: Beyond League Management"  />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"  />
+<link rel="stylesheet" href="http://www11.myfantasyleague.com/fflnetdynamic2014/42887.css" type="text/css"  />
+<link rel="stylesheet" id="skin_stylesheet" href="http://www11.myfantasyleague.com/skins/mfl2012/skin.css" type="text/css"  />
+<link rel="apple-touch-icon" href="http://www11.myfantasyleague.com/apple-touch-icon.png"  />
+<link rel="shortcut icon" href="http://www11.myfantasyleague.com/favicon.ico"  />
+<script type="text/javascript" src="http://www11.myfantasyleague.com/mfl_common.js"></script>
+<script type="text/javascript">
+<!--
+
+var franchise_id = '0000';
+var league_id = '42887';
+var year = 2014;
+var xmlBaseURL = 'http://www11.myfantasyleague.com/fflnetdynamic2014/';
+var baseURLStatic = 'http://www11.myfantasyleague.com';
+var baseURLDynamic = 'http://football11.myfantasyleague.com';
+var currentServerTime = 1436583326;
+var completedWeek = 21;
+var liveScoringWeek = 21;
+
+function Franchise (id, name, division, icon, logo, abbrev) {
+   this.id = id;
+   this.name = name;
+   this.division = division;
+   this.icon = icon;
+   this.logo = logo;
+   this.abbrev = abbrev;
+}
+var leagueAttributes = new Object();
+
+var franchiseDatabase = new Array();
+franchiseDatabase['fid_0000'] = new Franchise('0000', 'Commissioner');
+franchiseDatabase['fid_0001'] = new Franchise('0001', 'Manic Moose', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2010/20526_franchise_icon0001.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2010/20526_franchise_logo0001.jpg' ,'');
+franchiseDatabase['fid_0002'] = new Franchise('0002', 'Scooter\'s Boozers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2008/71127_franchise_icon0002.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_682_813.jpg' ,'');
+franchiseDatabase['fid_0003'] = new Franchise('0003', 'Dunbar Dogs', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif' ,'');
+franchiseDatabase['fid_0004'] = new Franchise('0004', 'F-Jackie', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg' ,'');
+franchiseDatabase['fid_0005'] = new Franchise('0005', 'Ho Train', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif' ,'');
+franchiseDatabase['fid_0006'] = new Franchise('0006', 'Otters', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif' ,'');
+franchiseDatabase['fid_0007'] = new Franchise('0007', 'Da Funk', '01' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg' ,'');
+franchiseDatabase['fid_0008'] = new Franchise('0008', 'Beers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg' ,'');
+franchiseDatabase['fid_0009'] = new Franchise('0009', 'OakalDoakals', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg' ,'');
+franchiseDatabase['fid_0010'] = new Franchise('0010', 'Bunchalosers', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg' ,'');
+franchiseDatabase['fid_0011'] = new Franchise('0011', 'Karpet Munchers', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif' ,'');
+franchiseDatabase['fid_0012'] = new Franchise('0012', 'Carter\'s Commandos', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif' ,'');
+franchiseDatabase['fid_0013'] = new Franchise('0013', 'Blitzkrieg', '01' ,'http://www10.myfantasyleague.com/fflnetdynamic2012/46585_franchise_icon0013.jpg' ,'http://www10.myfantasyleague.com/fflnetdynamic2012/46585_franchise_logo0013.jpg' ,'');
+franchiseDatabase['fid_0014'] = new Franchise('0014', 'Iron City Pounders', '03' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif' ,'');
+franchiseDatabase['fid_0015'] = new Franchise('0015', 'Texas Nashvillians', '02' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg' ,'');
+franchiseDatabase['fid_0016'] = new Franchise('0016', 'Tally Wackers', '00' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif' ,'');
+leagueAttributes['Draft'] = true;
+leagueAttributes['Trade'] = true;
+leagueAttributes['MinStarters'] = 9;
+leagueAttributes['MaxStarters'] = 9;
+leagueAttributes['Divisions'] = new Array('AFC East', 'AFC West', 'NFC East', 'NFC West');
+leagueAttributes['Franchises'] = 16;
+
+function chat_window (url) {
+    var chatWindow = window.open(url,"chat_window","height=600,width=450,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    chatWindow.focus();
+}
+
+function live_draft_window (url) {
+    var liveDraftWindow = window.open(url,"live_draft_window","height=700,width=900,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    liveDraftWindow.focus();
+}
+
+function live_auction_window (url) {
+    var liveAuctionWindow = window.open(url,"live_auction_window","height=700,width=900,scrollbars=yes,toolbar=no,status=no,resizable=yes,menubar=no");
+    liveAuctionWindow.focus();
+}
+
+function facebook_share (url) {
+   var facebookShare = window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(url), "sharer", "toolbar=0,status=0,width=626,height=436");
+   facebookShare.focus();
+}
+
+//-->
+</script>
+<link rev="MADE" href="mailto:support@myfantasyleague.com"  />
+<script type="text/javascript">
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  COMSCORE.beacon({
+    c1:2,
+    c2:"6035210",
+    c3:"",
+    c4:"www.myfantasyleague.com",
+    c5:"",
+    c6:"",
+    c15:""
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-249099-1', 'myfantasyleague.com');
+  ga('send', 'pageview', {
+     'page': '/2014/standings',
+  });
+
+</script>
+</head>
+<body id="body_standings"><noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&amp;c2=6035210&amp;c3=&amp;c4=www.myfantasyleague.com&amp;c5=&amp;c6=&amp;c15=&amp;cv=1.3&amp;cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<script src="http://www11.myfantasyleague.com/menu5.945/milonic_src.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+if(ns4)_d.write("<"+"scr"+"ipt src=http://www11.myfantasyleague.com/menu5.945/mmenuns4.js></"+"scr"+"ipt>");
+   else _d.write("<"+"scr"+"ipt src=http://www11.myfantasyleague.com/menu5.945/mmenudom.js></"+"scr"+"ipt>");
+//-->
+</script>
+<script type="text/javascript">
+<!--
+_menuCloseDelay=500;
+_menuOpenDelay=150;
+_subOffsetTop=1;
+_subOffsetLeft=1;
+
+
+with(menuVerticalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="3";
+subimage="http://www11.myfantasyleague.com/menu5.945/black_10x9_whiteblackbox.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+
+}
+
+with(menuHorizontalStyle=new mm_style()) {
+pageclass="mainmenucurrent";
+onclass="mainmenuon";
+offclass="mainmenuoff";
+borderstyle="solid";
+borderwidth="1";
+bordercolor="#000000";
+padding="3";
+subimage="http://www11.myfantasyleague.com/menu5.945/black_10x9_whiteblackboxdown.gif";
+subimagepadding="1";
+overfilter="Fade(duration=0.2);Alpha(opacity=100);Shadow(color='#777777', Direction=135, Strength=5)";
+outfilter="randomdissolve(duration=0.3)";
+
+}
+
+with(milonic=new menuname("Main Menu")){
+style=menuHorizontalStyle;
+top="10";
+alwaysvisible="1";
+followscroll=0;
+openonclick=0;
+orientation="horizontal";
+screenposition="center";
+aI("text=My Leagues;showmenu=MYLEAGUES;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=MYLEAGUES;");
+aI("text=Reports;showmenu=REPORTS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS;");
+aI("text=For Owners;showmenu=FOROWNERS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=FOROWNERS;");
+aI("text=For Commissioners;showmenu=FORCOMMISSIONERS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=FORCOMMISSIONERS;");
+aI("text=Communications;showmenu=COMMUNICATIONS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=COMMUNICATIONS;");
+aI("text=This Page;showmenu=THISPAGE;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=THISPAGE;");
+aI("text=Links;showmenu=LINKS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=LINKS;");
+aI("text=Help;showmenu=HELP;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=HELP;");
+}
+with(milonic=new menuname("MYLEAGUES")){
+style=menuVerticalStyle;
+aI("text=PDL 2014;url=http://www11.myfantasyleague.com/2014/home/42887;");
+aI("text=2013 League Home;url=http://football.myfantasyleague.com/2013/home/31368;");
+aI("text=2012 League Home;url=http://football24.myfantasyleague.com/2012/home/46585;");
+aI("text=2011 League Home;url=http://football6.myfantasyleague.com/2011/home/17475;");
+aI("text=2010 League Home;url=http://football6.myfantasyleague.com/2010/home/20526;");
+aI("text=2009 League Home;url=http://football6.myfantasyleague.com/2009/home/39444;");
+aI("text=2008 League Home;url=http://football6.myfantasyleague.com/2008/home/71127;");
+aI("text=2007 League Home;url=http://football6.myfantasyleague.com/2007/home/61839;");
+aI("text=2006 League Home;url=http://football99.myfantasyleague.com/2006/home/61505;");
+aI("text=2005 League Home;url=http://football99.myfantasyleague.com/2005/home/64832;");
+aI("text=2004 League Home;url=http://football99.myfantasyleague.com/2004/home/53450;");
+aI("text=2003 League Home;url=http://football99.myfantasyleague.com/2003/home/65775;");
+aI("text=2002 League Home;url=http://pdlreport.webatu.com/pdl/pdl2002/pdl2002.html;");
+aI("text=2001 League Home;url=http://pdlreport.webatu.com/pdl/pdl2001/pdl2001.html;");
+aI("text=2000 League Home;url=http://pdlreport.webatu.com/pdl/pdl2000/pdl2000.html;");
+aI("text=All My Leagues;url=http://football.myfantasyleague.com/2015/myleagues;");
+aI("text=Find A League;url=http://football.myfantasyleague.com/2015/index;");
+aI("text=Join A Mock Draft;url=http://www2.myfantasyleague.com/mockdrafts/public.php;");
+aI("text=Set Up A Free Draft-Only League;url=http://www.myfantasyleague.com/free-draft-only-league/;");
+aI("text=Set Up A New League;url=http://football11.myfantasyleague.com/2015/league_setup1?utm_source=existing_league&utm_content=42887&utm_medium=menu&utm_campaign=internal;");
+aI("text=The Fantasy Championship - $125 Entry Fee For A $75,000 Grand Prize;url=http://www.fantasychampionship.com/register?SRC=MFL;");
+}
+with(milonic=new menuname("REPORTS")){
+style=menuVerticalStyle;
+aI("text=Franchise;showmenu=FRANCHISE;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_FRANCHISE;");
+aI("text=Player;showmenu=PLAYER;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_PLAYER;");
+aI("text=Standings;showmenu=STANDINGSREPORTS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_STANDINGSREPORTS;");
+aI("text=Rules;showmenu=RULESREPORTS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_RULESREPORTS;");
+aI("text=Wireless;showmenu=WIRELESS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_WIRELESS;");
+aI("text=League;showmenu=LEAGUE;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_LEAGUE;");
+aI("text=Records;showmenu=RECORDS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_RECORDS;");
+aI("text=NFL;showmenu=NFLREPORTS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=REPORTS_NFLREPORTS;");
+aI("text=<form method='get' action='http://football11.myfantasyleague.com/2014/player_search'>Player:<input type='text' size='8' class='reallysmall' name='NAME'><input type='hidden' name='L' value='42887'><\/form>;type=form;;");
+}
+with(milonic=new menuname("FRANCHISE")){
+style=menuVerticalStyle;
+aI("text=Rosters;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=07;");
+aI("text=Transactions;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=03;");
+aI("text=Previously Processed Waivers;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=76;");
+aI("text=Starting Lineups;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=06;");
+aI("text=Who Should I Start?;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=205;");
+aI("text=Weekly Results;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=22;");
+aI("text=Fantasy Previews;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=207;");
+aI("text=Fantasy Recaps;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=177;");
+aI("text=Franchise Information;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=01;");
+aI("text=Accounting;url=http://football11.myfantasyleague.com/2014/accounting_report?L=42887;");
+aI("text=Scoring History;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=118;");
+aI("text=Box Score;url=http://football11.myfantasyleague.com/2014/fantasy_box_score?L=42887;");
+aI("text=Trade Bait;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=133;");
+aI("text=Keepers;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=187;");
+}
+with(milonic=new menuname("PLAYER")){
+style=menuVerticalStyle;
+aI("text=Top Performers/Player Stats;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=08;");
+aI("text=My Top Performers;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=08&SEARCHTYPE=ADVANCED&CATEGORY=0001;");
+aI("text=My Top Performers And Free Agents;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=08&SEARCHTYPE=ADVANCED&CATEGORY=0001&CATEGORY=freeagent;");
+aI("text=Top Passers;url=http://football11.myfantasyleague.com/2014/options?O=08&SEARCHTYPE=ADVANCED&POSITION=QB&DISPLAY=Passers&L=42887;");
+aI("text=Top Rushers;url=http://football11.myfantasyleague.com/2014/options?O=08&SEARCHTYPE=ADVANCED&POSITION=RB&DISPLAY=Rushers&L=42887;");
+aI("text=Top Receivers;url=http://football11.myfantasyleague.com/2014/options?O=08&SEARCHTYPE=ADVANCED&POSITION=WR%2BTE&DISPLAY=Receivers&L=42887;");
+aI("text=Top Kickers;url=http://football11.myfantasyleague.com/2014/options?O=08&SEARCHTYPE=ADVANCED&POSITION=PK&DISPLAY=Kickers&L=42887;");
+aI("text=Top Defenses;url=http://football11.myfantasyleague.com/2014/options?O=08&SEARCHTYPE=ADVANCED&POSITION=Def&DISPLAY=Defenses&L=42887;");
+aI("text=Top Free Agents;url=http://football11.myfantasyleague.com/2014/options?O=08&CATEGORY=freeagent&L=42887;");
+aI("text=Full Free Agent Listing;url=http://football11.myfantasyleague.com/2014/free_agents?L=42887;");
+aI("text=Starter Pts - Player;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=37;");
+aI("text=Top Adds/Drops/Starters;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=117;");
+aI("text=Player Search;url=http://football11.myfantasyleague.com/2014/player_search?L=42887;");
+aI("text=Locked Players;url=http://football11.myfantasyleague.com/2014/locked_players?L=42887;");
+}
+with(milonic=new menuname("STANDINGSREPORTS")){
+style=menuVerticalStyle;
+aI("text=Standings;url=http://football11.myfantasyleague.com/2014/standings?L=42887;");
+aI("text=Weekly Summary;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=31;");
+aI("text=Power Rank;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=101;");
+aI("text=Bar Chart;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=20;");
+aI("text=Tiebreakers;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=119;");
+aI("text=Victory Points Summary;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=153;");
+}
+with(milonic=new menuname("RULESREPORTS")){
+style=menuVerticalStyle;
+aI("text=League Scoring;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=09;");
+aI("text=League Bylaws;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=26;");
+aI("text=History;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=112;");
+}
+with(milonic=new menuname("WIRELESS")){
+style=menuVerticalStyle;
+aI("text=Send Me My Wireless Home Page;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=191;");
+aI("text=Home;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=159;");
+aI("text=Login/Logout;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=160;");
+aI("text=Live Scoring;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=155;");
+aI("text=Standings;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=154;");
+aI("text=Wireless Rosters;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=221;");
+aI("text=Submit Lineup;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=163;");
+aI("text=My Player News;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=188;");
+aI("text=Top Players;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=189;");
+aI("text=Top Free Agents;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=190;");
+aI("text=Survivor Pool;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=240;");
+aI("text=League Polls;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=241;");
+aI("text=MFL Wireless Home;url=http://m.myfantasyleague.com/;");
+}
+with(milonic=new menuname("LEAGUE")){
+style=menuVerticalStyle;
+aI("text=Live Scoring Summary;url=http://football11.myfantasyleague.com/2014/live_scoring_summary?L=42887&W=16;");
+aI("text=Monthly League Calendar;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=123;");
+aI("text=Projected Playoff Seedings;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=230;");
+aI("text=Playoff Brackets;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=79;");
+aI("text=Starter Pts - Position;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=23;");
+aI("text=Points Allowed - By Position;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=81;");
+aI("text=Fantasy Schedule By Week;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=15;");
+aI("text=Draft;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=17;");
+aI("text=Future Draft Picks;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=100;");
+aI("text=League Map;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=238;");
+aI("text=RSS Feed;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=152;");
+aI("text=MFL Widgets;url=http://football11.myfantasyleague.com/2014/generate_embed?L=42887;");
+}
+with(milonic=new menuname("RECORDS")){
+style=menuVerticalStyle;
+aI("text=Franchise Records;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=156;");
+aI("text=Player Records;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=157;");
+aI("text=Matchup Records;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=158;");
+aI("text=All-Time Series Records;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=171;");
+aI("text=Season Records;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=204;");
+aI("text=Career Records;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=208;");
+aI("text=Record Streaks;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=232;");
+aI("text=League Champions;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=194;");
+aI("text=League Awards;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=202;");
+}
+with(milonic=new menuname("NFLREPORTS")){
+style=menuVerticalStyle;
+aI("text=Injury Report;url=http://football11.myfantasyleague.com/2014/injury?L=42887;");
+aI("text=NFL Schedule;url=http://football11.myfantasyleague.com/2014/pro_schedule?L=42887;");
+aI("text=NFL Box Scores;url=http://football11.myfantasyleague.com/2014/pro_matchup?L=42887;");
+aI("text=NFL Team Stats;url=http://football11.myfantasyleague.com/2014/nfl_team_stats?L=42887;");
+aI("text=Fantasy Depth Chart;url=http://football11.myfantasyleague.com/2014/depth_chart?L=42887;");
+aI("text=Fantasy Depth Chart Grid;url=http://football11.myfantasyleague.com/2014/depth_chart?TYPE=grid&L=42887;");
+aI("text=NFL Draft;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=215;");
+aI("text=News Articles;url=http://football11.myfantasyleague.com/2014/news_articles?L=42887;");
+}
+with(milonic=new menuname("FOROWNERS")){
+style=menuVerticalStyle;
+aI("text=Submit Lineup;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=02;");
+aI("text=Change Password;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=70;");
+aI("text=Franchise Setup;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=50;");
+aI("text=Trades;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=05;");
+aI("text=Waivers;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=46;");
+aI("text=Drop Players;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=74;");
+aI("text=NFL Pool Picks;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=121;");
+aI("text=Survivor Pool;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=120;");
+aI("text=My Watch List;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=178;");
+aI("text=My Scratchpad;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=234;");
+aI("text=My Player News;url=http://football11.myfantasyleague.com/2014/news_articles?MYNEWS=1&L=42887;");
+}
+with(milonic=new menuname("FORCOMMISSIONERS")){
+style=menuVerticalStyle;
+aI("text=Setup;url=http://football11.myfantasyleague.com/2014/commissioner_setup?L=42887;");
+aI("text=Statistics Changes;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=80;");
+aI("text=Process Waivers;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=47;");
+aI("text=Previously Processed Waivers;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=76;");
+aI("text=Recalculate Standings;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=24;");
+aI("text=Edit Accounting Records;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=49;");
+aI("text=Edit Weekly Newsletter;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=66;");
+aI("text=Delete Transactions;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=67;");
+aI("text=Commissioner News;url=http://football11.myfantasyleague.com/2014/site_news?CATEGORY=Commissioner+News&L=42887;");
+aI("text=Email Log;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=172;");
+aI("text=Failed Login Attempts;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=245;");
+aI("text=League Invoice;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=148;");
+aI("text=Refer A Friend;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=167;");
+}
+with(milonic=new menuname("COMMUNICATIONS")){
+style=menuVerticalStyle;
+aI("text=Email to Commissioner;url=mailto:spinolam@hotmail.com?Subject=PDL%202014%20%2842887%29;");
+aI("text=Email to Entire League;url=mailto:matt.spinola@gmail.com,scottarrigo36@gmail.com,bigdogg27f@aol.com,verdream@yahoo.com,jonathan_kraus@hotmail.com,rraida@gmail.com,mostahlsmith@gmail.com,michaeljspinola@gmail.com,alan.hatok@emerson.com,arrigop98@gmail.com,jkeenan42@yahoo.com,tezzie888@yahoo.com,sberecek@gmail.com,briansmcintyre@verizon.net,rcfolks@gmail.com,temme37@gmail.com,spinolam@hotmail.com?subject=PDL%202014%20%2842887%29;");
+aI("text=Text Message to Entire League;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=218;");
+aI("text=Message Board;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=29;");
+aI("text=League Articles;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=73;");
+aI("text=League Polls;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=69;");
+aI("text=League Chat;url=javascript:chat_window('http://www11.myfantasyleague.com/2014/chat?L=42887&COUNT=40');;");
+aI("text=League Videoconference;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=222;");
+aI("text=Trash-Talk Videos;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=244;");
+aI("text=Schedule A League Event;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=224;");
+aI("text=Bulletin Board;url=http://football11.myfantasyleague.com/2014/options?L=42887&O=13;");
+}
+with(milonic=new menuname("THISPAGE")){
+style=menuVerticalStyle;
+aI("text=Mail This Page;url=mailto:?subject=PDL%202014%20Web%20Page&body=Check%20out%20this%20web%20page%3A%20http%3A%2F%2Ffootball11.myfantasyleague.com%2F2014%2Fstandings%3FL%3D42887;");
+aI("text=Printer Friendly Page;url=http://football11.myfantasyleague.com/2014/standings?L=42887&PRINTER=1;");
+aI("text=Add To My Links;url=javascript:add_my_links();;");
+aI("text=Share This Page On Twitter;url=http://twitter.com/home?status=http%3A%2F%2Ffootball11.myfantasyleague.com%2F2014%2Fstandings%3FL%3D42887;");
+aI("text=Share This Page On Facebook;url=javascript:facebook_share('http://football11.myfantasyleague.com/2014/standings?L=42887');;");
+}
+with(milonic=new menuname("LINKS")){
+style=menuVerticalStyle;
+aI("text=My Links;showmenu=MYLINKS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=LINKS_MYLINKS;");
+aI("text=League Links;showmenu=LEAGUELINKS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=LINKS_LEAGUELINKS;");
+aI("text=NFL Links;showmenu=NFLLINKS;url=http://football11.myfantasyleague.com/2014/menu_page?L=42887&NAME=LINKS_NFLLINKS;");
+}
+with(milonic=new menuname("MYLINKS")){
+style=menuVerticalStyle;
+aI("text=Edit My Links;url=http://football11.myfantasyleague.com/2014/edit_my_links?L=42887;");
+}
+with(milonic=new menuname("LEAGUELINKS")){
+style=menuVerticalStyle;
+aI("text=StatsWorld Message Board;url=http://www99.myfantasyleague.com/fflnetdynamic2007/61839_board.htm;");
+aI("text=Edit League Links;url=http://football11.myfantasyleague.com/2014/edit_my_links?L=42887&TYPE=L;");
+}
+with(milonic=new menuname("NFLLINKS")){
+style=menuVerticalStyle;
+aI("text=NFL.com;url=http://football11.myfantasyleague.com/2014/mfl_redirect?TRACK=1&LOCATION=http://www.nfl.com/&L=42887;");
+aI("text=USA Today;url=http://football11.myfantasyleague.com/2014/mfl_redirect?TRACK=1&LOCATION=http://www.usatoday.com/sports/football/default.htm&L=42887;");
+aI("text=Fox Sports;url=http://football11.myfantasyleague.com/2014/mfl_redirect?TRACK=1&LOCATION=http://msn.foxsports.com/nfl&L=42887;");
+aI("text=SI.com;url=http://football11.myfantasyleague.com/2014/mfl_redirect?TRACK=1&LOCATION=http://sportsillustrated.cnn.com/football/nfl/&L=42887;");
+aI("text=ESPN;url=http://football11.myfantasyleague.com/2014/mfl_redirect?TRACK=1&LOCATION=http://espn.go.com/nfl/&L=42887;");
+aI("text=CBSSports.com;url=http://football11.myfantasyleague.com/2014/mfl_redirect?TRACK=1&LOCATION=http://www.cbssports.com/nfl/&L=42887;");
+}
+with(milonic=new menuname("HELP")){
+style=menuVerticalStyle;
+aI("text=Help Center;url=http://football11.myfantasyleague.com/2014/support?L=42887;target=_blank;");
+aI("text=<form method='get' target='_blank' action='http://football11.myfantasyleague.com/2014/support'>Search Help:<input type='text' size='8' class='reallysmall' name='SEARCH'><input type='hidden' name='L' value='42887'><\/form>;type=form;;");
+aI("text=My Support Tickets;url=http://football11.myfantasyleague.com/2014/my_tickets?L=42887;");
+aI("text=What's New? (Updated Jul&nbsp;7);url=http://football11.myfantasyleague.com/2014/site_news?L=42887;");
+aI("text=MFL Community Forums;url=http://football11.myfantasyleague.com/2014/mfl_redirect?TRACK=1&LOCATION=http://forums.myfantasyleague.com/forums/index.php?showforum=19&L=42887;");
+aI("text=Official Statistics Changes;url=http://football11.myfantasyleague.com/2014/site_news?CATEGORY=Official+Statistics+Changes&L=42887;");
+aI("text=Strange Plays;url=http://football11.myfantasyleague.com/2014/site_news?CATEGORY=Strange+Plays&L=42887;");
+aI("text=Follow Us On Twitter;url=http://twitter.com/MyFantasyLeague;");
+aI("text=Become Our Fan On Facebook;url=http://www.facebook.com/MyFantasyLeague;");
+aI("text=Developer's Program;url=http://football.myfantasyleague.com/2015/export;");
+}
+drawMenus();
+//-->
+</script>
+<noscript>
+<h2><a href="http://www11.myfantasyleague.com/2014/home/42887">PDL 2014</a></h2>
+</noscript>
+<table cellspacing="0" class="pageheader">
+<tr>
+<td rowspan="3" class="brandlogo">
+<a href="http://www.myfantasyleague.com/"><img src="http://www11.myfantasyleague.com/images/new_mfl_logo.png" alt="http://www.myfantasyleague.com/" width="80" height="80" border="0"  /></a></td><td align="center" class="bannerimage">
+</td>
+<td rowspan="3" class="welcome"><b>42887 Commissioner</b> (<a href="http://football11.myfantasyleague.com/2014/logout?L=42887">Logout</a> | <a href="http://football11.myfantasyleague.com/2014/logout?L=42887&amp;BECOME=0001">Become Owner</a>)<br  /> <small><a target="_blank" href="http://football11.myfantasyleague.com/2014/support?L=42887&amp;PROGRAM=standings">Help Center</a></small></td>
+</tr>
+<tr>
+<td class="pagetitle">
+<h1>
+PDL 2014 Standings</h1></td></tr></table><div class="pagebody" id="standings">
+<div id="contentframe">
+<div id="hsubmenu">
+  <ul id="hsubmenuitems">
+  <li><a href="http://football11.myfantasyleague.com/2014/home/42887">Home</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/live_scoring_summary?L=42887">Live Scoring</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/standings?L=42887">Standings</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;O=101">Power Rank</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;O=15">Schedules</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;O=29">Message Board</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;O=79">Playoffs</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;O=08">Players Stats</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;O=156">League History</a></li>
+  <li><a href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;O=03">Transactions</a></li>
+  </ul>
+</div>
+<div id="withmenus" ><span class="reportnavigation"><span class="reportnavigationheader">Standings As Of Week: </span><a href="standings?L=42887&amp;W=1">1</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=2">2</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=3">3</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=4">4</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=5">5</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=6">6</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=7">7</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=8">8</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=9">9</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=10">10</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=11">11</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=12">12</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=13">13</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=14">14</a>
+&nbsp;|&nbsp; <a href="standings?L=42887&amp;W=15">15</a>
+&nbsp;|&nbsp; <span class="currentweek">16</span>
+</span>
+<table align="center" cellspacing="1" class="report"><caption><span>League Standings</span></caption><tbody><tr><td id="division00" colspan="10"><h3>AFC East</h3></td></tr>
+<tr><th class="ficonname" title="Franchise Icon and Name">Franchise</th>
+<th class="h2hwlt" title="Overall Wins, Losses and Ties">W-L-T</th>
+<th class="h2hpct" title="Overall Winning Percentage">Pct</th>
+<th class="gb" title="Games Back">GB</th>
+<th class="strk" title="Winning/Losing Streak">Strk</th>
+<th class="pf" title="Points For (Total Year-to-Date Point Scored)">PF</th>
+<th class="avgpf" title="Average Points For (Weekly Average Point Scored)">Avg PF</th>
+<th class="pa" title="Points Against (Total Year-to-Date Opponent Points Scored)">PA</th>
+<th class="avgpa" title="Average Points Against (Weekly Average Opponent Points Scored)">Avg PA</th>
+<th class="divwlt" title="Divisional Wins, Losses and Ties">Div W-L-T</th>
+</tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Mike Temme" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0016&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/h-1105.gif" alt="Tally Wackers" width="65"  height="65"  id="franchiseicon_0016" class="franchiseicon"  />
+</a><b><a title="Owner: Mike Temme, Record: 8-5-0, PF: 1761"  class="franchise_0016 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0016&amp;O=07">Tally Wackers</a></b></td>
+<td class="h2hwlt" >8-5-0</td><td class="h2hpct" >.615</td>
+<td class="gb" >0.0</td>
+<td class="strk" >W1</td>
+<td class="pf" >1761</td>
+<td class="avgpf" >110.1</td>
+<td class="pa" >1239</td>
+<td class="avgpa" >95.3</td>
+<td class="divwlt" >3-3-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: Chris Arenth" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0012&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/h-0045.gif" alt="Carter's Commandos" width="65"  height="65"  id="franchiseicon_0012" class="franchiseicon"  />
+</a><b><a title="Owner: Chris Arenth, Record: 7-6-0, PF: 1382"  class="franchise_0012 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0012&amp;O=07">Carter's Commandos</a></b></td>
+<td class="h2hwlt" >7-6-0</td><td class="h2hpct" >.538</td>
+<td class="gb" >1.0</td>
+<td class="strk" >L1</td>
+<td class="pf" >1382</td>
+<td class="avgpf" >86.4</td>
+<td class="pa" >992</td>
+<td class="avgpa" >76.3</td>
+<td class="divwlt" >2-4-0</td></tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Alan Hatok" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0009&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_700_955.jpg" alt="OakalDoakals" width="65"  height="65"  id="franchiseicon_0009" class="franchiseicon"  />
+</a><b><a title="Owner: Alan Hatok, Record: 7-6-0, PF: 1345"  class="franchise_0009 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0009&amp;O=07">OakalDoakals</a></b></td>
+<td class="h2hwlt" >7-6-0</td><td class="h2hpct" >.538</td>
+<td class="gb" >1.0</td>
+<td class="strk" >L1</td>
+<td class="pf" >1345</td>
+<td class="avgpf" >84.1</td>
+<td class="pa" >1161</td>
+<td class="avgpa" >89.3</td>
+<td class="divwlt" >4-2-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: Erik Farmerie" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0003&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/h-0868.gif" alt="Dunbar Dogs" width="65"  height="65"  id="franchiseicon_0003" class="franchiseicon"  />
+</a><b><a title="Owner: Erik Farmerie, Record: 7-6-0, PF: 1327"  class="franchise_0003 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0003&amp;O=07">Dunbar Dogs</a></b></td>
+<td class="h2hwlt" >7-6-0</td><td class="h2hpct" >.538</td>
+<td class="gb" >1.0</td>
+<td class="strk" >W1</td>
+<td class="pf" >1327</td>
+<td class="avgpf" >82.9</td>
+<td class="pa" >1062</td>
+<td class="avgpa" >81.7</td>
+<td class="divwlt" >3-3-0</td></tr>
+<tr><td id="division01" colspan="10"><h3>AFC West</h3></td></tr>
+<tr><th class="ficonname" title="Franchise Icon and Name">Franchise</th>
+<th class="h2hwlt" title="Overall Wins, Losses and Ties">W-L-T</th>
+<th class="h2hpct" title="Overall Winning Percentage">Pct</th>
+<th class="gb" title="Games Back">GB</th>
+<th class="strk" title="Winning/Losing Streak">Strk</th>
+<th class="pf" title="Points For (Total Year-to-Date Point Scored)">PF</th>
+<th class="avgpf" title="Average Points For (Weekly Average Point Scored)">Avg PF</th>
+<th class="pa" title="Points Against (Total Year-to-Date Opponent Points Scored)">PA</th>
+<th class="avgpa" title="Average Points Against (Weekly Average Opponent Points Scored)">Avg PA</th>
+<th class="divwlt" title="Divisional Wins, Losses and Ties">Div W-L-T</th>
+</tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Matt Spinola" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0001&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2010/20526_franchise_icon0001.jpg" alt="Manic Moose" width="65"  height="65"  id="franchiseicon_0001" class="franchiseicon"  />
+</a><b><a title="Owner: Matt Spinola, Record: 9-4-0, PF: 1483"  class="franchise_0001 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0001&amp;O=07">Manic Moose</a></b></td>
+<td class="h2hwlt" >9-4-0</td><td class="h2hpct" >.692</td>
+<td class="gb" >0.0</td>
+<td class="strk" >W2</td>
+<td class="pf" >1483</td>
+<td class="avgpf" >92.7</td>
+<td class="pa" >1097</td>
+<td class="avgpa" >84.4</td>
+<td class="divwlt" >4-2-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: Tony Verdream" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0004&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_695_361.jpg" alt="F-Jackie" width="65"  height="65"  id="franchiseicon_0004" class="franchiseicon"  />
+</a><b><a title="Owner: Tony Verdream, Record: 8-5-0, PF: 1518"  class="franchise_0004 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0004&amp;O=07">F-Jackie</a></b></td>
+<td class="h2hwlt" >8-5-0</td><td class="h2hpct" >.615</td>
+<td class="gb" >1.0</td>
+<td class="strk" >W1</td>
+<td class="pf" >1518</td>
+<td class="avgpf" >94.9</td>
+<td class="pa" >1232</td>
+<td class="avgpa" >94.8</td>
+<td class="divwlt" >5-1-0</td></tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Sean Berecek" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0013&amp;O=07"><img align="middle" src="http://www10.myfantasyleague.com/fflnetdynamic2012/46585_franchise_icon0013.jpg" alt="Blitzkrieg" width="65"  height="65"  id="franchiseicon_0013" class="franchiseicon"  />
+</a><b><a title="Owner: Sean Berecek, Record: 6-7-0, PF: 1404"  class="franchise_0013 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0013&amp;O=07">Blitzkrieg</a></b></td>
+<td class="h2hwlt" >6-7-0</td><td class="h2hpct" >.462</td>
+<td class="gb" >3.0</td>
+<td class="strk" >L1</td>
+<td class="pf" >1404</td>
+<td class="avgpf" >87.8</td>
+<td class="pa" >1054</td>
+<td class="avgpa" >81.1</td>
+<td class="divwlt" >3-3-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: Mark Stahlsmith" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0007&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_698_559.jpg" alt="Da Funk" width="65"  height="65"  id="franchiseicon_0007" class="franchiseicon"  />
+</a><b><a title="Owner: Mark Stahlsmith, Record: 1-12-0, PF: 1045"  class="franchise_0007 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0007&amp;O=07">Da Funk</a></b></td>
+<td class="h2hwlt" >1-12-0</td><td class="h2hpct" >.077</td>
+<td class="gb" >8.0</td>
+<td class="strk" >L3</td>
+<td class="pf" >1045</td>
+<td class="avgpf" >65.3</td>
+<td class="pa" >1318</td>
+<td class="avgpa" >101.4</td>
+<td class="divwlt" >0-6-0</td></tr>
+<tr><td id="division02" colspan="10"><h3>NFC East</h3></td></tr>
+<tr><th class="ficonname" title="Franchise Icon and Name">Franchise</th>
+<th class="h2hwlt" title="Overall Wins, Losses and Ties">W-L-T</th>
+<th class="h2hpct" title="Overall Winning Percentage">Pct</th>
+<th class="gb" title="Games Back">GB</th>
+<th class="strk" title="Winning/Losing Streak">Strk</th>
+<th class="pf" title="Points For (Total Year-to-Date Point Scored)">PF</th>
+<th class="avgpf" title="Average Points For (Weekly Average Point Scored)">Avg PF</th>
+<th class="pa" title="Points Against (Total Year-to-Date Opponent Points Scored)">PA</th>
+<th class="avgpa" title="Average Points Against (Weekly Average Opponent Points Scored)">Avg PA</th>
+<th class="divwlt" title="Divisional Wins, Losses and Ties">Div W-L-T</th>
+</tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Scott Arrigo" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0002&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2008/71127_franchise_icon0002.jpg" alt="Scooter's Boozers" width="65"  height="65"  id="franchiseicon_0002" class="franchiseicon"  />
+</a><b><a title="Owner: Scott Arrigo, Record: 10-3-0, PF: 1437"  class="franchise_0002 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0002&amp;O=07">Scooter's Boozers</a></b></td>
+<td class="h2hwlt" >10-3-0</td><td class="h2hpct" >.769</td>
+<td class="gb" >0.0</td>
+<td class="strk" >W5</td>
+<td class="pf" >1437</td>
+<td class="avgpf" >89.8</td>
+<td class="pa" >993</td>
+<td class="avgpa" >76.4</td>
+<td class="divwlt" >5-1-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: Phil Arrigo" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0010&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_683_647.jpg" alt="Bunchalosers" width="65"  height="65"  id="franchiseicon_0010" class="franchiseicon"  />
+</a><b><a title="Owner: Phil Arrigo, Record: 5-8-0, PF: 1213"  class="franchise_0010 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0010&amp;O=07">Bunchalosers</a></b></td>
+<td class="h2hwlt" >5-8-0</td><td class="h2hpct" >.385</td>
+<td class="gb" >5.0</td>
+<td class="strk" >L1</td>
+<td class="pf" >1213</td>
+<td class="avgpf" >75.8</td>
+<td class="pa" >1253</td>
+<td class="avgpa" >96.4</td>
+<td class="divwlt" >4-2-0</td></tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Randy Folks" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0015&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_686_259.jpg" alt="Texas Nashvillians" width="65"  height="65"  id="franchiseicon_0015" class="franchiseicon"  />
+</a><b><a title="Owner: Randy Folks, Record: 5-8-0, PF: 1058"  class="franchise_0015 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0015&amp;O=07">Texas Nashvillians</a></b></td>
+<td class="h2hwlt" >5-8-0</td><td class="h2hpct" >.385</td>
+<td class="gb" >5.0</td>
+<td class="strk" >W1</td>
+<td class="pf" >1058</td>
+<td class="avgpf" >66.1</td>
+<td class="pa" >991</td>
+<td class="avgpa" >76.2</td>
+<td class="divwlt" >2-4-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: Mike Spinola" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0008&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_699_260.jpg" alt="Beers" width="65"  height="65"  id="franchiseicon_0008" class="franchiseicon"  />
+</a><b><a title="Owner: Mike Spinola, Record: 3-10-0, PF: 1091"  class="franchise_0008 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0008&amp;O=07">Beers</a></b></td>
+<td class="h2hwlt" >3-10-0</td><td class="h2hpct" >.231</td>
+<td class="gb" >7.0</td>
+<td class="strk" >L3</td>
+<td class="pf" >1091</td>
+<td class="avgpf" >68.2</td>
+<td class="pa" >1216</td>
+<td class="avgpa" >93.5</td>
+<td class="divwlt" >1-5-0</td></tr>
+<tr><td id="division03" colspan="10"><h3>NFC West</h3></td></tr>
+<tr><th class="ficonname" title="Franchise Icon and Name">Franchise</th>
+<th class="h2hwlt" title="Overall Wins, Losses and Ties">W-L-T</th>
+<th class="h2hpct" title="Overall Winning Percentage">Pct</th>
+<th class="gb" title="Games Back">GB</th>
+<th class="strk" title="Winning/Losing Streak">Strk</th>
+<th class="pf" title="Points For (Total Year-to-Date Point Scored)">PF</th>
+<th class="avgpf" title="Average Points For (Weekly Average Point Scored)">Avg PF</th>
+<th class="pa" title="Points Against (Total Year-to-Date Opponent Points Scored)">PA</th>
+<th class="avgpa" title="Average Points Against (Weekly Average Opponent Points Scored)">Avg PA</th>
+<th class="divwlt" title="Divisional Wins, Losses and Ties">Div W-L-T</th>
+</tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Rich Raida" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0006&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_697_806.gif" alt="Otters" width="65"  height="65"  id="franchiseicon_0006" class="franchiseicon"  />
+</a><b><a title="Owner: Rich Raida, Record: 10-3-0, PF: 1626"  class="franchise_0006 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0006&amp;O=07">Otters</a></b></td>
+<td class="h2hwlt" >10-3-0</td><td class="h2hpct" >.769</td>
+<td class="gb" >0.0</td>
+<td class="strk" >L1</td>
+<td class="pf" >1626</td>
+<td class="avgpf" >101.6</td>
+<td class="pa" >1108</td>
+<td class="avgpa" >85.2</td>
+<td class="divwlt" >5-1-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: John Keenan" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0011&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/h-0315.gif" alt="Karpet Munchers" width="65"  height="65"  id="franchiseicon_0011" class="franchiseicon"  />
+</a><b><a title="Owner: John Keenan, Record: 9-4-0, PF: 1627"  class="franchise_0011 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0011&amp;O=07">Karpet Munchers</a></b></td>
+<td class="h2hwlt" >9-4-0</td><td class="h2hpct" >.692</td>
+<td class="gb" >1.0</td>
+<td class="strk" >W1</td>
+<td class="pf" >1627</td>
+<td class="avgpf" >101.7</td>
+<td class="pa" >977</td>
+<td class="avgpa" >75.2</td>
+<td class="divwlt" >3-3-0</td></tr>
+<tr class="oddtablerow"><td class="ficonname" ><a title="Owner: Brian McIntyre" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0014&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_693_118.gif" alt="Iron City Pounders" width="65"  height="65"  id="franchiseicon_0014" class="franchiseicon"  />
+</a><b><a title="Owner: Brian McIntyre, Record: 5-8-0, PF: 1279"  class="franchise_0014 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0014&amp;O=07">Iron City Pounders</a></b></td>
+<td class="h2hwlt" >5-8-0</td><td class="h2hpct" >.385</td>
+<td class="gb" >5.0</td>
+<td class="strk" >W3</td>
+<td class="pf" >1279</td>
+<td class="avgpf" >79.9</td>
+<td class="pa" >1072</td>
+<td class="avgpa" >82.5</td>
+<td class="divwlt" >3-3-0</td></tr>
+<tr class="eventablerow"><td class="ficonname" ><a title="Owner: Jon Kraus" href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0005&amp;O=07"><img align="middle" src="http://www99.myfantasyleague.com/fflnetdynamic2007/CL_103_696_594.gif" alt="Ho Train" width="65"  height="65"  id="franchiseicon_0005" class="franchiseicon"  />
+</a><b><a title="Owner: Jon Kraus, Record: 4-9-0, PF: 1173"  class="franchise_0005 " href="http://football11.myfantasyleague.com/2014/options?L=42887&amp;F=0005&amp;O=07">Ho Train</a></b></td>
+<td class="h2hwlt" >4-9-0</td><td class="h2hpct" >.308</td>
+<td class="gb" >6.0</td>
+<td class="strk" >L2</td>
+<td class="pf" >1173</td>
+<td class="avgpf" >73.3</td>
+<td class="pa" >1249</td>
+<td class="avgpa" >96.1</td>
+<td class="divwlt" >1-5-0</td></tr>
+</tbody></table><!-- 1 - KCA July 16, 2012 --> </div></div><!-- 2 - KCA July 16, 2012 --> </div><div class="pagefooter"><table border="0" cellpadding="1" cellspacing="1" align="center">
+<tr><td colspan="2" align="center"><a href="#body_standings">Back To Top Of Page</a></td></tr>
+<tr><td colspan="2" align="center">Page Generated Fri Jul 10 10:55:26 p.m. ET 2015</td></tr>
+<tr><td colspan="2" align="center">Copyright &copy; 1995-2015 <a href="http://www.sidesoft.com/">Sideline Software, Inc.</a> All Rights Reserved. <a href="http://www.myfantasyleague.com/privacy-policy/">Privacy Policy</a> - <a href="http://www.myfantasyleague.com/terms-of-service/">Terms Of Service</a> - <a href="http://www.myfantasyleague.com/acceptable-use-policy/">Acceptable Use Policy</a> - Statistical Information provided by: <a href="http://www.stats.com/">STATS LLC</a> 
+</td></tr>
+
+<tr><td colspan="2" align="center"><b>Disclaimer:</b>  This site is not
+in any way affiliated with, endorsed or licensed by the
+National Football League, any NFL team or NFLPA member.
+</td></tr></table></div>
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+<script type="text/javascript">
+(function () {
+var d = new Image(1, 1);
+d.onerror = d.onload = function () {
+d.onerror = d.onload = null;
+};
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804068h", "&", "cg=0", "&", "cc=1", "&", "si=", escape(window.location.href), "&", "rp=", escape(document.referrer), "&", "ts=compact", "&", "rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+<div>
+<img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-804068h&amp;cg=0&amp;cc=1&amp;ts=noscript"
+width="1" height="1" alt="" />
+</div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+</body></html>
+
+
+
+
+
+
+
+</body></html>
